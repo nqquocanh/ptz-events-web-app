@@ -10,16 +10,16 @@
           <div>
             <span>ZOUK IT UP WITH THE MASTERS</span>
           </div>
-          <countdown :time="90 * 24 * 60 * 60 * 1000">
-            <template slot-scope="props"
-              >Time Remaining：{{ props.days }} days, {{ props.hours }} hours,
-              {{ props.minutes }} minutes,
-              {{ props.seconds }} seconds.</template
-            >
-          </countdown>
           <!-- <countdown-clock /> -->
           <div class="main-banner-subtitle">
-            <span>2023 APRIL 14,15,16,17</span>
+            <countdown :time="90 * 24 * 60 * 60 * 1000">
+              <template slot-scope="props"
+                >Time Remaining：{{ props.days }} days, {{ props.hours }} hours,
+                {{ props.minutes }} minutes,
+                {{ props.seconds }} seconds.</template
+              >
+            </countdown>
+            <div>2023 APRIL 14,15,16,17</div>
           </div>
         </div>
         <div class="nav-bar">
@@ -315,9 +315,9 @@
       <div class="section-title">SUBSCRIBE TO OUR NEWSLETTER</div>
       <div class="footer-container">
         <div id="subscribe-section">
-          <div>
+          <div class="section-sub-title-media">
             ALL INFORMATION AND UPDATED, DIRECTLY TO YOU INBOX
-            <div>
+            <div class="text-media">
               Your email address
               <input class="subscribe-section-input" /><button
                 class="subscribe-section-button"
@@ -328,20 +328,37 @@
           </div>
         </div>
         <div id="contact-channel-section">
-          <div>
-            <i class="fa-brands fa-facebook"></i>
-            https://www.facebook.com/PhuongTrangZoukVietnam
-          </div>
-          <div>
-            <i class="fa-brands fa-instagram"></i>
-            https://www.instagram.com/phuongtrangzouk
-          </div>
-          <div>
-            <i class="fa-brands fa-youtube"></i>
-            https://www.youtube.com/channel/UCjCX1AIUnHyCTJM2ClEEyFA
-          </div>
-          <div>
-            <i class="fa-brands fa-tiktok"></i> www.tiktok.com/@ptz_zouk
+          <div class="section-sub-title-media">OUR CONTACT CHANNEL</div>
+          <div class="media">
+            <div>
+              <a
+                href="https://www.facebook.com/PhuongTrangZoukVietnam"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.instagram.com/phuongtrangzouk">
+                <i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <div>
+              <a
+                href="
+            https://www.youtube.com/channel/UCjCX1AIUnHyCTJM2ClEEyFA"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="
+            www.tiktok.com/@ptz_zouk"
+              >
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -407,7 +424,7 @@ body {
 .main-banner-container {
   position: relative;
   text-align: center;
-  color: #6305a6;
+  color: white;
 }
 .main-banner-img {
   width: 100%;
@@ -561,6 +578,20 @@ body {
 .subscribe-section-button {
   border: none;
   margin-left: 10px;
+}
+
+.section-sub-title-media {
+  font-weight: 700;
+}
+.text-media {
+  font-weight: 500;
+  margin-top: 20px;
+}
+.media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
 .back-to-top {
   position: fixed;
