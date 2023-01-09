@@ -485,7 +485,7 @@ body {
 }
 .section-text {
   margin: 15px 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .quick-intro-section {
   top: 130%;
