@@ -636,7 +636,7 @@ body {
   position: fixed;
   cursor: pointer;
   float: left;
-  left: 0px;
+  left: 20px;
   top: 90%;
   width: 5%;
   font-size: 15px;
