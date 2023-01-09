@@ -237,18 +237,20 @@
           learn something useful.
         </div>
         <div class="artist-container">
-          <div>
-            <img class="artist-img" src="../assets/artists/1. Alisson.jpg" />
-            <div class="section-sub-title">ALISSON SANDI</div>
-          </div>
-          <div>
-            <img class="artist-img" src="../assets/artists/2. Brenda.jpg" />
-            <div class="section-sub-title">BRENDA CARVALHO</div>
-          </div>
-          <div>
-            <img class="artist-img" src="../assets/artists/3. Gui.jpg" />
-            <div class="section-sub-title">GUI PRADA</div>
-          </div>
+          <b-row>
+            <b-col>
+              <img class="artist-img" src="../assets/artists/1. Alisson.jpg" />
+              <div class="section-sub-title">ALISSON SANDI</div></b-col
+            >
+            <b-col>
+              <img class="artist-img" src="../assets/artists/2. Brenda.jpg" />
+              <div class="section-sub-title">BRENDA CARVALHO</div></b-col
+            >
+            <b-col>
+              <img class="artist-img" src="../assets/artists/3. Gui.jpg" />
+              <div class="section-sub-title">GUI PRADA</div></b-col
+            >
+          </b-row>
         </div>
       </div>
       <hr />
@@ -560,10 +562,7 @@ body {
   margin-top: 30px;
 }
 .artist-container {
-  display: flex;
-  justify-content: space-between;
   margin-top: 20px;
-  width: 100% !important;
 }
 .artist-img {
   width: 300px;
