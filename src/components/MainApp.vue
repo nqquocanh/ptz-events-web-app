@@ -1,25 +1,46 @@
 <template>
   <div>
     <header>
+      <div class="logo-header">
+        <div><img class="logo" src="../assets/banner/logo.png" /></div>
+      </div>
       <div class="main-banner-container">
-        <img
-          class="main-banner-img"
-          src="https://www.shutterstock.com/image-photo/social-dance-bachata-kizomba-zouk-600w-1419089180.jpg"
-        />
+        <img class="main-banner-img" />
         <div class="main-banner-title">
           <div>
-            <span>ZOUK IT UP WITH THE MASTERS</span>
+            <div>ZOUK IT UP</div>
+            <div>WITH THE MASTERS</div>
           </div>
-          <!-- <countdown-clock /> -->
           <div class="main-banner-subtitle">
+            <div class="main-banner-subtitle-date">2023 APRIL 14-15-16-17</div>
             <countdown :time="90 * 24 * 60 * 60 * 1000">
-              <template slot-scope="props"
-                >Time Remaining：{{ props.days }} days, {{ props.hours }} hours,
-                {{ props.minutes }} minutes,
-                {{ props.seconds }} seconds.</template
-              >
+              <template slot-scope="props">
+                <div class="countdown-clock">
+                  <div class="countdown-time">
+                    <div>
+                      <div class="countdown-time-number">{{ props.days }}</div>
+                      <div class="countdown-time-unit">days</div>
+                    </div>
+                    <div>
+                      <div class="countdown-time-number">{{ props.hours }}</div>
+                      <div class="countdown-time-unit">hours</div>
+                    </div>
+                    <div>
+                      <div class="countdown-time-number">
+                        {{ props.minutes }}
+                      </div>
+                      <div class="countdown-time-unit">minutes</div>
+                    </div>
+                    <div>
+                      <div class="countdown-time-number">
+                        {{ props.seconds }}
+                      </div>
+                      <div class="countdown-time-unit">seconds</div>
+                    </div>
+                  </div>
+                </div>
+              </template>
             </countdown>
-            <div>2023 APRIL 14,15,16,17</div>
           </div>
         </div>
         <div class="nav-bar">
@@ -147,17 +168,43 @@
       <div id="activities-section">
         <div class="section-title">ACTIVITIES SUMMARY</div>
         <div class="activities-content">
-          <div class="section-text">
-            - Attend Workshops: Learn useful Tips & Tricks from the Brazilian
-            Zouk Masters
+          <div>
+            <img
+              class="activities-img"
+              src="../assets/activities/1. Learn.png"
+            />
+            <div class="section-text">
+              Learn: 12 hours of workshops delivered by three masters: Alisson,
+              Brenda and Gui
+            </div>
           </div>
-          <div class="section-text">
-            - Social Dance Parties: Immerge in the music, and dance till your
-            legs off
+          <div>
+            <img
+              class="activities-img"
+              src="../assets/activities/2. Play.png"
+            />
+            <div class="section-text">
+              Play: Kayaking; swan-boating; swimming; biking; sauna, BBQ and
+              more;
+            </div>
           </div>
-          <div class="section-text">
-            - Network with Zouk-Addict: Expand your Network all over the world
-            with fun and excitement
+          <div>
+            <img
+              class="activities-img"
+              src="../assets/activities/3. Network.png"
+            />
+            <div class="section-text">
+              Network: Meet and mingle with Zoukers from 20 countries;
+            </div>
+          </div>
+          <div>
+            <img
+              class="activities-img"
+              src="../assets/activities/4. Chill.png"
+            />
+            <div class="section-text">
+              Chill: Enjoy the lakeview every sunrise and sunset
+            </div>
           </div>
         </div>
       </div>
@@ -295,18 +342,98 @@
       <hr />
       <div id="about-ptz-section">
         <div class="section-title">ABOUT PTZ</div>
-        <div class="section-text">
-          PTZ (Phuong & Trang Zouk Vietnam) is a dance club founded in 2019 by
-          Phuong & Trang who is dedicated and passionate about Brazilian Zouk.
-        </div>
-        <div class="section-text">
-          With the desire to inspire diverse audiences and build the Zouk
-          Community in Vietnam to become stronger, the two dancers have been
-          teaching Zouk in Hanoi and making efforts to bring lots of wonderful
-          opportunities for not only local Zoukers but also Zoukers all over the
-          nation to connect, take part in Brazilian Zouk events with high
-          standards and create the amazing dance scene for everyone sharing the
-          same interest in dancing.
+        <div class="about-ptz-container">
+          <div class="about-ptz-text">
+            <div class="section-text">
+              PTZ - Phuong & Trang Zouk Vietnam - is the leading studio for
+              Brazilian Zouk in Hanoi, Vietnam. Founded in 2019, PTZ has been on
+              the forefront of spreading Brazilian Zouk in the local community.
+              PTZ offers weekly classes, social dancing and periodic Brazilian
+              Zouk events. Our syllabus is regularly updated to keep abreast
+              with the latest developments in the world. Our parties are spinned
+              live and non-stop by our local DJs.
+            </div>
+            <div class="section-text">
+              PTZ's iconic event - Zouk It Up - has been up and running since
+              2022. We have hosted Dominik and Monika, Alisson Sandi, and Nhat
+              Ho and Gigi Ho. In 2023, we will be welcoming Alisson Sandi,
+              Brenda and Gui in April and more artists in July and November.
+              Before that, our founders, Hoai Phuong and Huyen Trang, have been
+              hosting various Brazilian Zouk artists in Hanoi, such as Alisson
+              Sandi - 4 times, Arthur and Layssa, Brenda and Anderson, and
+              Gilson Damasco. We are committed to organizing the best events in
+              town with internationally recognized artists to promote Brazilian
+              Zouk in Hanoi, Vietnam.
+            </div>
+            <div>
+              <b-carousel
+                id="carousel-1"
+                v-model="slide"
+                :interval="4000"
+                controls
+                indicators
+                background="#ababab"
+                img-width="1024"
+                img-height="480"
+                style="text-shadow: 1px 1px 2px #333"
+                @sliding-start="onSlideStart"
+                @sliding-end="onSlideEnd"
+              >
+                <b-carousel-slide>
+                  <template #img>
+                    <img
+                      class="d-block img-fluid w-100"
+                      width="1024"
+                      height="480"
+                      src="../assets/about-ptz/about-ptz-1.jpg"
+                      alt="image slot"
+                    />
+                  </template>
+                </b-carousel-slide>
+                <b-carousel-slide>
+                  <template #img>
+                    <img
+                      class="d-block img-fluid w-100"
+                      width="1024"
+                      height="480"
+                      src="../assets/about-ptz/about-ptz-2.jpg"
+                      alt="image slot"
+                    />
+                  </template>
+                </b-carousel-slide>
+                <b-carousel-slide>
+                  <template #img>
+                    <img
+                      class="d-block img-fluid w-100"
+                      width="1024"
+                      height="480"
+                      src="../assets/about-ptz/about-ptz-3.jpg"
+                      alt="image slot"
+                    />
+                  </template>
+                </b-carousel-slide>
+              </b-carousel>
+            </div>
+            <div class="section-text">
+              Hoai Phuong and Huyen Trang started their partnership in late
+              2017. We are a couple of Friday night and Sunday morning. Trang is
+              like a Friday night – always dynamic, vibrant, full of life with a
+              beautiful smile on her face and very nice pose whenever she
+              dances. Phuong is like a Sunday morning with a hot black coffee –
+              slow to start, taking time to filter, but when the caffeine kicks
+              in, he rocks as both a DJ and a dancer. That’s the way the
+              partnership has gone over the past 5++ years.
+            </div>
+            <div class="section-text">
+              Phuong and Trang won their first international trophy in 2018 with
+              the 2nd place in the ProAm Competition at ZoukSEA. Since then,
+              they have been performing in various congresses, both nationally,
+              such as the Vietnam Latin Xperience, the Vietnam International
+              Latin Festival, and internationally, like ZoukSensation and the
+              1st China Zouk Congress in Shanghai. Phuong and Trang also taught
+              workshops in multiple events at home and abroad.
+            </div>
+          </div>
         </div>
       </div>
     </body>
@@ -345,7 +472,7 @@
       <div class="footer-container">
         <div id="subscribe-section">
           <div class="section-sub-title">
-            ALL INFORMATION AND UPDATED, DIRECTLY TO YOU INBOX
+            ALL UPDATED INFORMATION DIRECTLY TO YOUR INBOX
             <div class="text-media">
               Your email address
               <input class="subscribe-section-input" /><button
@@ -394,14 +521,8 @@
     </footer>
   </div>
 </template>
-
 <script>
-// import countdownClock from "./CountdownClock.vue";
-
 export default {
-  // components: {
-  //   countdownClock,
-  // },
   data() {
     return {
       scTimer: 0,
@@ -436,10 +557,20 @@ body {
   margin: 0px !important;
   padding: 0px !important;
 }
+.logo-header {
+  height: 55px;
+  background-color: white;
+}
 .nav-bar {
   position: absolute;
   top: 20px;
   right: 40px;
+}
+.logo {
+  top: 2px;
+  margin: auto;
+  width: 120px !important;
+  height: 50px !important;
 }
 .nav-bar-item {
   text-decoration: none;
@@ -454,21 +585,44 @@ body {
 }
 .main-banner-img {
   width: 100%;
-  height: 650px;
+  height: 750px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.shutterstock.com/image-photo/social-dance-bachata-kizomba-zouk-600w-1419089180.jpg");
 }
 .main-banner-title {
   position: absolute;
-  top: 50%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 500%;
+  font-size: 90px;
   width: 80%;
-  font-weight: 700;
+  font-weight: 300;
 }
 .main-banner-subtitle {
-  font-size: 70%;
+  font-size: 50px;
   color: white;
-  font-weight: 500;
+  font-weight: 100;
+}
+.main-banner-subtitle-date {
+  margin-bottom: 30px;
+}
+.countdown-clock {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border: solid 2px;
+}
+.countdown-time {
+  display: flex;
+  justify-content: space-around;
+}
+.countdown-time-number {
+  font-size: 50px;
+  font-weight: 600;
+}
+.countdown-time-unit {
+  font-size: 30px;
 }
 .body-container {
   width: 70%;
@@ -478,10 +632,12 @@ body {
   font-size: 30px;
   font-weight: 700;
   color: #6305a6;
-  margin-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .section-sub-title {
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   font-size: 20px;
   font-weight: 700;
 }
@@ -501,7 +657,7 @@ body {
   padding: 30px 0px;
 }
 #schedule-section {
-  background-color: #ebd8f9;
+  background-image: linear-gradient(to left, #a459da, rgb(231, 195, 240));
 }
 .schedule-plan {
   display: flex;
@@ -540,7 +696,14 @@ body {
   background-color: #6305a6;
 }
 .activities-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
   margin: 30px 0px;
+}
+.activities-img {
+  margin: 30px 0px;
+  width: 250px;
 }
 .venue-container {
   display: flex;
@@ -589,6 +752,13 @@ body {
   width: 50%;
   margin: 30px auto;
 }
+.about-ptz-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-ptz-text {
+  text-align: justify;
+}
 .qr-account-img {
   display: flex;
   justify-content: space-around;
@@ -597,7 +767,7 @@ body {
   margin-top: 30px;
 }
 .footer-section {
-  background-color: #d7bcea;
+  background-image: linear-gradient(to right, #a459da, rgb(231, 195, 240));
 }
 .footer-container {
   padding: 30px 0px 30px 0px;
@@ -617,6 +787,7 @@ body {
   margin-top: 20px;
 }
 .media {
+  font-size: 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
