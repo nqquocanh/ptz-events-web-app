@@ -438,34 +438,9 @@
       </div>
     </body>
 
-    <b-button squared variant="success" class="book-now" v-b-modal.modal-xl
-      >Book now!</b-button
+    <b-button variant="success" class="book-now" v-b-modal.modal-xl
+      >BOOK NOW!</b-button
     >
-    <div id="app" v-cloak class="back-to-top">
-      <transition name="fade">
-        <div
-          id="pagetop"
-          class="fixed right-0 bottom-0"
-          v-show="scY > 100"
-          @click="toTop"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#4a5568"
-            stroke-width="1"
-            stroke-linecap="square"
-            stroke-linejoin="arcs"
-          >
-            <path d="M18 15l-6-6-6 6" />
-          </svg>
-          <div>Back To Top</div>
-        </div>
-      </transition>
-    </div>
     <footer class="footer-section">
       <hr class="footer-line" />
       <div class="section-title">SUBSCRIBE TO OUR NEWSLETTER</div>
@@ -806,8 +781,8 @@ body {
 .book-now {
   position: fixed;
   cursor: pointer;
-  float: left;
-  left: 20px;
+  float: right;
+  right: 20px;
   top: 90%;
   width: 5%;
   font-size: 15px;
