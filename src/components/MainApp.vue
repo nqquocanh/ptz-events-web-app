@@ -308,8 +308,8 @@
             <img class="passes-img" src="../assets/passes/passes-1.png" />
           </div>
           <div class="section-text">
-            <div class="section-sub-title">GET THE TICKET.</div>
-            <div class="section-sub-title">PAYMENT.</div>
+            <div class="passes-sub-title">GET THE TICKET.</div>
+            <div class="passes-sub-title">PAYMENT.</div>
             <div class="passes-text">
               For room booking, please contact the resort at: ... or when you
               arrive. Remember to use the code "PTZ" to get the best deal.
@@ -739,12 +739,13 @@ body {
 .passes-img {
   width: 300px;
   height: 300px;
+  margin-bottom: 30px;
 }
 .passes-content {
   font-size: 30px;
   width: 600px;
 }
-.passes-content-header {
+.passes-sub-title {
   font-weight: 700;
 }
 .passes-text {
