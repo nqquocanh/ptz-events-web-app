@@ -321,19 +321,20 @@
               >
               <b-modal
                 id="modal-xl"
-                size="xl"
-                title="PAYMENT ACCOUNT"
+                title="PAYMENT METHOD"
                 ok-only
                 hide-header-close
               >
-                <div class="qr-account-img">
-                  <div class="section-sub-title">Foreign Account</div>
-                  <div class="section-sub-title">Vietnamese Account</div>
+                <div class="passes-popup">
+                  <div class="section-sub-title">
+                    <div class="passes-popup-title">1. BANK TRANSFER</div>
+                    <img
+                      class="passes-qr-code"
+                      src="../assets/passes/qr-code.png"
+                    />
+                    <div class="passes-popup-title">2. PAY AT DOOR</div>
+                  </div>
                 </div>
-                <!-- <div class="section-text">
-                  Please contact to Phuong Trang Zouk's Fanpage for
-                  confirmation!
-                </div> -->
               </b-modal>
             </div>
           </div>
@@ -443,7 +444,7 @@
     >
     <footer class="footer-section">
       <hr class="footer-line" />
-      <div class="section-title">SUBSCRIBE TO OUR NEWSLETTER</div>
+      <div class="footer-title">SUBSCRIBE TO OUR NEWSLETTER</div>
       <div class="footer-container">
         <div id="subscribe-section">
           <div class="section-sub-title">
@@ -466,12 +467,12 @@
                 href="https://www.facebook.com/PhuongTrangZoukVietnam"
                 target="_blank"
               >
-                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook media-icons"></i>
               </a>
             </div>
             <div>
               <a href="https://www.instagram.com/phuongtrangzouk">
-                <i class="fa-brands fa-instagram"></i
+                <i class="fa-brands fa-instagram media-icons"></i
               ></a>
             </div>
             <div>
@@ -479,7 +480,7 @@
                 href="
             https://www.youtube.com/channel/UCjCX1AIUnHyCTJM2ClEEyFA"
               >
-                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-youtube media-icons"></i>
               </a>
             </div>
             <div>
@@ -487,7 +488,7 @@
                 href="
             www.tiktok.com/@ptz_zouk"
               >
-                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-tiktok media-icons"></i>
               </a>
             </div>
           </div>
@@ -725,8 +726,18 @@ body {
 }
 .passes-text {
   font-size: 18px;
-  width: 50%;
+  width: 300px;
   margin: 30px auto;
+}
+.passes-popup {
+  margin: auto;
+  text-align: center;
+}
+.passes-qr-code {
+  width: 300px;
+}
+.passes-popup-title {
+  margin: 10px auto;
 }
 .about-ptz-container {
   display: flex;
@@ -735,15 +746,19 @@ body {
 .about-ptz-text {
   text-align: justify;
 }
-.qr-account-img {
-  display: flex;
-  justify-content: space-around;
-}
 .footer-line {
   margin-top: 30px;
 }
 .footer-section {
-  background-image: linear-gradient(to right, #a459da, rgb(231, 195, 240));
+  background-image: linear-gradient(rgb(184, 103, 204), #432955);
+  color: white;
+}
+.footer-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .footer-container {
   padding: 30px 0px 30px 0px;
@@ -768,6 +783,11 @@ body {
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
+}
+.media-icons {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
 }
 .back-to-top {
   position: fixed;
