@@ -481,7 +481,10 @@
               </a>
             </div>
             <div>
-              <a href="https://www.instagram.com/phuongtrangzouk">
+              <a
+                href="https://www.instagram.com/phuongtrangzouk"
+                target="_blank"
+              >
                 <i class="fa-brands fa-instagram media-icons"></i
               ></a>
             </div>
@@ -489,6 +492,7 @@
               <a
                 href="
             https://www.youtube.com/channel/UCjCX1AIUnHyCTJM2ClEEyFA"
+                target="_blank"
               >
                 <i class="fa-brands fa-youtube media-icons"></i>
               </a>
@@ -497,6 +501,7 @@
               <a
                 href="
             www.tiktok.com/@ptz_zouk"
+                target="_blank"
               >
                 <i class="fa-brands fa-tiktok media-icons"></i>
               </a>
