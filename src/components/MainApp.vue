@@ -423,6 +423,17 @@
                     />
                   </template>
                 </b-carousel-slide>
+                <b-carousel-slide>
+                  <template #img>
+                    <img
+                      class="d-block img-fluid w-100"
+                      width="1024"
+                      height="480"
+                      src="../assets/about-ptz/about-ptz-4.jpg"
+                      alt="image slot"
+                    />
+                  </template>
+                </b-carousel-slide>
               </b-carousel>
             </div>
             <div class="section-text">
