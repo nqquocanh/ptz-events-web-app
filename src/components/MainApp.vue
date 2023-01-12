@@ -321,7 +321,7 @@
               >
               <b-modal
                 id="modal-xl"
-                title="PAYMENT METHOD"
+                title="PAYMENT METHODS"
                 ok-only
                 hide-header-close
               >
@@ -564,7 +564,7 @@ body {
   height: 750px;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://www.shutterstock.com/image-photo/social-dance-bachata-kizomba-zouk-600w-1419089180.jpg");
+    url("../assets/banner/main-banner.jpeg");
 }
 .main-banner-title {
   position: absolute;
