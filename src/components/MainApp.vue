@@ -500,7 +500,7 @@
             <div>
               <a
                 href="
-            www.tiktok.com/@ptz_zouk"
+            https://www.tiktok.com/@ptz_zouk"
                 target="_blank"
               >
                 <i class="fa-brands fa-tiktok media-icons"></i>
