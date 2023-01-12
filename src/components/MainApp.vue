@@ -498,11 +498,7 @@
               </a>
             </div>
             <div>
-              <a
-                href="
-            https://www.tiktok.com/@ptz_zouk"
-                target="_blank"
-              >
+              <a href="https://www.tiktok.com/@ptz_zouk" target="_blank">
                 <i class="fa-brands fa-tiktok media-icons"></i>
               </a>
             </div>
