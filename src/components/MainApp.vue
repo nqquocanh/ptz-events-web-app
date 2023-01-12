@@ -174,8 +174,8 @@
               src="../assets/activities/1. Learn.png"
             />
             <div class="section-text">
-              Learn: 12 hours of workshops delivered by three masters: Alisson,
-              Brenda and Gui
+              <strong>Learn:</strong> 12 hours of workshops delivered by three
+              masters: Alisson, Brenda and Gui
             </div>
           </div>
           <div>
@@ -184,8 +184,8 @@
               src="../assets/activities/2. Play.png"
             />
             <div class="section-text">
-              Play: Kayaking; swan-boating; swimming; biking; sauna, BBQ and
-              more;
+              <strong>Play:</strong> Kayaking; swan-boating; swimming; biking;
+              sauna, BBQ and more;
             </div>
           </div>
           <div>
@@ -194,7 +194,8 @@
               src="../assets/activities/3. Network.png"
             />
             <div class="section-text">
-              Network: Meet and mingle with Zoukers from 20 countries;
+              <strong>Network:</strong> Meet and mingle with Zoukers from 20
+              countries;
             </div>
           </div>
           <div>
@@ -203,7 +204,8 @@
               src="../assets/activities/4. Chill.png"
             />
             <div class="section-text">
-              Chill: Enjoy the lakeview every sunrise and sunset
+              <strong>Chill:</strong> Enjoy the lakeview every sunrise and
+              sunset
             </div>
           </div>
         </div>
@@ -304,19 +306,27 @@
       <div id="passes-section">
         <div class="section-title">BUY 5 FULL PASSES FOR THE PRICE OF 4???</div>
         <div class="passes-container">
-          <div class="passes-img">
+          <!-- <div class="passes-img">
             <img class="passes-img" src="../assets/passes/passes-1.png" />
-          </div>
+          </div> -->
           <div class="section-text">
+            <div class="passes-sub-title" style="color: red">
+              ONLY 100$ PER PAX
+            </div>
             <div class="passes-sub-title">GET THE TICKET.</div>
             <div class="passes-sub-title">PAYMENT.</div>
-            <div class="passes-text">
+            <div class="section-text">
               For room booking, please contact the resort at: ... or when you
-              arrive. Remember to use the code "PTZ" to get the best deal.
+              arrive.
             </div>
-
+            <div class="section-text">
+              Remember to use the code "PTZ" to get the best deal.
+            </div>
             <div>
-              <b-button variant="success" v-b-modal.modal-xl
+              <b-button
+                class="passes-button"
+                variant="success"
+                v-b-modal.modal-xl
                 >BOOK NOW!</b-button
               >
               <b-modal
@@ -446,7 +456,7 @@
       <hr class="footer-line" />
       <div class="footer-title">SUBSCRIBE TO OUR NEWSLETTER</div>
       <div class="footer-container">
-        <div id="subscribe-section">
+        <!-- <div id="subscribe-section">
           <div class="section-sub-title">
             ALL UPDATED INFORMATION DIRECTLY TO YOUR INBOX
             <div class="text-media">
@@ -458,7 +468,7 @@
               </button>
             </div>
           </div>
-        </div>
+        </div> -->
         <div id="contact-channel-section">
           <div class="section-sub-title">OUR CONTACT CHANNELS</div>
           <div class="media">
@@ -708,25 +718,27 @@ body {
   height: 300px;
 }
 .passes-container {
-  margin-top: 30px;
   display: flex;
   justify-content: space-around;
 }
-.passes-img {
+/* .passes-img {
   width: 300px;
   height: 300px;
   margin-bottom: 30px;
-}
+} */
 .passes-content {
   font-size: 30px;
-  width: 600px;
+  width: 100%;
 }
 .passes-sub-title {
   font-weight: 700;
+  margin: 20px auto;
+}
+.passes-button {
+  margin: 20px auto;
 }
 .passes-text {
   font-size: 18px;
-  width: 300px;
   margin: 30px auto;
 }
 .passes-popup {
