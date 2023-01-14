@@ -304,7 +304,7 @@
       </div>
       <hr />
       <div id="passes-section">
-        <div class="section-title">BUY 5 FULL PASSES FOR THE PRICE OF 4???</div>
+        <div class="section-title">PASSES</div>
         <div class="passes-container">
           <!-- <div class="passes-img">
             <img class="passes-img" src="../assets/passes/passes-1.png" />
@@ -316,18 +316,23 @@
             <div class="passes-sub-title">GET THE TICKET.</div>
             <div class="passes-sub-title">PAYMENT.</div>
             <div class="section-text">
-              For room booking, please contact the resort at: ... or when you
-              arrive.
+              For room booking, please book directly with Ms. Hang (Tan Da
+              Resort)
             </div>
             <div class="section-text">
-              Remember to use the code "PTZ" to get the best deal.
+              <div>1. Email: sales1@tandasparesort.com.vn</div>
+              <div>CC: phuongtrangzouk@gmail.com</div>
+              <div>Subject: "Booking for PTZ Apr 2023 event"</div>
             </div>
+
+            <div class="section-text">2. Whatsapp: +84 989987117</div>
+
             <div>
               <b-button
                 class="passes-button"
                 variant="success"
                 v-b-modal.modal-xl
-                >BOOK NOW!</b-button
+                >BUY TICKETS!</b-button
               >
               <b-modal
                 id="modal-xl"
@@ -337,12 +342,18 @@
               >
                 <div class="passes-popup">
                   <div class="section-sub-title">
-                    <div class="passes-popup-title">1. BANK TRANSFER</div>
+                    <div class="passes-popup-title-1">1. BANK TRANSFER</div>
+                    <div>Transfer information:</div>
+                    <div>Account name: Vu Hoai Phuong</div>
+                    <div>Vietcombank Account</div>
+                    <div>Number: 0011001291181</div>
+                    <div>Description: ZIU - Name - Phone number</div>
                     <img
                       class="passes-qr-code"
                       src="../assets/passes/qr-code.png"
                     />
-                    <div class="passes-popup-title">2. PAY AT DOOR</div>
+
+                    <div class="passes-popup-title-2">2. PAY AT DOOR</div>
                   </div>
                 </div>
               </b-modal>
@@ -461,7 +472,7 @@
     </body>
 
     <b-button variant="success" class="book-now" v-b-modal.modal-xl
-      >BOOK NOW!</b-button
+      >BUY TICKETS!</b-button
     >
     <footer class="footer-section">
       <hr class="footer-line" />
@@ -758,9 +769,14 @@ body {
   text-align: center;
 }
 .passes-qr-code {
+  margin: 20px auto;
   width: 300px;
 }
-.passes-popup-title {
+.passes-popup-title-1 {
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+.passes-popup-title-2 {
   margin: 10px auto;
 }
 .about-ptz-container {
@@ -828,7 +844,7 @@ body {
   float: right;
   right: 20px;
   top: 90%;
-  width: 5%;
+  width: 7%;
   font-size: 15px;
 }
 </style>
