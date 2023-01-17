@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="logo-header">
-        <div><img class="logo" src="../assets/banner/logo.png" /></div>
+        <div><img class="logo" src="/assets/banner/logo.png" /></div>
       </div>
       <div class="main-banner-container">
         <img class="main-banner-img" />
@@ -13,7 +13,7 @@
           </div>
           <div class="main-banner-subtitle">
             <div class="main-banner-subtitle-date">2023 APRIL 14-15-16-17</div>
-            <countdown :time="90 * 24 * 60 * 60 * 1000">
+            <countdown :time="countdownTime()">
               <template slot-scope="props">
                 <div class="countdown-clock">
                   <div class="countdown-time">
@@ -98,7 +98,7 @@
                 <div class="schedule-plan-time-date">14</div>
                 <div class="schedule-plan-time-month">April</div>
               </div>
-              <div class="line-event-schedule" />
+              <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
                   <i class="fa-regular fa-clock"></i> 8:00 PM - 2:00 AM (+1):
@@ -114,7 +114,7 @@
                 <div class="schedule-plan-time-date">15</div>
                 <div class="schedule-plan-time-month">April</div>
               </div>
-              <div class="line-event-schedule" />
+              <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
                   <i class="fa-regular fa-clock"></i> 10:00 AM - 6:00 PM:
@@ -134,7 +134,7 @@
                 <div class="schedule-plan-time-date">16</div>
                 <div class="schedule-plan-time-month">April</div>
               </div>
-              <div class="line-event-schedule" />
+              <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
                   <i class="fa-regular fa-clock"></i> 10:00 AM - 6:00 PM:
@@ -154,7 +154,7 @@
                 <div class="schedule-plan-time-date">17</div>
                 <div class="schedule-plan-time-month">April</div>
               </div>
-              <div class="line-event-schedule" />
+              <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
                   <i class="fa-regular fa-clock"></i> 12:00 PM: Check-out
@@ -168,46 +168,48 @@
       <div id="activities-section">
         <div class="section-title">ACTIVITIES SUMMARY</div>
         <div class="activities-content">
-          <div>
-            <img
-              class="activities-img"
-              src="../assets/activities/1. Learn.png"
-            />
-            <div class="section-text">
-              <strong>Learn:</strong> 12 hours of workshops delivered by three
-              masters: Alisson, Brenda and Gui
-            </div>
-          </div>
-          <div>
-            <img
-              class="activities-img"
-              src="../assets/activities/2. Play.png"
-            />
-            <div class="section-text">
-              <strong>Play:</strong> Kayaking; swan-boating; swimming; biking;
-              sauna, BBQ and more;
-            </div>
-          </div>
-          <div>
-            <img
-              class="activities-img"
-              src="../assets/activities/3. Network.png"
-            />
-            <div class="section-text">
-              <strong>Network:</strong> Meet and mingle with Zoukers from 20
-              countries;
-            </div>
-          </div>
-          <div>
-            <img
-              class="activities-img"
-              src="../assets/activities/4. Chill.png"
-            />
-            <div class="section-text">
-              <strong>Chill:</strong> Enjoy the lakeview every sunrise and
-              sunset
-            </div>
-          </div>
+          <b-row class="column-width">
+            <b-col sm="6" lg="3" md="3" class="activities-item">
+              <img
+                class="activities-img"
+                src="/assets/activities/1. Learn.png"
+              />
+              <div class="section-text">
+                <strong>Learn:</strong> 12 hours of workshops delivered by three
+                masters: Alisson, Brenda and Gui
+              </div>
+            </b-col>
+            <b-col sm="6" lg="3" md="3" class="activities-item">
+              <img
+                class="activities-img"
+                src="/assets/activities/2. Play.png"
+              />
+              <div class="section-text">
+                <strong>Play:</strong> Kayaking; swan-boating; swimming; biking;
+                sauna, BBQ and more;
+              </div>
+            </b-col>
+            <b-col sm="6" lg="3" md="3" class="activities-item">
+              <img
+                class="activities-img"
+                src="/assets/activities/3. Network.png"
+              />
+              <div class="section-text">
+                <strong>Network:</strong> Meet and mingle with Zoukers from 20
+                countries;
+              </div>
+            </b-col>
+            <b-col sm="6" lg="3" md="3" class="activities-item">
+              <img
+                class="activities-img"
+                src="/assets/activities/4. Chill.png"
+              />
+              <div class="section-text">
+                <strong>Chill:</strong> Enjoy the lakeview every sunrise and
+                sunset
+              </div>
+            </b-col>
+          </b-row>
         </div>
       </div>
       <hr />
@@ -250,27 +252,27 @@
           </div>
         </div>
         <div>
-          <b-row>
+          <b-row class="column-width">
             <b-col
-              ><img class="venue-img" src="../assets/venue/venue-1.jpg"
+              ><img class="venue-img" src="/assets/venue/venue-1.jpg"
             /></b-col>
             <b-col
-              ><img class="venue-img" src="../assets/venue/venue-2.jpg"
+              ><img class="venue-img" src="/assets/venue/venue-2.jpg"
             /></b-col>
             <b-col
-              ><img class="venue-img" src="../assets/venue/venue-3.jpg"
+              ><img class="venue-img" src="/assets/venue/venue-3.jpg"
             /></b-col>
           </b-row>
           <br />
-          <b-row>
+          <b-row class="column-width">
             <b-col
-              ><img class="venue-img" src="../assets/venue/venue-4.jpg"
+              ><img class="venue-img" src="/assets/venue/venue-4.jpg"
             /></b-col>
             <b-col
-              ><img class="venue-img" src="../assets/venue/venue-5.jpg"
+              ><img class="venue-img" src="/assets/venue/venue-5.jpg"
             /></b-col>
             <b-col
-              ><img class="venue-img" src="../assets/venue/venue-6.jpg"
+              ><img class="venue-img" src="/assets/venue/venue-6.jpg"
             /></b-col>
           </b-row>
         </div>
@@ -286,19 +288,278 @@
           learn something useful.
         </div>
         <div class="artist-container">
-          <b-row>
-            <b-col>
-              <img class="artist-img" src="../assets/artists/1. Alisson.jpg" />
-              <div class="section-sub-title">ALISSON SANDI</div></b-col
-            >
-            <b-col>
-              <img class="artist-img" src="../assets/artists/2. Brenda.jpg" />
-              <div class="section-sub-title">BRENDA CARVALHO</div></b-col
-            >
-            <b-col>
-              <img class="artist-img" src="../assets/artists/3. Gui.jpg" />
-              <div class="section-sub-title">GUI PRADA</div></b-col
-            >
+          <b-row class="column-width">
+            <b-col lg="4" md="4" sm="12" class="mb-3">
+              <div class="card h-100">
+                <img
+                  src="/assets/artists/1. Alisson.jpg"
+                  class="card-img-top"
+                  alt="Alison"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">ALISSON SANDI</h5>
+                  <div>3x Pro World Zouk Champion</div>
+                  <div>3x Pro Australian Zouk/Latin Champion</div>
+                  <b-card-text>
+                    Winner/Finalist of various BZDC All Stars/Champions Jack and
+                    Jill Comps and Invitationals.
+                  </b-card-text>
+
+                  <b-button
+                    v-b-modal.modal-xl-1
+                    class="artist-see-more-button mt-auto"
+                    >See More</b-button
+                  >
+                  <b-modal
+                    id="modal-xl-1"
+                    size="xl"
+                    title="ALISSON SANDI"
+                    ok-only
+                    hide-header-close
+                  >
+                    <p class="my-4">
+                      Alisson Sandi began his dance career at the age of 15 in
+                      São Paulo, Brazil where he was born. Over the years he
+                      trained in Brazilian Dança de Salão, Street Latin and
+                      International Ballroom dancing under the methodology of
+                      Alex de Carvalho, Renata Peçanha, Jaime Arôxa, Rodrigo
+                      Delano, and other Masters.
+                    </p>
+                    <p class="my-4">
+                      In 2007, he moved to Perth (Australia) where he joined
+                      Juan Rando Dance Academy (JRDA) to start the Brazilian
+                      dance scene from scratch and continue developing it for
+                      the following 10 years. He also trained multiple teachers,
+                      international artists, and others who have opened their
+                      own schools. During his time in Perth, he met Audrey
+                      Isautier and together they became one of the top worldwide
+                      Brazilian Zouk Couples between 2010-16, travelling to over
+                      41 countries to share their knowledge and passion.
+                    </p>
+                    <p class="my-4">
+                      In 2017 he decided to take up a challenge and moved to
+                      Melbourne to help growing and upgrading the local
+                      Brazilian dance scene with his fun classes and focused
+                      training courses. He also created ‘BraZouky’ - Worldwide
+                      Brazilian Dance Festival, which hosts over 300 people and
+                      is also a fundraising event which gives dance scholarships
+                      for disadvantaged teens and kids in under privileged
+                      communities around the world.
+                    </p>
+                    <p class="my-4">
+                      In 2019, Alisson moved to Washington DC (USA) to join
+                      District Zouk and their passionate team and has helped the
+                      dance community grow healthier and stronger!
+                    </p>
+                    <ul class="my-4">
+                      Alisson loves to push himself and currently holds the
+                      following titles:
+                      <li>- 3x Pro World Zouk Champion</li>
+                      <li>- 3x Pro Australian Zouk/Latin Champion</li>
+                      <li>
+                        - Winner/Finalist of various BZDC All Stars/Champions
+                        Jack and Jill Comps and Invitationals.
+                      </li>
+                    </ul>
+                    <p class="my-4">
+                      Alisson has been an official head judge and an important
+                      member for the Brazilian Zouk Dance Council since its
+                      first competition event in 2014. And he is one of the
+                      founders of the International Zouk Flash Mob/International
+                      Zouk Day which has been running yearly since 2012.
+                    </p>
+                    <p class="my-4">
+                      In late 2018, Christina Montoya (USA) went to Australia to
+                      train with Alisson and together they won the Australian
+                      World Champion in the Mixed Latin Category with the
+                      highest partner couple score of the competition. Since
+                      then, they have started an exciting partnership and are
+                      looking forward to sharing their passion with the world.
+                    </p>
+                    <p class="my-4">
+                      In one of his latest adventures in the midst of 2020’s
+                      pandemic that proved to be very successful, was the launch
+                      of the ‘ZoukNerds’ group on Facebook. His desire to learn,
+                      share and connect with the community which has now over 4k
+                      active members, and growing rapidly daily. In this group,
+                      Alisson hosts interviews and discussions with key members
+                      of the community and also facilitates deep and
+                      knowledgeable conversations via posts in the group where
+                      members feel heard, welcomed and safe to ask questions and
+                      share their experiences.
+                    </p>
+                    <p class="my-4">
+                      In 2022, Alisson has achieved another milestone being
+                      invited to become part of the Lecturers for the MAC
+                      Project (Method Alex de Carvalho), which is the world’s
+                      most comprehensive professional training for Brazilian
+                      Zouk, created and directed by the Master Alex de Carvalho.
+                    </p>
+                    <p class="my-4">
+                      Alisson has a passion for teaching and is always striving
+                      for innovative ways in which to overcome technical and
+                      personal challenges. He is known for his attention to
+                      detail and effective instruction in dance techniques.
+                    </p>
+                  </b-modal>
+                </div>
+              </div>
+            </b-col>
+            <b-col lg="4" md="4" sm="12" class="mb-3">
+              <div class="card h-100">
+                <img
+                  src="/assets/artists/2. Brenda.jpg"
+                  class="card-img-top"
+                  alt="Alison"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">BRENDA CARVALHO</h5>
+                  <b-card-text>
+                    Creator and organizer of the only Brazilian congress that
+                    combines the use of Zouk as a tool for self-knowledge and
+                    other human development tools, Beyond Dance
+                  </b-card-text>
+                  <b-button
+                    v-b-modal.modal-xl-2
+                    class="artist-see-more-button mt-auto"
+                    >See More</b-button
+                  >
+                  <b-modal
+                    id="modal-xl-2"
+                    size="xl"
+                    title="BRENDA CARVALHO"
+                    ok-only
+                    hide-header-close
+                  >
+                    <p class="my-4">
+                      Brenda has been dancing professionally since she was 20.
+                      She is an international artist, multidisciplinary
+                      researcher and researcher of movement. Using dance as a
+                      tool for self-knowledge, healing and self-awareness, she
+                      experiences and inspires people around the world to get in
+                      touch with their state of presence, connection, flow,
+                      grace and power.
+                    </p>
+                    <p class="my-4">
+                      Her training is vast and full of studies that go beyond
+                      movement, such as non-violent communication, neo tantra,
+                      emotional intelligence, Eutonia, the De Rose method, dance
+                      therapy, in addition to training in ballroom dancing with
+                      Jaime Aroxa and the development of her own method,
+                      together with her partner of 12 years, Anderson Mendes da
+                      Rocha.
+                    </p>
+                    <p class="my-4">
+                      Together they are pioneers in deepening connection and
+                      expansion of consciousness within the world of Zouk and
+                      their demonstrations of this form of dancing inspire and
+                      attract hundreds of people to the world of Zouk.
+                    </p>
+                    <p class="my-4">
+                      She is the creator and organizer of the only Brazilian
+                      congress that combines the use of Zouk as a tool for
+                      self-knowledge and other human development tools, Beyond
+                      Dance. As well as retreats and immersions that propose a
+                      more humane and integrative look at social dance.
+                    </p>
+                  </b-modal>
+                </div>
+              </div>
+            </b-col>
+            <b-col lg="4" md="4" sm="12" class="mb-3">
+              <div class="card h-100">
+                <img
+                  src="/assets/artists/3. Gui.jpg"
+                  class="card-img-top"
+                  alt="Gui"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">GUI PRADA</h5>
+                  <b-card-text>
+                    Currently Gui Prada is one of the regular instructors of
+                    Alex de Carvalho’s MAC program, where he teaches new
+                    instructors how to learn, talk about and teach connection.
+                  </b-card-text>
+                  <b-button
+                    v-b-modal.modal-xl-3
+                    class="artist-see-more-button mt-auto"
+                    >See More</b-button
+                  >
+                  <b-modal
+                    id="modal-xl-3"
+                    size="xl"
+                    title="GUI PRADA"
+                    ok-only
+                    hide-header-close
+                  >
+                    <p class="my-4">
+                      Inspired by the movie "Shall We Dance?", Gui Prada started
+                      dancing in 2004. However, it was only in 2006 that he
+                      really began to dive deep into dance as a work-study
+                      trainee of the Jaime Aroxa Dance School in Rio de Janeiro,
+                      one of the most prestigious dance schools in Brazil, which
+                      trained some of the most renowned dancers in the country.
+                      During his 6 years as a member of the school's team, he
+                      learned all Brazilian partner dances (Forró, Samba de
+                      Gafieira, Soltinho, Bolero and Zouk) and Argentine Tango.
+                      As he matured more as a dancer, he found he preferred to
+                      focus less on the steps and more on turning partner
+                      dancing into a relaxing experience for the mind and body.
+                    </p>
+                    <p class="my-4">
+                      In 2009, on his first visit to Buenos Aires, Argentina, he
+                      was introduced to the authentic tango hug - the close
+                      embrace - and all of its complexity and power to create
+                      the ultimate feeling of “conforto, cuidado e entrega” -
+                      comfort, care and surrender. After that, he continued
+                      learning from other remarkable instructors in Brazil,
+                      including Fabiano Vivas, Kelly Reis, Érico Rodrigo,
+                      Guilherme Pimentel, Lídio Freitas and many others; and
+                      went on to research the close embrace and its application
+                      to all partner dances, with the purpose of conveying a
+                      sense of well-being and relaxation between dance partners.
+                    </p>
+                    <p class="my-4">
+                      His investigation of the close embrace continued over the
+                      years, and through many sources both inside and outside of
+                      the dance world. These studies guided him to form a
+                      multidisciplinary understanding of dancing and connecting
+                      in close embrace as a healing and therapeutic experience.
+                      Due to its versatility in movement, music, speed and
+                      approach, Brazilian Zouk became the perfect dance to apply
+                      this concept and explore the possibilities, which he has
+                      been doing since 2016, when he attended the first Zouk
+                      Retreat in Valencia, led by Xandy Liberato, Brenda
+                      Carvalho and Anderson Mendes. After that, his research on
+                      partner dancing took a new direction, as he continued
+                      working to seek for the application of the concepts
+                      explored at the retreat in different ways by using the
+                      references of the other Brazilian partner dances.
+                    </p>
+                    <p class="my-4">
+                      Currently, he develops the idea of partner dancing as a
+                      true social and bonding experience, having dancing in
+                      close embrace and the mastery of basics as the focus
+                      point. Over the course of the years, Gui was able to
+                      develop and improve this concept through workshops called
+                      “The Universe Behind the Hug”, Parts I and II, Finding
+                      Zouk, Embrace Zouk Weekender, Embrace Zouk Online, and the
+                      Leaders Intensive Training, which together toured many
+                      cities around the US. Gui is based in Washington DC, US,
+                      developing the local community with regular, weekly and
+                      progressive classes. He became a reference in the
+                      execution of clean, comfortable fundamentals and its
+                      understanding of close connection, both from a physical
+                      and mental perspectives. Gui is also one of the regular
+                      instructors of Alex de Carvalho’s MAC program, where he
+                      teaches new instructors how to learn, talk about and teach
+                      connection.
+                    </p>
+                  </b-modal>
+                </div>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </b-col>
           </b-row>
         </div>
       </div>
@@ -307,7 +568,7 @@
         <div class="section-title">PASSES</div>
         <div class="passes-container">
           <!-- <div class="passes-img">
-            <img class="passes-img" src="../assets/passes/passes-1.png" />
+            <img class="passes-img" src="/assets/passes/passes-1.png" />
           </div> -->
           <div class="section-text">
             <div class="passes-sub-title" style="color: red">
@@ -350,7 +611,7 @@
                     <div>Description: ZIU - Name - Phone number</div>
                     <img
                       class="passes-qr-code"
-                      src="../assets/passes/qr-code.png"
+                      src="/assets/passes/qr-code.png"
                     />
 
                     <div class="passes-popup-title-2">2. PAY AT DOOR</div>
@@ -407,7 +668,7 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="../assets/about-ptz/about-ptz-1.jpg"
+                      src="/assets/about-ptz/about-ptz-1.jpg"
                       alt="image slot"
                     />
                   </template>
@@ -418,7 +679,7 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="../assets/about-ptz/about-ptz-2.jpg"
+                      src="/assets/about-ptz/about-ptz-2.jpg"
                       alt="image slot"
                     />
                   </template>
@@ -429,7 +690,7 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="../assets/about-ptz/about-ptz-3.jpg"
+                      src="/assets/about-ptz/about-ptz-3.jpg"
                       alt="image slot"
                     />
                   </template>
@@ -440,7 +701,7 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="../assets/about-ptz/about-ptz-4.jpg"
+                      src="/assets/about-ptz/about-ptz-4.jpg"
                       alt="image slot"
                     />
                   </template>
@@ -470,13 +731,12 @@
         </div>
       </div>
     </body>
-
     <b-button variant="success" class="book-now" v-b-modal.modal-xl
       >BUY TICKETS!</b-button
     >
     <footer class="footer-section">
       <hr class="footer-line" />
-      <div class="footer-title">SUBSCRIBE TO OUR NEWSLETTER</div>
+      <!-- <div class="footer-title">CONTACT CHANNELS</div> -->
       <div class="footer-container">
         <!-- <div id="subscribe-section">
           <div class="section-sub-title">
@@ -536,12 +796,18 @@ export default {
     return {
       scTimer: 0,
       scY: 0,
+      end: new Date("April 14, 2023"),
     };
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
+    countdownTime() {
+      let now = new Date();
+      let distance = this.end - now;
+      return distance;
+    },
     handleScroll: function () {
       if (this.scTimer) return;
       this.scTimer = setTimeout(() => {
@@ -560,20 +826,75 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 html,
 body {
-  margin: 0px !important;
-  padding: 0px !important;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  .logo-header {
+    height: 55px;
+    background-color: white;
+  }
 }
-.logo-header {
-  height: 55px;
-  background-color: white;
+.column-width {
+  width: 100%;
+}
+.section {
+  &-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #6305a6;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  &-sub-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &-text {
+    margin: 15px 0px;
+    font-size: 20px;
+  }
+  @media (max-width: 769px) {
+    &-title {
+      font-size: 20px;
+      margin: 0px;
+    }
+    &-sub-title {
+      font-size: 16px;
+      margin: 0px;
+    }
+    &-text {
+      font-size: 16px;
+      margin: 0px;
+    }
+  }
 }
 .nav-bar {
   position: absolute;
   top: 20px;
   right: 40px;
+  &-item {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: white;
+    font-size: 20px;
+  }
+  @media (max-width: 426px) {
+    &-item {
+      display: none;
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 769px) {
+    .nav-bar {
+      right: 80px;
+    }
+  }
 }
 .logo {
   top: 2px;
@@ -581,79 +902,90 @@ body {
   width: 120px !important;
   height: 50px !important;
 }
-.nav-bar-item {
-  text-decoration: none;
-  margin: 0px 20px;
-  color: white;
-  font-size: 20px;
+.main-banner {
+  &-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  &-img {
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../assets/banner/main-banner.jpeg");
+  }
+  &-title {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    width: 80%;
+    font-weight: 300;
+  }
+  &-subtitle {
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+  }
+  &-subtitle-date {
+    margin-bottom: 30px;
+  }
+  @media (max-width: 769px) {
+    &-title {
+      font-size: 48px;
+      top: 55%;
+    }
+    &-img {
+      height: 550px;
+    }
+  }
 }
-.main-banner-container {
-  position: relative;
-  text-align: center;
-  color: white;
+.countdown {
+  &-clock {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: solid 2px;
+  }
+  &-time {
+    display: flex;
+    justify-content: space-around;
+  }
+  &-time-number {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  &-time-unit {
+    font-size: 30px;
+  }
+  @media (max-width: 769px) {
+    &-time-number {
+      font-size: 30px;
+    }
+    &-time-unit {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 426px) {
+    &-clock {
+      margin: auto;
+      width: 80%;
+      padding: 10px;
+      border: solid 1px;
+    }
+  }
 }
-.main-banner-img {
-  width: 100%;
-  height: 750px;
-  background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/banner/main-banner.jpeg");
-}
-.main-banner-title {
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 90px;
-  width: 80%;
-  font-weight: 300;
-}
-.main-banner-subtitle {
-  font-size: 50px;
-  color: white;
-  font-weight: 100;
-}
-.main-banner-subtitle-date {
-  margin-bottom: 30px;
-}
-.countdown-clock {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  border: solid 2px;
-}
-.countdown-time {
-  display: flex;
-  justify-content: space-around;
-}
-.countdown-time-number {
-  font-size: 50px;
-  font-weight: 600;
-}
-.countdown-time-unit {
-  font-size: 30px;
-}
+
 .body-container {
   width: 70%;
-  margin: auto !important;
+  margin: auto;
+  @media (max-width: 769px) {
+    width: 95%;
+  }
 }
-.section-title {
-  font-size: 30px;
-  font-weight: 700;
-  color: #6305a6;
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
-.section-sub-title {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  font-size: 20px;
-  font-weight: 700;
-}
-.section-text {
-  margin: 15px 0px;
-  font-size: 20px;
-}
+
 .quick-intro-section {
   top: 130%;
   left: 30%;
@@ -672,48 +1004,81 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: left;
+  &-time {
+    margin-left: 20%;
+    margin-bottom: 2%;
+    &-date {
+      font-size: 50px;
+      font-weight: 700;
+    }
+    &-month {
+      font-weight: 600;
+      text-align: center;
+    }
+    @media (max-width: 769px) {
+      margin-left: 15%;
+      &-date {
+        font-size: 30px;
+        margin-top: 18px;
+      }
+    }
+    @media (max-width: 769px) {
+      margin-bottom: 10px;
+    }
+  }
+  &-activities {
+    margin-top: 30px;
+    margin-left: 1%;
+    width: 50%;
+    font-size: 20px;
+    @media (max-width: 769px) {
+      font-size: 15px;
+    }
+  }
+  &-line {
+    width: 60%;
+    margin: auto;
+    border: 1px solid;
+    background-color: #6305a6;
+    &-date {
+      border: 1px solid;
+      background-color: #6305a6;
+      height: 100px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    @media (max-width: 769px) {
+    }
+  }
 }
-.schedule-plan-time {
-  margin-left: 250px;
-  margin-bottom: 20px;
+
+.activities {
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    // gap: 5px;
+    margin: 30px 0px;
+  }
+  &-img {
+    margin: 30px 0px;
+    width: 80%;
+  }
+  @media (max-width: 500px) {
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      display: flex;
+      align-items: center;
+      text-align: start;
+    }
+    &-img {
+      margin: 0 10px;
+      width: 25%;
+    }
+  }
 }
-.schedule-plan-time-date {
-  font-size: 50px;
-  font-weight: 700;
-}
-.schedule-plan-time-month {
-  font-weight: 600;
-  text-align: center;
-}
-.line-event-schedule {
-  border: 1px solid;
-  background-color: #6305a6;
-  height: 100px;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-.schedule-plan-activities {
-  margin-top: 30px;
-  margin-left: 50px;
-  width: 800px;
-  font-size: 20px;
-}
-.schedule-plan-line {
-  width: 60%;
-  margin: auto;
-  border: 1px solid;
-  background-color: #6305a6;
-}
-.activities-content {
-  display: flex;
-  justify-content: space-between;
-  gap: 25px;
-  margin: 30px 0px;
-}
-.activities-img {
-  margin: 30px 0px;
-  width: 250px;
-}
+
 .venue-container {
   display: flex;
   justify-content: space-between;
@@ -730,55 +1095,81 @@ body {
 .venue-img {
   width: 100%;
 }
-.artist-line {
-  margin-top: 30px;
+.artist {
+  &-line {
+    margin-top: 30px;
+  }
+  &-container {
+    margin-top: 20px;
+  }
+  &-img {
+    width: 300px;
+    height: 300px;
+  }
+  &-card {
+    height: 580px !important;
+  }
+  &-see-more-button {
+    margin-bottom: 2px !important;
+    display: flex;
+  }
+  @media (max-width: 769px) {
+    &-card {
+      height: 570px !important;
+    }
+    &-see-more-button {
+      bottom: 0px !important;
+    }
+  }
 }
-.artist-container {
-  margin-top: 20px;
+.passes {
+  &-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  &-content {
+    font-size: 30px;
+    width: 100%;
+  }
+  &-sub-title {
+    font-weight: 700;
+    margin: 20px auto;
+  }
+  &-button {
+    margin: 20px auto;
+  }
+  &-text {
+    font-size: 18px;
+    margin: 30px auto;
+  }
+  &-popup {
+    margin: auto;
+    text-align: center;
+  }
+  &-qr-code {
+    margin: 20px auto;
+    width: 300px;
+  }
+  &-popup-title-1 {
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 769px) {
+    &-popup-title-1 {
+      margin-top: 0px;
+    }
+  }
+  &-popup-title-2 {
+    margin: 10px auto;
+  }
 }
-.artist-img {
-  width: 300px;
-  height: 300px;
-}
-.passes-container {
-  display: flex;
-  justify-content: space-around;
-}
+
 /* .passes-img {
   width: 300px;
   height: 300px;
   margin-bottom: 30px;
 } */
-.passes-content {
-  font-size: 30px;
-  width: 100%;
-}
-.passes-sub-title {
-  font-weight: 700;
-  margin: 20px auto;
-}
-.passes-button {
-  margin: 20px auto;
-}
-.passes-text {
-  font-size: 18px;
-  margin: 30px auto;
-}
-.passes-popup {
-  margin: auto;
-  text-align: center;
-}
-.passes-qr-code {
-  margin: 20px auto;
-  width: 300px;
-}
-.passes-popup-title-1 {
-  margin-top: -30px;
-  margin-bottom: 10px;
-}
-.passes-popup-title-2 {
-  margin: 10px auto;
-}
+
 .about-ptz-container {
   display: flex;
   justify-content: space-between;
@@ -841,10 +1232,42 @@ body {
 .book-now {
   position: fixed;
   cursor: pointer;
-  float: right;
   right: 20px;
   top: 90%;
   width: 7%;
   font-size: 15px;
+}
+@media (max-width: 1025px) {
+  .book-now {
+    width: 10%;
+  }
+}
+@media (max-width: 769px) {
+  .book-now {
+    font-size: 15px;
+    width: 12%;
+  }
+}
+@media (max-width: 426px) {
+  .book-now {
+    font-size: 10px !important;
+    width: 15%;
+  }
+}
+@media (max-width: 376px) {
+  .book-now {
+    font-size: 10px !important;
+    width: 18%;
+  }
+}
+@media (max-width: 376px) {
+  .book-now {
+    font-size: 10px !important;
+    width: 20%;
+  }
+}
+.button {
+  background-color: rgb(128, 80, 128) !important;
+  border: none;
 }
 </style>
