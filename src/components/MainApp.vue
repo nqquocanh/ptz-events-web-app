@@ -87,7 +87,6 @@
           </div>
         </div>
       </div>
-
       <div id="schedule-section">
         <hr />
         <div class="section-title">EVENT SCHEDULE</div>
@@ -172,7 +171,7 @@
             <b-col sm="6" lg="3" md="3" class="activities-item">
               <img
                 class="activities-img"
-                src="/assets/activities/1. Learn.png"
+                src="/assets/activities/1. Learn-min.png"
               />
               <div class="section-text">
                 <strong>Learn:</strong> 12 hours of workshops delivered by three
@@ -182,7 +181,7 @@
             <b-col sm="6" lg="3" md="3" class="activities-item">
               <img
                 class="activities-img"
-                src="/assets/activities/2. Play.png"
+                src="/assets/activities/2. Play-min.png"
               />
               <div class="section-text">
                 <strong>Play:</strong> Kayaking; swan-boating; swimming; biking;
@@ -192,7 +191,7 @@
             <b-col sm="6" lg="3" md="3" class="activities-item">
               <img
                 class="activities-img"
-                src="/assets/activities/3. Network.png"
+                src="/assets/activities/3. Network-min.png"
               />
               <div class="section-text">
                 <strong>Network:</strong> Meet and mingle with Zoukers from 20
@@ -202,7 +201,7 @@
             <b-col sm="6" lg="3" md="3" class="activities-item">
               <img
                 class="activities-img"
-                src="/assets/activities/4. Chill.png"
+                src="/assets/activities/4. Chill-min.png"
               />
               <div class="section-text">
                 <strong>Chill:</strong> Enjoy the lakeview every sunrise and
@@ -316,6 +315,7 @@
                     title="ALISSON SANDI"
                     ok-only
                     hide-header-close
+                    ok-title="Close"
                   >
                     <p class="my-4">
                       Alisson Sandi began his dance career at the age of 15 in
@@ -430,6 +430,7 @@
                     title="BRENDA CARVALHO"
                     ok-only
                     hide-header-close
+                    ok-title="Close"
                   >
                     <p class="my-4">
                       Brenda has been dancing professionally since she was 20.
@@ -491,6 +492,7 @@
                     title="GUI PRADA"
                     ok-only
                     hide-header-close
+                    ok-title="Close"
                   >
                     <p class="my-4">
                       Inspired by the movie "Shall We Dance?", Gui Prada started
@@ -600,6 +602,7 @@
                 title="PAYMENT METHODS"
                 ok-only
                 hide-header-close
+                ok-title="Close"
               >
                 <div class="passes-popup">
                   <div class="section-sub-title">
@@ -613,7 +616,6 @@
                       class="passes-qr-code"
                       src="/assets/passes/qr-code.png"
                     />
-
                     <div class="passes-popup-title-2">2. PAY AT DOOR</div>
                   </div>
                 </div>
@@ -627,7 +629,7 @@
         <div class="section-title">ABOUT PTZ</div>
         <div class="about-ptz-container">
           <div class="about-ptz-text">
-            <div class="section-text">
+            <div class="section-text my-4">
               PTZ - Phuong & Trang Zouk Vietnam - is the leading studio for
               Brazilian Zouk in Hanoi, Vietnam. Founded in 2019, PTZ has been on
               the forefront of spreading Brazilian Zouk in the local community.
@@ -636,7 +638,7 @@
               with the latest developments in the world. Our parties are spinned
               live and non-stop by our local DJs.
             </div>
-            <div class="section-text">
+            <div class="section-text my-4">
               PTZ's iconic event - Zouk It Up - has been up and running since
               2022. We have hosted Dominik and Monika, Alisson Sandi, and Nhat
               Ho and Gigi Ho. In 2023, we will be welcoming Alisson Sandi,
@@ -668,7 +670,7 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="/assets/about-ptz/about-ptz-1.jpg"
+                      src="/assets/about-ptz/about-ptz-1-min.jpg"
                       alt="image slot"
                     />
                   </template>
@@ -679,7 +681,7 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="/assets/about-ptz/about-ptz-2.jpg"
+                      src="/assets/about-ptz/about-ptz-2-min.jpg"
                       alt="image slot"
                     />
                   </template>
@@ -690,7 +692,7 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="/assets/about-ptz/about-ptz-3.jpg"
+                      src="/assets/about-ptz/about-ptz-3-min.jpg"
                       alt="image slot"
                     />
                   </template>
@@ -701,14 +703,14 @@
                       class="d-block img-fluid w-100"
                       width="1024"
                       height="480"
-                      src="/assets/about-ptz/about-ptz-4.jpg"
+                      src="/assets/about-ptz/about-ptz-4-min.jpg"
                       alt="image slot"
                     />
                   </template>
                 </b-carousel-slide>
               </b-carousel>
             </div>
-            <div class="section-text">
+            <div class="section-text my-4">
               Hoai Phuong and Huyen Trang started their partnership in late
               2017. We are a couple of Friday night and Sunday morning. Trang is
               like a Friday night – always dynamic, vibrant, full of life with a
@@ -718,7 +720,7 @@
               in, he rocks as both a DJ and a dancer. That’s the way the
               partnership has gone over the past 5++ years.
             </div>
-            <div class="section-text">
+            <div class="section-text my-4">
               Phuong and Trang won their first international trophy in 2018 with
               the 2nd place in the ProAm Competition at ZoukSEA. Since then,
               they have been performing in various congresses, both nationally,
@@ -840,6 +842,7 @@ body {
 }
 .column-width {
   width: 100%;
+  margin: 0px !important;
 }
 .section {
   &-title {
@@ -913,7 +916,7 @@ body {
     height: 750px;
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../assets/banner/main-banner.jpeg");
+      url("../assets/banner/main-banner.webp");
   }
   &-title {
     position: absolute;
@@ -939,6 +942,18 @@ body {
     }
     &-img {
       height: 550px;
+    }
+  }
+  @media (max-width: 376px) {
+    &-title {
+      font-size: 38px;
+      top: 55%;
+    }
+    &-img {
+      height: 550px;
+    }
+    &-subtitle {
+      font-size: 24px;
     }
   }
 }
@@ -974,6 +989,14 @@ body {
       width: 80%;
       padding: 10px;
       border: solid 1px;
+    }
+  }
+  @media (max-width: 376px) {
+    &-time-number {
+      font-size: 18px;
+    }
+    &-time-unit {
+      font-size: 12px;
     }
   }
 }
@@ -1051,12 +1074,10 @@ body {
     }
   }
 }
-
 .activities {
   &-content {
     display: flex;
     justify-content: space-between;
-    // gap: 5px;
     margin: 30px 0px;
   }
   &-img {
@@ -1108,10 +1129,11 @@ body {
   }
   &-card {
     height: 580px !important;
+    width: 100%;
   }
   &-see-more-button {
     margin-bottom: 2px !important;
-    display: flex;
+    text-align: center;
   }
   @media (max-width: 769px) {
     &-card {
