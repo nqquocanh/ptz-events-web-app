@@ -923,6 +923,11 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../assets/banner/main-banner.webp");
   }
+  // @media (max-width: "376px") {
+  //   &-img {
+  //     margin-left: -500px;
+  //   }
+  // }
   &-title {
     position: absolute;
     top: 58%;
@@ -955,10 +960,10 @@ body {
       top: 55%;
     }
     &-img {
-      height: 550px;
+      height: 620px;
     }
     &-subtitle {
-      font-size: 24px;
+      font-size: 25px;
     }
   }
 }
@@ -1050,9 +1055,6 @@ body {
         margin-top: 18px;
       }
     }
-    @media (max-width: 769px) {
-      margin-bottom: 10px;
-    }
   }
   &-activities {
     margin-top: 30px;
@@ -1061,6 +1063,9 @@ body {
     font-size: 20px;
     @media (max-width: 769px) {
       font-size: 15px;
+    }
+    @media (max-width: 376px) {
+      margin-top: 10px;
     }
   }
   &-line {
@@ -1075,7 +1080,10 @@ body {
       margin-left: 20px;
       margin-top: 10px;
     }
-    @media (max-width: 769px) {
+    @media (max-width: 376px) {
+      &-date {
+        margin-bottom: 10px;
+      }
     }
   }
 }
