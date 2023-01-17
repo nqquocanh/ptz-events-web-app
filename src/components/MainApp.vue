@@ -296,7 +296,9 @@
                   alt="Alison"
                 />
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">ALISSON SANDI</h5>
+                  <h5 class="card-title">
+                    <strong>ALISSON SANDI</strong>
+                  </h5>
                   <div>3x Pro World Zouk Champion</div>
                   <div>3x Pro Australian Zouk/Latin Champion</div>
                   <b-card-text>
@@ -354,11 +356,11 @@
                     <ul class="my-4">
                       Alisson loves to push himself and currently holds the
                       following titles:
-                      <li>- 3x Pro World Zouk Champion</li>
-                      <li>- 3x Pro Australian Zouk/Latin Champion</li>
+                      <li>3x Pro World Zouk Champion</li>
+                      <li>3x Pro Australian Zouk/Latin Champion</li>
                       <li>
-                        - Winner/Finalist of various BZDC All Stars/Champions
-                        Jack and Jill Comps and Invitationals.
+                        Winner/Finalist of various BZDC All Stars/Champions Jack
+                        and Jill Comps and Invitationals.
                       </li>
                     </ul>
                     <p class="my-4">
@@ -413,7 +415,9 @@
                   alt="Alison"
                 />
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">BRENDA CARVALHO</h5>
+                  <h5 class="card-title">
+                    <strong>BRENDA CARVALHO</strong>
+                  </h5>
                   <b-card-text>
                     Creator and organizer of the only Brazilian congress that
                     combines the use of Zouk as a tool for self-knowledge and
@@ -475,7 +479,9 @@
                   alt="Gui"
                 />
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">GUI PRADA</h5>
+                  <h5 class="card-title">
+                    <strong>GUI PRADA</strong>
+                  </h5>
                   <b-card-text>
                     Currently Gui Prada is one of the regular instructors of
                     Alex de Carvalho’s MAC program, where he teaches new
