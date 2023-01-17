@@ -1,8 +1,36 @@
 <template>
   <div>
     <header>
-      <div class="logo-header">
-        <div><img class="logo" src="/assets/banner/logo.png" /></div>
+      <div class="logo-header d-flex">
+        <div>
+          <img class="logo" src="/assets/banner/logo.png" />
+        </div>
+        <div>
+          <b-dropdown
+            id="dropdown-right"
+            right
+            variant="outline-secondary"
+            class="m-2"
+          >
+            <div class="header-dropdown-nav">
+              <a href="#schedule-section" class="header-dropdown-nav-item"
+                >Schedule</a
+              >
+              <a href="#venue-section" class="header-dropdown-nav-item"
+                >Venue</a
+              >
+              <a href="#passes-section" class="header-dropdown-nav-item"
+                >Passes</a
+              >
+              <a href="#artists-section" class="header-dropdown-nav-item"
+                >Artists</a
+              >
+              <a href="#about-ptz-section" class="header-dropdown-nav-item"
+                >About PTZ</a
+              >
+            </div>
+          </b-dropdown>
+        </div>
       </div>
       <div class="main-banner-container">
         <img class="main-banner-img" />
@@ -185,7 +213,7 @@
               />
               <div class="section-text">
                 <strong>Play:</strong> Kayaking; swan-boating; swimming; biking;
-                sauna, BBQ and more;
+                sauna, BBQ and more
               </div>
             </b-col>
             <b-col sm="6" lg="3" md="3" class="activities-item">
@@ -195,7 +223,7 @@
               />
               <div class="section-text">
                 <strong>Network:</strong> Meet and mingle with Zoukers from 20
-                countries;
+                countries
               </div>
             </b-col>
             <b-col sm="6" lg="3" md="3" class="activities-item">
@@ -315,7 +343,6 @@
                     size="xl"
                     title="ALISSON SANDI"
                     ok-only
-                    hide-header-close
                     ok-title="Close"
                   >
                     <p class="my-4">
@@ -432,7 +459,6 @@
                     size="xl"
                     title="BRENDA CARVALHO"
                     ok-only
-                    hide-header-close
                     ok-title="Close"
                   >
                     <p class="my-4">
@@ -496,7 +522,6 @@
                     size="xl"
                     title="GUI PRADA"
                     ok-only
-                    hide-header-close
                     ok-title="Close"
                   >
                     <p class="my-4">
@@ -581,20 +606,6 @@
             <div class="passes-sub-title" style="color: red">
               ONLY 100$ PER PAX
             </div>
-            <div class="passes-sub-title">GET THE TICKET.</div>
-            <div class="passes-sub-title">PAYMENT.</div>
-            <div class="section-text">
-              For room booking, please book directly with Ms. Hang (Tan Da
-              Resort)
-            </div>
-            <div class="section-text">
-              <div>1. Email: sales1@tandasparesort.com.vn</div>
-              <div>CC: phuongtrangzouk@gmail.com</div>
-              <div>Subject: "Booking for PTZ Apr 2023 event"</div>
-            </div>
-
-            <div class="section-text">2. Whatsapp: +84 989987117</div>
-
             <div>
               <b-button
                 class="passes-button"
@@ -626,6 +637,17 @@
                 </div>
               </b-modal>
             </div>
+            <div class="section-text">
+              For room booking, please book directly with Ms. Hang (Tan Da
+              Resort)
+            </div>
+            <div class="section-text">
+              <div>1. Email: sales1@tandasparesort.com.vn</div>
+              <div>CC: phuongtrangzouk@gmail.com</div>
+              <div>Subject: "Booking for PTZ Apr 2023 event"</div>
+            </div>
+
+            <div class="section-text">2. Whatsapp: +84 989987117</div>
           </div>
         </div>
       </div>
@@ -841,8 +863,36 @@ body {
   padding: 0px;
   box-sizing: border-box;
   .logo-header {
+    margin-left: 47%;
+    width: 53%;
     height: 55px;
     background-color: white;
+    justify-content: space-between;
+  }
+  @media (max-width: 430px) {
+    .logo-header {
+      margin-left: 35%;
+      width: 65%;
+    }
+  }
+}
+#dropdown-right {
+  display: none;
+}
+@media (max-width: 430px) {
+  #dropdown-right {
+    display: block;
+  }
+}
+.header-dropdown-nav {
+  display: flex;
+  flex-direction: column;
+  &-item {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    font-size: 18px;
+    padding: 5px 0px;
   }
 }
 .column-width {
@@ -923,11 +973,13 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../assets/banner/main-banner.webp");
   }
-  // @media (max-width: "430px") {
-  //   &-img {
-  //     margin-left: -500px;
-  //   }
-  // }
+  @media (max-width: "430px") {
+    &-img {
+      width: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../assets/banner/main-banner-rotate.png");
+    }
+  }
   &-title {
     position: absolute;
     top: 58%;
