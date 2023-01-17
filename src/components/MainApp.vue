@@ -960,15 +960,10 @@ body {
       top: 55%;
     }
     &-img {
-      height: 620px;
+      height: 1000px;
     }
     &-subtitle {
       font-size: 25px;
-    }
-  }
-  @media (max-width: 421px) {
-    &-img {
-      height: 700px;
     }
   }
 }
