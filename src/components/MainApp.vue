@@ -60,26 +60,26 @@
           <div>
             <div class="section-title">WELCOME TO HANOI!</div>
             <div class="quick-intro-content">
-              <div class="section-text">
+              <div class="section-text my-4">
                 Taking place at a wonderful resort about 1-hour drive from Hanoi
                 CBD, Zouk It Up with the Masters 2023 will host more than 100
                 zoukers from 20 countries. The very first time such an event
                 happening in Vietnam and the very first time after Covid, such
                 an event is organized in South East Asia.
               </div>
-              <div class="section-text">
+              <div class="section-text my-4">
                 Spreading from 14th to 17th April, Zouk It Up will have 12 hours
                 of workshops and 24 hours of parties with top-notched DJs in the
                 region.
               </div>
-              <div class="section-text">
+              <div class="section-text my-4">
                 Tan Da is a beautiful resort hidden in the charms of the Ba Vi
                 mountains. In the resort, participants can enjoy such leisure
                 activities as kayaking, swimming, sauna, swan-boating, BBQ,
                 inter alia. The resort provides for a tranquil and peaceful
                 atmosphere.
               </div>
-              <div class="section-text">
+              <div class="section-text my-4">
                 Wait no more. Save the dates! Book your flights and join us!
                 Let's dance our legs off!
               </div>
@@ -216,21 +216,21 @@
         <div class="section-title">VENUE</div>
         <div class="venue-container">
           <div class="venue-content">
-            <div class="venue-sub-title">
+            <div class="venue-sub-title my-4">
               TAN DA SPA RESORT - VAN HOA, BA VI, HANOI, VIETNAM
             </div>
-            <div class="section-text">
+            <div class="section-text my-4">
               The resort is within easy reach by a sixty-minute drive from Hanoi
               CBD, and only one and a half hour drive from Noi Bai International
               Airport.
             </div>
-            <div class="section-text">
+            <div class="section-text my-4">
               The resort has 3 sections consisting of 98 rooms facing Suoi Bon
               lake or green garden and share a traditional Tonkin-styled design,
               providing a great level of comfort while presenting a modern
               standard of Vietnamese luxury.
             </div>
-            <div class="section-text">
+            <div class="section-text my-4">
               What the resort has to offer includes a wide selection of
               pampering services. Stimulate the senses with rejuvenating
               treatments for mind and body at the Spa or recharge in the outdoor
@@ -238,7 +238,7 @@
               bathing, soaking in aromatherapy with the stream, kayaking, etc
               are also provided.
             </div>
-            <div class="section-text">
+            <div class="section-text my-4">
               The resort is also home to 3 restaurants, 2 bars, and 1 cafe'. The
               restaurant serves an extensive selection of Vietnamese cuisine and
               fresh tropical fruits. The bar is a wonderful choice for you to
@@ -279,7 +279,7 @@
       <hr class="artist-line" />
       <div id="artists-section">
         <div class="section-title">ARTISTS</div>
-        <div class="section-text">
+        <div class="section-text my-4">
           The triple features experienced professionals for teaching Brazilian
           Zouk around the world, which come from different backgrounds but hold
           the same high level of passion regarding their teaching job. From
@@ -299,11 +299,10 @@
                   <h5 class="card-title">
                     <strong>ALISSON SANDI</strong>
                   </h5>
-                  <div>3x Pro World Zouk Champion</div>
-                  <div>3x Pro Australian Zouk/Latin Champion</div>
-                  <b-card-text>
-                    Winner/Finalist of various BZDC All Stars/Champions Jack and
-                    Jill Comps and Invitationals.
+                  <b-card-text class="section-text my-4">
+                    An official head judge and an important member for the
+                    Brazilian Zouk Dance Council since its first competition
+                    event in 2014.
                   </b-card-text>
 
                   <b-button
@@ -418,10 +417,10 @@
                   <h5 class="card-title">
                     <strong>BRENDA CARVALHO</strong>
                   </h5>
-                  <b-card-text>
+                  <b-card-text class="section-text my-4">
                     Creator and organizer of the only Brazilian congress that
                     combines the use of Zouk as a tool for self-knowledge and
-                    other human development tools, Beyond Dance
+                    other human development tools, Beyond Dance.
                   </b-card-text>
                   <b-button
                     v-b-modal.modal-xl-2
@@ -482,10 +481,10 @@
                   <h5 class="card-title">
                     <strong>GUI PRADA</strong>
                   </h5>
-                  <b-card-text>
-                    Currently Gui Prada is one of the regular instructors of
-                    Alex de Carvalho’s MAC program, where he teaches new
-                    instructors how to learn, talk about and teach connection.
+                  <b-card-text class="section-text my-4">
+                    One of the regular instructors of Alex de Carvalho’s MAC
+                    program, where he teaches new instructors how to learn, talk
+                    about and teach connection.
                   </b-card-text>
                   <b-button
                     v-b-modal.modal-xl-3
