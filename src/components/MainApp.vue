@@ -892,7 +892,7 @@ body {
     color: white;
     font-size: 20px;
   }
-  @media (max-width: 426px) {
+  @media (max-width: 430px) {
     &-item {
       display: none;
       font-size: 12px;
@@ -960,7 +960,7 @@ body {
       top: 55%;
     }
     &-img {
-      height: 1000px;
+      height: 700px;
     }
     &-subtitle {
       font-size: 25px;
@@ -1283,7 +1283,7 @@ body {
     width: 12%;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 430px) {
   .book-now {
     font-size: 10px !important;
     width: 15%;
