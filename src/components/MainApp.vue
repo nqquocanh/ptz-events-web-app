@@ -923,7 +923,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../assets/banner/main-banner.webp");
   }
-  // @media (max-width: "376px") {
+  // @media (max-width: "430px") {
   //   &-img {
   //     margin-left: -500px;
   //   }
@@ -954,7 +954,7 @@ body {
       height: 550px;
     }
   }
-  @media (max-width: 376px) {
+  @media (max-width: 430px) {
     &-title {
       font-size: 38px;
       top: 55%;
@@ -964,6 +964,11 @@ body {
     }
     &-subtitle {
       font-size: 25px;
+    }
+  }
+  @media (max-width: 421px) {
+    &-img {
+      height: 700px;
     }
   }
 }
@@ -993,7 +998,7 @@ body {
       font-size: 15px;
     }
   }
-  @media (max-width: 426px) {
+  @media (max-width: 430px) {
     &-clock {
       margin: auto;
       width: 80%;
@@ -1001,7 +1006,7 @@ body {
       border: solid 1px;
     }
   }
-  @media (max-width: 376px) {
+  @media (max-width: 430px) {
     &-time-number {
       font-size: 18px;
     }
@@ -1064,7 +1069,7 @@ body {
     @media (max-width: 769px) {
       font-size: 15px;
     }
-    @media (max-width: 376px) {
+    @media (max-width: 430px) {
       margin-top: 10px;
     }
   }
@@ -1080,7 +1085,7 @@ body {
       margin-left: 20px;
       margin-top: 10px;
     }
-    @media (max-width: 376px) {
+    @media (max-width: 430px) {
       &-date {
         margin-bottom: 10px;
       }
@@ -1289,13 +1294,13 @@ body {
     width: 15%;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 430px) {
   .book-now {
     font-size: 10px !important;
     width: 18%;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 430px) {
   .book-now {
     font-size: 10px !important;
     width: 20%;
