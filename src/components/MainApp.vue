@@ -128,6 +128,10 @@
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
+                  <i class="fa-regular fa-clock"></i> 7:00PM-8:00PM:
+                  Registration Desk Open
+                </div>
+                <div>
                   <i class="fa-regular fa-clock"></i> 8:00 PM - 2:00 AM (+1):
                   Pre-Party - Tan Da resort
                 </div>
@@ -143,6 +147,10 @@
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
+                <div>
+                  <i class="fa-regular fa-clock"></i> 9:00AM-10:00AM:
+                  Registration Desk Open
+                </div>
                 <div>
                   <i class="fa-regular fa-clock"></i> 10:00 AM - 6:00 PM:
                   Workshop - Tan Da resort
@@ -163,6 +171,10 @@
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
+                <div>
+                  <i class="fa-regular fa-clock"></i> 9:00AM-10:00AM:
+                  Registration Desk Open
+                </div>
                 <div>
                   <i class="fa-regular fa-clock"></i> 10:00 AM - 6:00 PM:
                   Workshop - Tan Da resort
@@ -648,6 +660,24 @@
             </div>
 
             <div class="section-text">2. Whatsapp: +84 989987117</div>
+            <hr />
+            <div class="section-text">
+              <div class="section-sub-title">
+                BUDDIES PASS, SAVING VND 600,000
+              </div>
+              <img
+                src="../assets/passes/buddies-pass.jpg"
+                width="400"
+                height="300"
+              />
+              <div class="section-text">
+                A reduction of VND 600,000 when registering as Leader - Follower
+              </div>
+              <div class="section-text">
+                Now only VND 4,400,000 / 2 pax (instead of VND 5,000,000 / 2
+                pax)
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -924,7 +954,7 @@ body {
     }
     &-sub-title {
       font-size: 16px;
-      margin: 0px;
+      margin: 0px 0px 10px 0px;
     }
     &-text {
       font-size: 16px;
@@ -1109,8 +1139,8 @@ body {
     }
   }
   &-activities {
-    margin-top: 30px;
-    margin-left: 1%;
+    margin-top: 15px;
+    margin-left: 0.5%;
     width: 50%;
     font-size: 20px;
     @media (max-width: 769px) {
