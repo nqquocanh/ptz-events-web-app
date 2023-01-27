@@ -880,13 +880,13 @@ export default {
     meta: [
       {
         property: "og:image",
-        content: "../assets/banner/main-banner-rotate.png",
+        content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
       },
     ],
   },
   mounted() {
     this.$meta.setTag('property="og:image"', {
-      content: "../assets/banner/main-banner-rotate.png",
+      content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
     });
     window.addEventListener("scroll", this.handleScroll);
   },
