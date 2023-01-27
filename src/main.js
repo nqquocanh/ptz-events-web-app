@@ -4,9 +4,11 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueCountdown from '@chenfengyuan/vue-countdown'
+import VueMeta from 'vue-meta'
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
+Vue.use(VueMeta)
 Vue.config.productionTip = false
 Vue.component(VueCountdown.name, VueCountdown)
 

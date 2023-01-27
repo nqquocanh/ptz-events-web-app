@@ -649,6 +649,24 @@
                 </div>
               </b-modal>
             </div>
+            <div class="passes-notes">
+              <div><strong>Important things to note:</strong></div>
+              <div>
+                1. Passes to the event are transferrable and not refundable
+              </div>
+              <div>
+                2. The organizer reserves the right to remove any participant(s)
+                from the event if they are deemed to have disrupted the event or
+                displayed behavior that compromises the safety of other
+                participants. No refund will be issued in such cases
+              </div>
+              <div>
+                3. The organizer shall not be held responsible for any damage,
+                loss or property and/or injury incurred as a result of you
+                attending the event
+              </div>
+            </div>
+            <hr />
             <div class="section-text">
               For room booking, please book directly with Ms. Hang (Tan Da
               Resort)
@@ -857,6 +875,14 @@ export default {
       scY: 0,
       end: new Date("April 14, 2023"),
     };
+  },
+  metaInfo: {
+    meta: [
+      {
+        property: "og:image",
+        content: "../assets/banner/main-banner-rotate.png",
+      },
+    ],
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
@@ -1254,6 +1280,10 @@ body {
   }
   &-button {
     margin: 20px auto;
+  }
+  &-notes {
+    font-size: 15px;
+    text-align: left;
   }
   &-text {
     font-size: 18px;
