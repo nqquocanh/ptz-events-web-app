@@ -19,7 +19,8 @@
     "core-js": "^3.8.3",
     "vue": "^2.7.14",
     "vue-backtotop": "^1.6.1",
-    "vue-meta": "^2.4.0"
+    "vue-meta": "^2.4.0",
+    "vue-social-sharing": "^3.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
