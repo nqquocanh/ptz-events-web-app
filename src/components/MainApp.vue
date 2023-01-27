@@ -885,6 +885,9 @@ export default {
     ],
   },
   mounted() {
+    this.$meta.setTag('property="og:image"', {
+      content: "../assets/banner/main-banner-rotate.png",
+    });
     window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
