@@ -869,14 +869,6 @@
 </template>
 <script>
 export default {
-  metaInfo: {
-    title: "My Example App",
-    htmlAttrs: {
-      lang: "en",
-      amp: true,
-      ImageData: "../assets/banner/main-banner-rotate.png",
-    },
-  },
   data() {
     return {
       scTimer: 0,
@@ -885,6 +877,12 @@ export default {
     };
   },
   mounted() {
+    this.$meta.setTag('property="og:image"', {
+      content: "https://example.com/image.jpg",
+    });
+    this.$meta.setTag('property="og:title"', {
+      content: "My Web Application Title",
+    });
     window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
