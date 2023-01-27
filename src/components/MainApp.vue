@@ -876,18 +876,7 @@ export default {
       end: new Date("April 14, 2023"),
     };
   },
-  metaInfo: {
-    meta: [
-      {
-        property: "og:image",
-        content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
-      },
-    ],
-  },
   mounted() {
-    this.$meta.setTag('property="og:image"', {
-      content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
-    });
     window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
