@@ -869,16 +869,16 @@
 </template>
 <script>
 export default {
-  meta: [
-    {
-      name: "description",
-      content: "This is my awesome web application.",
-    },
-    {
-      property: "og:image",
-      content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
-    },
-  ],
+  // meta: [
+  //   {
+  //     name: "description",
+  //     content: "This is my awesome web application.",
+  //   },
+  //   {
+  //     property: "og:image",
+  //     content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
+  //   },
+  // ],
   data() {
     return {
       scTimer: 0,
