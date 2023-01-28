@@ -869,6 +869,16 @@
 </template>
 <script>
 export default {
+  meta: [
+    {
+      name: "description",
+      content: "This is my awesome web application.",
+    },
+    {
+      property: "og:image",
+      content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
+    },
+  ],
   data() {
     return {
       scTimer: 0,
@@ -877,12 +887,6 @@ export default {
     };
   },
   mounted() {
-    this.$meta.setTag('property="og:image"', {
-      content: "https://example.com/image.jpg",
-    });
-    this.$meta.setTag('property="og:title"', {
-      content: "My Web Application Title",
-    });
     window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
