@@ -97,7 +97,7 @@
               </div>
               <div class="section-text my-4">
                 Spreading from 14th to 17th April, Zouk It Up will have 12 hours
-                of workshops and 24 hours of parties with top-notched DJs in the
+                of workshops and 20 hours of parties with top-notched DJs in the
                 region.
               </div>
               <div class="section-text my-4">
