@@ -320,22 +320,19 @@
       <div class="section-title">CHILL OUT AT THE POOL PARTY</div>
       <div class="pool-party-container">
         <div class="pool-party-text">
-          <div class="section-text my-4">
+          <div class="section-text">
             An extremely vibrant and passionate experience will take place right
             at Tan Da Resort - the venue for Zouk It Up with the Masters event
-            with a series of the most exciting outdoor activities - Pool Party!
+            with a series of the most exciting outdoor activities -
+            <strong>Pool Party!</strong>
           </div>
-          <div class="section-text my-4">
+          <div class="section-text">
             If you decide to be a part of this event, don't miss the pool party
             after hours of Workshops with us.
           </div>
         </div>
         <div>
           <div class="section-sub-title">POOL PARTY</div>
-          <div class="section-text my-4">
-            If you decide to be a part of this event, don't miss the pool party
-            after hours of Workshops with us.
-          </div>
           <div>
             <div class="section-text">
               <strong>Time: </strong>15:00 - 17:00 Friday, April 14, 2023
@@ -344,7 +341,7 @@
               <strong>Location: </strong> Outdoor swimming pool - Tan Da Resort
             </div>
           </div>
-          <div class="section-text my-4">
+          <div class="section-text">
             Don't miss the hottest event this April!
           </div>
           <div>
