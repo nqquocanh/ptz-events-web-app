@@ -316,6 +316,46 @@
           </b-row>
         </div>
       </div>
+      <hr />
+      <div class="section-title">CHILL OUT AT THE POOL PARTY</div>
+      <div class="pool-party-container">
+        <div class="pool-party-text">
+          <div class="section-text my-4">
+            An extremely vibrant and passionate experience will take place right
+            at Tan Da Resort - the venue for Zouk It Up with the Masters event
+            with a series of the most exciting outdoor activities - Pool Party!
+          </div>
+          <div class="section-text my-4">
+            If you decide to be a part of this event, don't miss the pool party
+            after hours of Workshops with us.
+          </div>
+        </div>
+        <div>
+          <div class="section-sub-title">POOL PARTY</div>
+          <div class="section-text my-4">
+            If you decide to be a part of this event, don't miss the pool party
+            after hours of Workshops with us.
+          </div>
+          <div>
+            <div class="section-text">
+              <strong>Time: </strong>15:00 - 17:00 Friday, April 14, 2023
+            </div>
+            <div class="section-text">
+              <strong>Location: </strong> Outdoor swimming pool - Tan Da Resort
+            </div>
+          </div>
+          <div class="section-text my-4">
+            Don't miss the hottest event this April!
+          </div>
+          <div>
+            <img
+              class="pool-party-img"
+              src="/assets/pool-party/pool-party.jpg"
+            />
+          </div>
+        </div>
+      </div>
+
       <hr class="artist-line" />
       <div id="artists-section">
         <div class="section-title">ARTISTS</div>
@@ -367,7 +407,7 @@
                     </p>
                     <p class="my-4">
                       In 2007, he moved to Perth (Australia) where he joined
-                      Juan Rando Dance Academy (JRDA) to start the Brazilian
+                      Juan Rando Dance Academly (JRDA) to start the Brazilian
                       dance scene from scratch and continue developing it for
                       the following 10 years. He also trained multiple teachers,
                       international artists, and others who have opened their
@@ -1221,6 +1261,13 @@ body {
       width: 25%;
     }
   }
+}
+.pool-party-time {
+  text-align: left;
+}
+.pool-party-img {
+  width: 70%;
+  border-radius: 10px;
 }
 
 .venue-container {
