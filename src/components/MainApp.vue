@@ -719,8 +719,8 @@
               </div>
               <img
                 src="../assets/passes/buddies-pass.jpg"
-                width="400"
-                height="300"
+                width="350"
+                height="280"
               />
               <div class="section-text">
                 A reduction of VND 600,000 when registering as Leader - Follower
