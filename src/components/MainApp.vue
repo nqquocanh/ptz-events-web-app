@@ -647,11 +647,8 @@
       <hr />
       <div id="passes-section">
         <div class="section-title">PASSES</div>
-        <div class="passes-container">
-          <!-- <div class="passes-img">
-            <img class="passes-img" src="/assets/passes/passes-1.png" />
-          </div> -->
-          <div class="section-text">
+        <div>
+          <div>
             <div class="passes-sub-title" style="color: red">
               ONLY 100$ PER PAX
             </div>
@@ -722,8 +719,8 @@
               </div>
               <img
                 src="../assets/passes/buddies-pass.jpg"
-                width="400"
-                height="300"
+                width="300"
+                height="200"
               />
               <div class="section-text">
                 A reduction of VND 600,000 when registering as Leader - Follower
