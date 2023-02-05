@@ -16,6 +16,9 @@
               <a href="#schedule-section" class="header-dropdown-nav-item"
                 >Schedule</a
               >
+              <a href="#agenda-section" class="header-dropdown-nav-item"
+                >Agenda</a
+              >
               <a href="#venue-section" class="header-dropdown-nav-item"
                 >Venue</a
               >
@@ -73,6 +76,7 @@
         </div>
         <div class="nav-bar">
           <a class="nav-bar-item" href="#schedule-section">Schedule</a>
+          <a class="nav-bar-item" href="#agenda-section">Agenda</a>
           <a class="nav-bar-item" href="#venue-section">Venue</a>
           <a class="nav-bar-item" href="#passes-section">Passes</a>
           <a class="nav-bar-item" href="#artists-section">Artists</a>
@@ -204,6 +208,15 @@
         </div>
         <hr />
       </div>
+      <hr />
+      <div id="agenda-section">
+        <div class="section-title">AGENDA</div>
+        <b-row>
+          <b-col>
+            <img class="agenda-img" src="/assets/agenda/agenda.jpg" /> </b-col
+        ></b-row>
+      </div>
+      <hr />
       <div id="activities-section">
         <div class="section-title">ACTIVITIES SUMMARY</div>
         <div class="activities-content">
@@ -1230,6 +1243,9 @@ body {
       }
     }
   }
+}
+.agenda-img {
+  width: 100%;
 }
 .activities {
   &-content {
