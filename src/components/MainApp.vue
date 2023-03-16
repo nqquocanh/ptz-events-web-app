@@ -712,6 +712,13 @@
                 loss or property and/or injury incurred as a result of you
                 attending the event
               </div>
+              <div>
+                4. Please note that according to prevailing rules at Tan Da
+                resort, for those who do not stay at the resort, every entrance
+                to the resort will be charged VND220k or ~USD9 and a fee will be
+                charged for using the resort's services. These are Not applied
+                for those who stay at the resort
+              </div>
             </div>
             <hr />
             <div class="section-text">
@@ -845,11 +852,15 @@
             <div class="section-text my-4">
               Phuong and Trang won their first international trophy in 2018 with
               the 2nd place in the ProAm Competition at ZoukSEA. Since then,
-              they have been performing in various congresses, both nationally,
-              such as the Vietnam Latin Xperience, the Vietnam International
-              Latin Festival, and internationally, like ZoukSensation and the
-              1st China Zouk Congress in Shanghai. Phuong and Trang also taught
-              workshops in multiple events at home and abroad.
+              they have been performing and teaching in various congresses, both
+              nationally, such as the Vietnam Latin Xperience, the Vietnam
+              International Latin Festival, and internationally, like
+              ZoukSensation and the 1st China Zouk Congress in Shanghai. Phuong
+              and Trang have also attended various Zouk congresses abroad where
+              they promoted Zouk in Vietnam and also invited reputational
+              artists to teach in the country, such as BDF - Brazilian Dance
+              Festival - in Amsterdam, Brazuky Australia, Helsinki Zouk
+              Festival, Zouk Sensation, ZoukSEA, to name a few.
             </div>
           </div>
         </div>
