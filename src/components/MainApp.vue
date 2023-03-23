@@ -217,6 +217,32 @@
         ></b-row>
       </div>
       <hr />
+      <div id="dresscode-section">
+        <div class="section-title">DRESS CODE</div>
+        <div class="activities-content">
+          <b-row class="column-width">
+            <b-col lg="4" md="6" sm="6" class="mb-3">
+              <img
+                class="card-img-top"
+                src="/assets/dresscode/dresscode-14.png"
+              />
+            </b-col>
+            <b-col lg="4" md="4" sm="6" class="mb-3">
+              <img
+                class="card-img-top"
+                src="/assets/dresscode/dresscode-15.png"
+              />
+            </b-col>
+            <b-col lg="4" md="4" sm="6" class="mb-3">
+              <img
+                class="card-img-top"
+                src="/assets/dresscode/dresscode-16.png"
+              />
+            </b-col>
+          </b-row>
+        </div>
+      </div>
+      <hr />
       <div id="activities-section">
         <div class="section-title">ACTIVITIES SUMMARY</div>
         <div class="activities-content">
@@ -1014,6 +1040,9 @@ body {
 .column-width {
   width: 100%;
   margin: 0px !important;
+}
+.column-width-dresscode {
+  width: 120%;
 }
 .section {
   &-title {
