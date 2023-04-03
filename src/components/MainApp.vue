@@ -28,6 +28,11 @@
               <a href="#artists-section" class="header-dropdown-nav-item"
                 >Artists</a
               >
+              <a
+                href="#code-of-conduct-section"
+                class="header-dropdown-nav-item"
+                >Code of Conduct</a
+              >
               <a href="#about-ptz-section" class="header-dropdown-nav-item"
                 >About PTZ</a
               >
@@ -80,6 +85,9 @@
           <a class="nav-bar-item" href="#venue-section">Venue</a>
           <a class="nav-bar-item" href="#passes-section">Passes</a>
           <a class="nav-bar-item" href="#artists-section">Artists</a>
+          <a class="nav-bar-item" href="#code-of-conduct-section"
+            >Code of conduct</a
+          >
           <a class="nav-bar-item" href="#about-ptz-section">About PTZ</a>
         </div>
       </div>
@@ -775,6 +783,93 @@
                 Now only VND 4,400,000 / 2 pax (instead of VND 5,000,000 / 2
                 pax)
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div id="code-of-conduct-section">
+        <div class="section-title">CODE OF CONDUCT</div>
+        <div class="about-ptz-container">
+          <div class="about-ptz-text">
+            <div class="section-text my-4">
+              Zouk It Up is committed to the safe, comfortable and inclusive
+              enjoyment of dance for all; regardless of dance skill level,
+              gender identity or expression, age, sexual orientation, ability,
+              physical appearance, body, race, religion, or any other
+              characteristic or trait. Everyone participating in our events is
+              expected to abide by our rules and guidelines, and demonstrate
+              respect for all participants.
+            </div>
+            <div class="section-text">
+              <strong>Dance floor safety </strong>
+            </div>
+            <ul class="section-text">
+              <li>
+                Always invite and NEVER force your partner into a movement
+                beyond their current experience, skill or fitness level; or
+                otherwise outside of their comfort zone.
+              </li>
+              <li>
+                Never lead a beginner dancer, or lead yourself as a beginner
+                dancer into head movements/frango assado/tilted turns, and be
+                careful with moves such as planks, cambres, counter balances or
+                any non-vertical moves. These moves can easily cause injury.
+              </li>
+              <li>
+                Respect your dance partner’s boundaries, both stated and
+                implied. If your partner asks you not to do something, either
+                verbally or physically, don’t do it.
+              </li>
+              <li>
+                Please use your full range of senses on the dance floor to avoid
+                collisions and injuries. On crowded dance floors, we advise
+                against leading or following any non-vertical head movement.
+              </li>
+            </ul>
+            <div class="section-text">
+              <strong>Dance floor respect </strong>
+            </div>
+            <ul class="section-text">
+              <li>
+                If someone says no to a dance, respect their answer and try not
+                to take it personally. There are many reasons to say no to a
+                dance that are no reflection on you.
+              </li>
+              <li>
+                While close hold is for many an enjoyable part of Brazilian
+                Zouk, it is not necessary for a fun, connected and beautiful
+                dance. Carefully gauge your partner’s comfort level with body
+                contact, and NEVER force someone to dance closer than their
+                preference.
+              </li>
+              <li>
+                Do not give your partner unsolicited suggestions for improvement
+                while on the social floor. This can be disheartening in a space
+                intended to celebrate and enjoy the dance.
+              </li>
+              <li>
+                Harassment will not be tolerated. Harassment includes (but is
+                not limited to) inappropriate comments, verbal abuse,
+                intimidation, bullying, stalking, harassing photography or
+                recording, sustained disruption, unwanted physical contact, and
+                unwanted sexual attention.
+              </li>
+            </ul>
+            <div class="section-text my-4">
+              If anyone is observed or reported engaging in harassing or unsafe
+              behaviour, Zouk It Up staff will take any action we deem
+              appropriate. Anyone asked to stop harassing or unsafe behaviour is
+              expected to comply immediately. Continued harassing or unsafe
+              behaviour may result in expulsion from the event, and potentially
+              referral to the police.
+            </div>
+            <div class="section-text my-4">
+              If you ever feel uncomfortable, unsafe, marginalised,
+              disrespected, or treated unfairly in our workshops or socials,
+              please find a Zouk It Up staff member. We can provide you with
+              support, confidentiality, take measures to rectify the situation,
+              and help you file a report if you wish.
             </div>
           </div>
         </div>
