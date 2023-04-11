@@ -391,6 +391,10 @@
           <div class="section-text">
             Don't miss the hottest event this April!
           </div>
+          <div class="pool-notes">
+            <strong>*Note:</strong>
+            Pool party is not inclusive in the fullpasss of main event
+          </div>
           <div>
             <img
               class="pool-party-img"
@@ -1577,6 +1581,9 @@ body {
   top: 90%;
   width: 7%;
   font-size: 15px;
+}
+.pool-notes {
+  margin-bottom: 32px;
 }
 @media (max-width: 1025px) {
   .book-now {
