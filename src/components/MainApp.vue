@@ -36,6 +36,13 @@
               <a href="#about-ptz-section" class="header-dropdown-nav-item"
                 >About PTZ</a
               >
+              <router-link
+                to="/past-events"
+                style="text-decoration: none"
+                class="mx-auto"
+              >
+                <a class="header-dropdown-nav-item">Past Events</a>
+              </router-link>
             </div>
           </b-dropdown>
         </div>
@@ -89,6 +96,9 @@
             >Code of conduct</a
           >
           <a class="nav-bar-item" href="#about-ptz-section">About PTZ</a>
+          <router-link to="/past-events" style="text-decoration: none">
+            <a class="nav-bar-item">Past Events</a>
+          </router-link>
         </div>
       </div>
       <hr />
@@ -1052,16 +1062,7 @@
 </template>
 <script>
 export default {
-  // meta: [
-  //   {
-  //     name: "description",
-  //     content: "This is my awesome web application.",
-  //   },
-  //   {
-  //     property: "og:image",
-  //     content: "https://www.zoukitup.vn/img/main-banner.bdb8701a.webp",
-  //   },
-  // ],
+  name: "MainApp",
   data() {
     return {
       scTimer: 0,
