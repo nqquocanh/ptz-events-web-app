@@ -1,0 +1,49 @@
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    &-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #6305a6;
+    }
+
+    &-sub-title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &-text {
+        margin: 15px 0px;
+        font-size: 20px;
+    }
+
+    @media (max-width: 769px) {
+        &-title {
+            font-size: 20px;
+            margin: 0px;
+        }
+
+        &-sub-title {
+            font-size: 16px;
+        }
+
+        &-text {
+            font-size: 16px;
+        }
+    }
+}
+
+.body-container {
+    width: 70%;
+    margin: auto;
+
+    @media (max-width: 769px) {
+        width: 95%;
+    }
+}

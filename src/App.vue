@@ -1,16 +1,17 @@
 <template>
   <div id="app">
+    <the-header />
     <router-view />
+    <the-footer />
   </div>
 </template>
 
 <script>
-// import MainAppVue from "./components/MainApp.vue";
+import TheFooter from "./components/layout/TheFooter.vue";
+import TheHeader from "./components/layout/TheHeader.vue";
 export default {
+  components: { TheHeader, TheFooter },
   name: "App",
-  // components: {
-  //   MainAppVue,
-  // },
 };
 </script>
 
