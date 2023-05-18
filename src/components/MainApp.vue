@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div>
-      <router-link to="/past-events" style="text-decoration: none">
-        <a class="text-decoration-none position-absolute top-5 end-0"
-          >Past Events</a
-        >
-      </router-link>
-    </div>
     <div class="body-container">
       <UpcomingEvents />
       <hr />
@@ -129,5 +122,8 @@ import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
 export default {
   components: { UpcomingEvents },
   name: "MainApp",
+  data() {
+    return {};
+  },
 };
 </script>

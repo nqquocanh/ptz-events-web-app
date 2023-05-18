@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <router-link to="/" style="text-decoration: none">
-      <a class="text-decoration-none position-absolute top-5 end-0">Homepage</a>
-    </router-link>
+  <div class="body-container">
     <div>
       <div class="section-title">PAST EVENTS</div>
     </div>
