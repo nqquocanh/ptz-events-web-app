@@ -1,5 +1,5 @@
 <template>
-  <div class="body-container">
+  <div class="body-container pt-5">
     <div>
       <div class="section-title">PAST EVENTS</div>
     </div>

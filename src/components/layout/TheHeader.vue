@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-4">
+  <div>
     <div class="pb-1">
       <img
         style="width: 120px; height: 50px"
@@ -12,14 +12,15 @@
         style="right: 0"
       >
         <router-link to="/" style="text-decoration: none">
-          <a class="text-decoration-none text-white">Home</a>
+          <a class="text-decoration-none" style="color: #b867cc">Home</a>
         </router-link>
-        <div class="dropdown" role="button">
+        <div class="dropdown text-primary" role="button">
           <div
-            class="btn-secondary dropdown-toggle cursor"
+            class="dropdown-toggle cursor"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            style="color: #b867cc"
           >
             Upcoming Events
           </div>
@@ -30,55 +31,9 @@
           </ul>
         </div>
         <router-link to="/past-events" style="text-decoration: none">
-          <a class="text-decoration-none text-white">Past Events</a>
+          <a class="text-decoration-none" style="color: #b867cc">Past Events</a>
         </router-link>
       </div>
-    </div>
-    <div class="text-white text-align-center">
-      <div
-        class="position-absolute"
-        style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
-      >
-        <div class="fs-1 p-2">PTZ - DANCE YOUR WAY</div>
-        <div class="fs-1 p-2">BRAZILIAN ZOUK EVENTS & FESTIVAL</div>
-        <div class="fs-4 p-2">Don't miss our latest dance event</div>
-        <div class="fs-4">Aug 2-5 2023, Hanoi, Vietnam</div>
-        <div class="fs-4 p-2 pb-4">Register Now!</div>
-        <div>
-          <countdown :time="countdownTime()">
-            <template slot-scope="props">
-              <div
-                class="py-4 w-75 bg-transparent text-white border border-white m-auto rounded"
-              >
-                <div class="d-flex gap-4 justify-content-center fs-5">
-                  <div>
-                    <div>{{ props.days }}</div>
-                    <div>days</div>
-                  </div>
-                  <div>
-                    <div>{{ props.hours }}</div>
-                    <div>hours</div>
-                  </div>
-                  <div>
-                    <div>
-                      {{ props.minutes }}
-                    </div>
-                    <div class="countdown-time-unit">minutes</div>
-                  </div>
-                  <div>
-                    <div>
-                      {{ props.seconds }}
-                    </div>
-                    <div>seconds</div>
-                  </div>
-                </div>
-              </div>
-            </template>
-          </countdown>
-        </div>
-      </div>
-      <img class="main-banner" />
-      <div></div>
     </div>
   </div>
 </template>
