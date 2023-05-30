@@ -25,7 +25,9 @@
             Upcoming Events
           </div>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Fly with Lambada</a></li>
+            <router-link to="/upcoming-event-1" style="text-decoration: none">
+              <li><a class="dropdown-item" href="#">Fly with Lambada</a></li>
+            </router-link>
             <li><a class="dropdown-item" href="#">Upcoming Event 2</a></li>
             <li><a class="dropdown-item" href="#">Upcoming Event 3</a></li>
           </ul>

@@ -10,7 +10,7 @@
         >
           <div class="card p-4" style="gap: 10px">
             <div
-              class="card text-white fs-4 p-3 w-50 m-auto"
+              class="card text-white fs-4 p-3 w-50 m-auto rounded-0"
               style="background-color: #b867cc"
             >
               {{ event.time }}
@@ -27,24 +27,40 @@
                 <div>
                   <p style="text-align: justify">{{ event.description }}</p>
                   <div class="d-flex gap-2">
-                    <button type="button" class="btn btn-primary">
+                    <button
+                      type="button"
+                      class="btn text-white"
+                      style="background-color: #b867cc"
+                    >
                       Get Your Ticket Now
                     </button>
-                    <button type="button" class="btn btn-warning">
-                      See More
-                    </button>
+                    <router-link
+                      to="/upcoming-event-1"
+                      style="text-decoration: none"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-white border border-dark"
+                        style="border-color: black"
+                      >
+                        See More
+                      </button>
+                    </router-link>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="pt-2">
+            <div class="pt-4">
               <countdown :time="countdownTime()">
                 <template slot-scope="props">
                   <div
-                    class="py-2 border border-dark m-auto rounded text-white"
+                    class="py-2 m-auto rounded-0 text-white"
                     style="background-color: #b867cc"
                   >
-                    <div class="d-flex gap-4 justify-content-center fs-5">
+                    <div
+                      class="d-flex justify-content-center fs-5"
+                      style="gap: 20vh"
+                    >
                       <div>
                         <div>{{ props.days }}</div>
                         <div>days</div>
@@ -57,7 +73,7 @@
                         <div>
                           {{ props.minutes }}
                         </div>
-                        <div class="countdown-time-unit">minutes</div>
+                        <div>minutes</div>
                       </div>
                       <div>
                         <div>
@@ -77,8 +93,10 @@
   </div>
 </template>
 <script>
+import transferMoney from "../modal/transfer-money.vue";
 export default {
   name: "UpcomingEvents",
+  components: transferMoney,
   data() {
     return {
       upcomingEventsInfo: [
@@ -86,7 +104,7 @@ export default {
           key: 1,
           title: "FLY WITH LAMBADA SENSATION",
           imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg"),
-          description: `Following the success of the event in April, this coming August, PTZ will continue to bring to the Zouk Community in Vietnam wonderful experiences with Lambada dance. All Lambada's foundation techniques, advanced dance moves, wifi gameplay will be revealed at our event - “Fly with Lambada Sensation” with the participation of 2 top artists, Gilson and Mailys . Gilson is known as "Lambada guru - The veteran artist of Lambada village" in the world. Coming to the event, you will understand why Lambada is loved and "crazy" by so many people`,
+          description: `Following the success of the event in April, this coming August, PTZ will continue to bring to the Zouk Community in Vietnam wonderful experiences with Lambada dance. All Lambada's foundation techniques, advanced dance moves, wifi gameplay will be revealed at our event - “Fly with Lambada Sensation” with the participation of 2 top artists, Gilson and Mailys.`,
           time: "2 - 7 August, 2023",
         },
       ],
@@ -104,20 +122,6 @@ export default {
       let distance = this.end - now;
       return distance;
     },
-    // handleScroll: function () {
-    //   if (this.scTimer) return;
-    //   this.scTimer = setTimeout(() => {
-    //     this.scY = window.scrollY;
-    //     clearTimeout(this.scTimer);
-    //     this.scTimer = 0;
-    //   }, 100);
-    // },
-    // toTop: function () {
-    //   window.scrollTo({
-    //     top: 0,
-    //     behavior: "smooth",
-    //   });
-    // },
   },
 };
 </script>

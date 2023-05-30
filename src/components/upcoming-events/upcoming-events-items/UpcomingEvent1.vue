@@ -1,109 +1,5 @@
 <template>
   <div>
-    <header>
-      <div class="logo-header d-flex">
-        <div>
-          <img class="logo" src="/assets/banner/logo.png" />
-        </div>
-        <div>
-          <b-dropdown
-            id="dropdown-right"
-            right
-            variant="outline-secondary"
-            class="m-2"
-          >
-            <div class="header-dropdown-nav">
-              <a href="#schedule-section" class="header-dropdown-nav-item"
-                >Schedule</a
-              >
-              <a href="#agenda-section" class="header-dropdown-nav-item"
-                >Agenda</a
-              >
-              <a href="#venue-section" class="header-dropdown-nav-item"
-                >Venue</a
-              >
-              <a href="#passes-section" class="header-dropdown-nav-item"
-                >Passes</a
-              >
-              <a href="#artists-section" class="header-dropdown-nav-item"
-                >Artists</a
-              >
-              <a
-                href="#code-of-conduct-section"
-                class="header-dropdown-nav-item"
-                >Code of Conduct</a
-              >
-              <a href="#about-ptz-section" class="header-dropdown-nav-item"
-                >About PTZ</a
-              >
-              <router-link
-                to="/past-events"
-                style="text-decoration: none"
-                class="mx-auto"
-              >
-                <a class="header-dropdown-nav-item">Past Events</a>
-              </router-link>
-            </div>
-          </b-dropdown>
-        </div>
-      </div>
-      <div class="main-banner-container">
-        <img class="main-banner-img" />
-        <div class="main-banner-title">
-          <div>
-            <div>ZOUK IT UP</div>
-            <div>WITH THE MASTERS</div>
-          </div>
-          <div class="main-banner-subtitle">
-            <div class="main-banner-subtitle-date">2023 APRIL 14-15-16-17</div>
-            <countdown :time="countdownTime()">
-              <template slot-scope="props">
-                <div class="countdown-clock">
-                  <div class="countdown-time">
-                    <div>
-                      <div class="countdown-time-number">{{ props.days }}</div>
-                      <div class="countdown-time-unit">days</div>
-                    </div>
-                    <div>
-                      <div class="countdown-time-number">{{ props.hours }}</div>
-                      <div class="countdown-time-unit">hours</div>
-                    </div>
-                    <div>
-                      <div class="countdown-time-number">
-                        {{ props.minutes }}
-                      </div>
-                      <div class="countdown-time-unit">minutes</div>
-                    </div>
-                    <div>
-                      <div class="countdown-time-number">
-                        {{ props.seconds }}
-                      </div>
-                      <div class="countdown-time-unit">seconds</div>
-                    </div>
-                  </div>
-                </div>
-              </template>
-            </countdown>
-          </div>
-        </div>
-        <div class="nav-bar">
-          <a class="nav-bar-item" href="#schedule-section">Schedule</a>
-          <a class="nav-bar-item" href="#agenda-section">Agenda</a>
-          <a class="nav-bar-item" href="#venue-section">Venue</a>
-          <a class="nav-bar-item" href="#passes-section">Passes</a>
-          <a class="nav-bar-item" href="#artists-section">Artists</a>
-          <a class="nav-bar-item" href="#code-of-conduct-section"
-            >Code of conduct</a
-          >
-          <a class="nav-bar-item" href="#about-ptz-section">About PTZ</a>
-          <router-link to="/past-events" style="text-decoration: none">
-            <a class="nav-bar-item">Past Events</a>
-          </router-link>
-        </div>
-      </div>
-      <hr />
-    </header>
-
     <body class="body-container">
       <div>
         <div class="quick-intro-section">
@@ -231,7 +127,10 @@
         <div class="section-title">AGENDA</div>
         <b-row>
           <b-col>
-            <img class="agenda-img" src="/assets/agenda/agenda.jpg" /> </b-col
+            <img
+              class="agenda-img"
+              src="../../../assets/img/upcoming-events/upcoming-event-01/agenda/agenda.jpg"
+            /> </b-col
         ></b-row>
       </div>
       <hr />
@@ -242,19 +141,19 @@
             <b-col lg="4" md="6" sm="6" class="mb-3">
               <img
                 class="card-img-top"
-                src="/assets/dresscode/dresscode-14.png"
+                src="/assets/img/dresscode/dresscode-14.png"
               />
             </b-col>
             <b-col lg="4" md="4" sm="6" class="mb-3">
               <img
                 class="card-img-top"
-                src="/assets/dresscode/dresscode-15.png"
+                src="/assets/img/dresscode/dresscode-15.png"
               />
             </b-col>
             <b-col lg="4" md="4" sm="6" class="mb-3">
               <img
                 class="card-img-top"
-                src="/assets/dresscode/dresscode-16.png"
+                src="/assets/img/dresscode/dresscode-16.png"
               />
             </b-col>
           </b-row>
@@ -268,7 +167,7 @@
             <b-col sm="6" lg="3" md="3" class="activities-item">
               <img
                 class="activities-img"
-                src="/assets/activities/1. Learn-min.png"
+                src="/assets/img/activities/1. Learn-min.png"
               />
               <div class="section-text">
                 <strong>Learn:</strong> 12 hours of workshops delivered by three
@@ -606,102 +505,6 @@
                 </div>
               </div>
             </b-col>
-            <b-col lg="4" md="4" sm="12" class="mb-3">
-              <div class="card h-100">
-                <img
-                  src="/assets/artists/3. Gui.jpg"
-                  class="card-img-top"
-                  alt="Gui"
-                />
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">
-                    <strong>GUI PRADA</strong>
-                  </h5>
-                  <b-card-text class="section-text my-4">
-                    One of the regular instructors of Alex de Carvalho’s MAC
-                    program, where he teaches new instructors how to learn, talk
-                    about and teach connection.
-                  </b-card-text>
-                  <b-button
-                    v-b-modal.modal-xl-3
-                    class="artist-see-more-button mt-auto"
-                    >See More</b-button
-                  >
-                  <b-modal
-                    id="modal-xl-3"
-                    size="xl"
-                    title="GUI PRADA"
-                    ok-only
-                    ok-title="Close"
-                  >
-                    <p class="my-4">
-                      Inspired by the movie "Shall We Dance?", Gui Prada started
-                      dancing in 2004. However, it was only in 2006 that he
-                      really began to dive deep into dance as a work-study
-                      trainee of the Jaime Aroxa Dance School in Rio de Janeiro,
-                      one of the most prestigious dance schools in Brazil, which
-                      trained some of the most renowned dancers in the country.
-                      During his 6 years as a member of the school's team, he
-                      learned all Brazilian partner dances (Forró, Samba de
-                      Gafieira, Soltinho, Bolero and Zouk) and Argentine Tango.
-                      As he matured more as a dancer, he found he preferred to
-                      focus less on the steps and more on turning partner
-                      dancing into a relaxing experience for the mind and body.
-                    </p>
-                    <p class="my-4">
-                      In 2009, on his first visit to Buenos Aires, Argentina, he
-                      was introduced to the authentic tango hug - the close
-                      embrace - and all of its complexity and power to create
-                      the ultimate feeling of “conforto, cuidado e entrega” -
-                      comfort, care and surrender. After that, he continued
-                      learning from other remarkable instructors in Brazil,
-                      including Fabiano Vivas, Kelly Reis, Érico Rodrigo,
-                      Guilherme Pimentel, Lídio Freitas and many others; and
-                      went on to research the close embrace and its application
-                      to all partner dances, with the purpose of conveying a
-                      sense of well-being and relaxation between dance partners.
-                    </p>
-                    <p class="my-4">
-                      His investigation of the close embrace continued over the
-                      years, and through many sources both inside and outside of
-                      the dance world. These studies guided him to form a
-                      multidisciplinary understanding of dancing and connecting
-                      in close embrace as a healing and therapeutic experience.
-                      Due to its versatility in movement, music, speed and
-                      approach, Brazilian Zouk became the perfect dance to apply
-                      this concept and explore the possibilities, which he has
-                      been doing since 2016, when he attended the first Zouk
-                      Retreat in Valencia, led by Xandy Liberato, Brenda
-                      Carvalho and Anderson Mendes. After that, his research on
-                      partner dancing took a new direction, as he continued
-                      working to seek for the application of the concepts
-                      explored at the retreat in different ways by using the
-                      references of the other Brazilian partner dances.
-                    </p>
-                    <p class="my-4">
-                      Currently, he develops the idea of partner dancing as a
-                      true social and bonding experience, having dancing in
-                      close embrace and the mastery of basics as the focus
-                      point. Over the course of the years, Gui was able to
-                      develop and improve this concept through workshops called
-                      “The Universe Behind the Hug”, Parts I and II, Finding
-                      Zouk, Embrace Zouk Weekender, Embrace Zouk Online, and the
-                      Leaders Intensive Training, which together toured many
-                      cities around the US. Gui is based in Washington DC, US,
-                      developing the local community with regular, weekly and
-                      progressive classes. He became a reference in the
-                      execution of clean, comfortable fundamentals and its
-                      understanding of close connection, both from a physical
-                      and mental perspectives. Gui is also one of the regular
-                      instructors of Alex de Carvalho’s MAC program, where he
-                      teaches new instructors how to learn, talk about and teach
-                      connection.
-                    </p>
-                  </b-modal>
-                </div>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              </div>
-            </b-col>
           </b-row>
         </div>
       </div>
@@ -786,7 +589,7 @@
                 BUDDIES PASS, SAVING VND 600,000
               </div>
               <img
-                src="../assets/passes/buddies-pass.jpg"
+                src="../../../assets/img/upcoming-events/upcoming-event-01/passes/buddies-pass.jpg"
                 width="350"
                 height="280"
               />
@@ -888,214 +691,12 @@
           </div>
         </div>
       </div>
-      <hr />
-      <div id="about-ptz-section">
-        <div class="section-title">ABOUT PTZ</div>
-        <div class="about-ptz-container">
-          <div class="about-ptz-text">
-            <div class="section-text my-4">
-              PTZ - Phuong & Trang Zouk Vietnam - is the leading studio for
-              Brazilian Zouk in Hanoi, Vietnam. Founded in 2019, PTZ has been on
-              the forefront of spreading Brazilian Zouk in the local community.
-              PTZ offers weekly classes, social dancing and periodic Brazilian
-              Zouk events. Our syllabus is regularly updated to keep abreast
-              with the latest developments in the world. Our parties are spinned
-              live and non-stop by our local DJs.
-            </div>
-            <div class="section-text my-4">
-              PTZ's iconic event - Zouk It Up - has been up and running since
-              2022. We have hosted Dominik and Monika, Alisson Sandi, and Nhat
-              Ho and Gigi Ho. In 2023, we will be welcoming Alisson Sandi,
-              Brenda and Gui in April and more artists in July and November.
-              Before that, our founders, Hoai Phuong and Huyen Trang, have been
-              hosting various Brazilian Zouk artists in Hanoi, such as Alisson
-              Sandi - 4 times, Arthur and Layssa, Brenda and Anderson, and
-              Gilson Damasco. We are committed to organizing the best events in
-              town with internationally recognized artists to promote Brazilian
-              Zouk in Hanoi, Vietnam.
-            </div>
-            <div>
-              <b-carousel
-                id="carousel-1"
-                v-model="slide"
-                :interval="4000"
-                controls
-                indicators
-                background="#ababab"
-                img-width="1024"
-                img-height="480"
-                style="text-shadow: 1px 1px 2px #333"
-                @sliding-start="onSlideStart"
-                @sliding-end="onSlideEnd"
-              >
-                <b-carousel-slide>
-                  <template #img>
-                    <img
-                      class="d-block img-fluid w-100"
-                      width="1024"
-                      height="480"
-                      src="/assets/about-ptz/about-ptz-1-min.jpg"
-                      alt="image slot"
-                    />
-                  </template>
-                </b-carousel-slide>
-                <b-carousel-slide>
-                  <template #img>
-                    <img
-                      class="d-block img-fluid w-100"
-                      width="1024"
-                      height="480"
-                      src="/assets/about-ptz/about-ptz-2-min.jpg"
-                      alt="image slot"
-                    />
-                  </template>
-                </b-carousel-slide>
-                <b-carousel-slide>
-                  <template #img>
-                    <img
-                      class="d-block img-fluid w-100"
-                      width="1024"
-                      height="480"
-                      src="/assets/about-ptz/about-ptz-3-min.jpg"
-                      alt="image slot"
-                    />
-                  </template>
-                </b-carousel-slide>
-                <b-carousel-slide>
-                  <template #img>
-                    <img
-                      class="d-block img-fluid w-100"
-                      width="1024"
-                      height="480"
-                      src="/assets/about-ptz/about-ptz-4-min.jpg"
-                      alt="image slot"
-                    />
-                  </template>
-                </b-carousel-slide>
-              </b-carousel>
-            </div>
-            <div class="section-text my-4">
-              Hoai Phuong and Huyen Trang started their partnership in late
-              2017. We are a couple of Friday night and Sunday morning. Trang is
-              like a Friday night – always dynamic, vibrant, full of life with a
-              beautiful smile on her face and very nice pose whenever she
-              dances. Phuong is like a Sunday morning with a hot black coffee –
-              slow to start, taking time to filter, but when the caffeine kicks
-              in, he rocks as both a DJ and a dancer. That’s the way the
-              partnership has gone over the past 5++ years.
-            </div>
-            <div class="section-text my-4">
-              Phuong and Trang won their first international trophy in 2018 with
-              the 2nd place in the ProAm Competition at ZoukSEA. Since then,
-              they have been performing and teaching in various congresses, both
-              nationally, such as the Vietnam Latin Xperience, the Vietnam
-              International Latin Festival, and internationally, like
-              ZoukSensation and the 1st China Zouk Congress in Shanghai. Phuong
-              and Trang have also attended various Zouk congresses abroad where
-              they promoted Zouk in Vietnam and also invited reputational
-              artists to teach in the country, such as BDF - Brazilian Dance
-              Festival - in Amsterdam, Brazuky Australia, Helsinki Zouk
-              Festival, Zouk Sensation, ZoukSEA, to name a few.
-            </div>
-          </div>
-        </div>
-      </div>
     </body>
-    <b-button variant="success" class="book-now" v-b-modal.modal-xl
-      >BUY TICKETS!</b-button
-    >
-    <footer class="footer-section">
-      <hr class="footer-line" />
-      <!-- <div class="footer-title">CONTACT CHANNELS</div> -->
-      <div class="footer-container">
-        <!-- <div id="subscribe-section">
-          <div class="section-sub-title">
-            ALL UPDATED INFORMATION DIRECTLY TO YOUR INBOX
-            <div class="text-media">
-              Your email address
-              <input class="subscribe-section-input" /><button
-                class="subscribe-section-button"
-              >
-                SUBMIT
-              </button>
-            </div>
-          </div>
-        </div> -->
-        <div id="contact-channel-section">
-          <div class="section-sub-title">OUR CONTACT CHANNELS</div>
-          <div class="media">
-            <div>
-              <a
-                href="https://www.facebook.com/PhuongTrangZoukVietnam"
-                target="_blank"
-              >
-                <i class="fa-brands fa-facebook media-icons"></i>
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.instagram.com/phuongtrangzouk"
-                target="_blank"
-              >
-                <i class="fa-brands fa-instagram media-icons"></i
-              ></a>
-            </div>
-            <div>
-              <a
-                href="
-            https://www.youtube.com/channel/UCjCX1AIUnHyCTJM2ClEEyFA"
-                target="_blank"
-              >
-                <i class="fa-brands fa-youtube media-icons"></i>
-              </a>
-            </div>
-            <div>
-              <a href="https://www.tiktok.com/@ptz_zouk" target="_blank">
-                <i class="fa-brands fa-tiktok media-icons"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <b-button variant="success" class="book-now" v-b-modal.modal-xl>
+      BUY TICKETS!
+    </b-button>
   </div>
 </template>
-<script>
-export default {
-  name: "MainApp",
-  data() {
-    return {
-      scTimer: 0,
-      scY: 0,
-      end: new Date("April 14, 2023"),
-    };
-  },
-  mounted() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-  methods: {
-    countdownTime() {
-      let now = new Date();
-      let distance = this.end - now;
-      return distance;
-    },
-    handleScroll: function () {
-      if (this.scTimer) return;
-      this.scTimer = setTimeout(() => {
-        this.scY = window.scrollY;
-        clearTimeout(this.scTimer);
-        this.scTimer = 0;
-      }, 100);
-    },
-    toTop: function () {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    },
-  },
-};
-</script>
 
 <style lang="scss">
 html,
@@ -1204,65 +805,6 @@ body {
   margin: auto;
   width: 120px !important;
   height: 50px !important;
-}
-.main-banner {
-  &-container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  &-img {
-    width: 100%;
-    height: 750px;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../assets/banner/main-banner.webp");
-  }
-  @media (max-width: "430px") {
-    &-img {
-      width: 100%;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../assets/banner/main-banner-rotate.png");
-    }
-  }
-  &-title {
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 90px;
-    width: 80%;
-    font-weight: 300;
-  }
-  &-subtitle {
-    font-size: 50px;
-    color: white;
-    font-weight: 100;
-  }
-  &-subtitle-date {
-    margin-bottom: 30px;
-  }
-  @media (max-width: 769px) {
-    &-title {
-      font-size: 48px;
-      top: 55%;
-    }
-    &-img {
-      height: 550px;
-    }
-  }
-  @media (max-width: 430px) {
-    &-title {
-      font-size: 38px;
-      top: 55%;
-    }
-    &-img {
-      height: 700px;
-    }
-    &-subtitle {
-      font-size: 25px;
-    }
-  }
 }
 .countdown {
   &-clock {

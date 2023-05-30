@@ -15,6 +15,11 @@ const router = new VueRouter({
       path: '/past-events',
       name: 'PastEvents',
       component: () => import('./components/past-events/PastEvents.vue')
+    },
+    {
+      path: '/upcoming-event-1',
+      name: 'UpcomingEvent1',
+      component: () => import('./components/upcoming-events/upcoming-events-items/UpcomingEvent1.vue')
     }
   ]
 })
