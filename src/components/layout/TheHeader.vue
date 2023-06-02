@@ -28,8 +28,6 @@
             <router-link to="/upcoming-event-1" style="text-decoration: none">
               <li><a class="dropdown-item" href="#">Fly with Lambada</a></li>
             </router-link>
-            <li><a class="dropdown-item" href="#">Upcoming Event 2</a></li>
-            <li><a class="dropdown-item" href="#">Upcoming Event 3</a></li>
           </ul>
         </div>
         <router-link to="/past-events" style="text-decoration: none">

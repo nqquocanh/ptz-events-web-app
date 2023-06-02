@@ -50,7 +50,7 @@
                 </div>
               </div>
             </div>
-            <div class="pt-4">
+            <div style="padding-top: 4rem">
               <countdown :time="countdownTime()">
                 <template slot-scope="props">
                   <div
