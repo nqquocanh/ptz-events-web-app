@@ -300,21 +300,14 @@
       <div class="line"></div>
       <div id="artists-section">
         <div class="section-title">ARTISTS</div>
-        <div class="section-text my-4">
-          At "Fly with Lambada Sensation" in August, Gilson and Mailys will
-          surely have plenty of useful knowledge to share with all Zoukers,
-          especially about Lambada which is the popular & favorite dance in the
-          Zouk community today. If you do not know them, they are super fun,
-          interesting, and always ready to share.
-        </div>
         <div class="artist-container">
           <b-row class="column-width">
             <b-col lg="12" md="12" sm="12" class="mb-3">
               <div class="card h-100">
                 <img
-                  src="/assets/artists/1. Alisson.jpg"
-                  class="card-img-top"
-                  alt="Alison"
+                  src="@/assets/img/upcoming-events/upcoming-event-01/upcoming-event-02.png"
+                  class="card-img-top m-auto"
+                  alt="Gilson & Mailys"
                 />
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">
@@ -337,7 +330,12 @@
                     Mailys is creator and organizer of the only Brazilian
                     congress that combines the use of Zouk as a tool for
                     self-knowledge and other human development tools, Beyond
-                    Dance.
+                    Dance. At "Fly with Lambada Sensation" in August, Gilson and
+                    Mailys will surely have plenty of useful knowledge to share
+                    with all Zoukers, especially about Lambada which is the
+                    popular & favorite dance in the Zouk community today. If you
+                    do not know them, they are super fun, interesting, and
+                    always ready to share.
                   </b-card-text>
                 </div>
               </div>
@@ -350,15 +348,24 @@
         <div class="section-title">PASSES</div>
         <div>
           <div class="text-center">
-            <div class="passes-sub-title" style="color: red">
-              Full Pass: 1,600,000 VND
+            <div class="d-flex">
+              <div class="passes-sub-title border p-5 price">
+                <div class="fs-4 text-black">Full Pass</div>
+                <div class="fs-3 text-white">1,600,000 VND</div>
+              </div>
+              <div class="passes-sub-title border p-4 pt-5 price">
+                <div class="fs-4 text-black">Early Bird</div>
+                <div class="fs-3 text-white">1,400,000 VND</div>
+                <div class="text-white">
+                  for the first 15 people to register
+                </div>
+              </div>
+              <div class="passes-sub-title border p-5 price">
+                <div class="fs-4 text-black">PTZ students</div>
+                <div class="fs-3 text-white">1,300,000 VND</div>
+              </div>
             </div>
-            <div class="passes-sub-title" style="color: red">
-              Early Bird: 1,400,000 VND for the first 15 people to register
-            </div>
-            <div class="passes-sub-title" style="color: red">
-              PTZ students: 1,300,000 VND
-            </div>
+
             <div>
               <b-button
                 class="passes-button"
@@ -989,5 +996,8 @@ body {
   width: 100%;
   border: solid 1px;
   color: #432955;
+}
+.price {
+  background-image: linear-gradient(to left, #b384d4, rgb(231, 195, 240));
 }
 </style>

@@ -11,16 +11,25 @@ const router = new VueRouter({
       name: 'MainApp',
       component: () => import('./components/MainApp.vue')
     },
-    {
-      path: '/past-events',
-      name: 'PastEvents',
-      component: () => import('./components/past-events/PastEvents.vue')
+
+    //Upcoming Events
+        {
+      path: '/upcoming-event-2',
+      name: 'UpcomingEvent2',
+      component: () => import('./components/upcoming-events/upcoming-events-items/UpcomingEvent2.vue')
     },
+
+    //Past Events
     {
-      path: '/upcoming-event-1',
-      name: 'UpcomingEvent1',
-      component: () => import('./components/upcoming-events/upcoming-events-items/UpcomingEvent1.vue')
-    }
+      path: '/past-events/2023',
+      name: '2023',
+      component: () => import('./components/past-events/past-events-items/2023.vue'),
+    },
+        {
+      path: '/past-events/2022',
+      name: '2022',
+      component: () => import('./components/past-events/past-events-items/2022.vue'),
+    },
   ]
 })
 

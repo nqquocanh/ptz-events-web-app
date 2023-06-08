@@ -1,10 +1,11 @@
 <template>
   <div>
     <div class="pb-1">
-      <img
-        style="width: 120px; height: 50px"
-        src="@/assets/img/logo/logo.png"
-      />
+      <router-link to="/" style="text-decoration: none">
+        <img
+          style="width: 120px; height: 50px"
+          src="@/assets/img/logo/logo.png"
+      /></router-link>
     </div>
     <div style="overflow: visible">
       <div
@@ -25,14 +26,30 @@
             Upcoming Events
           </div>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <router-link to="/upcoming-event-1" style="text-decoration: none">
+            <router-link to="/upcoming-event-2" style="text-decoration: none">
               <li><a class="dropdown-item" href="#">Fly with Lambada</a></li>
             </router-link>
           </ul>
         </div>
-        <router-link to="/past-events" style="text-decoration: none">
-          <a class="text-decoration-none" style="color: #b867cc">Past Events</a>
-        </router-link>
+        <div class="dropdown text-primary" role="button">
+          <div
+            class="dropdown-toggle cursor"
+            id="dropdownMenuButton2"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="color: #b867cc"
+          >
+            Past Events
+          </div>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <router-link to="/past-events/2023" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">2023</a></li>
+            </router-link>
+            <router-link to="/past-events/2022" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">2022</a></li>
+            </router-link>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
