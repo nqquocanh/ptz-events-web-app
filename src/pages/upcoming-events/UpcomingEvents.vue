@@ -105,7 +105,7 @@
 </template>
 
 <script>
-import transferMoney from "../modal/transfer-money.vue";
+import transferMoney from "../../components/modal/TransferMoney.vue";
 export default {
   name: "UpcomingEvents",
   components: transferMoney,

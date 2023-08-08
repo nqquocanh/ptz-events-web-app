@@ -9,26 +9,26 @@ const router = new VueRouter({
     {
       path: '/',
       name: 'MainApp',
-      component: () => import('./components/MainApp.vue')
+      component: () => import('./pages/MainApp.vue')
     },
 
     //Upcoming Events
         {
       path: '/upcoming-event-2',
       name: 'UpcomingEvent2',
-      component: () => import('./components/upcoming-events/upcoming-events-items/UpcomingEvent2.vue')
+      component: () => import('./pages/upcoming-events/upcoming-event-page/UpcomingEvent2.vue')
     },
 
     //Past Events
     {
       path: '/past-events/2023',
       name: '2023',
-      component: () => import('./components/past-events/past-events-items/2023.vue'),
+      component: () => import('./pages/past-events/past-event-page/2023.vue'),
     },
         {
       path: '/past-events/2022',
       name: '2022',
-      component: () => import('./components/past-events/past-events-items/2022.vue'),
+      component: () => import('./pages/past-events/past-event-page/2022.vue'),
     },
   ]
 })
