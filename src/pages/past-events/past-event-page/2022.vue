@@ -9,7 +9,7 @@
             >{{ event.time }} |
             <span class="section-title">{{ event.title }}</span></span
           >
-          <div class="text-left pb-2 py-4">
+          <div class="text-left pb-2 py-4 text-justify">
             <div>{{ event.description }}</div>
           </div>
           <div class="card pb-2">
@@ -22,8 +22,8 @@
                   <div>
                     <div class="fs-4 py-2 font-weight-bold">GALLERY</div>
                   </div>
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
+                  <div class="d-flex">
+                    <div class="nav-item">
                       <a
                         class="nav-link font-weight-bold"
                         @click="
@@ -34,8 +34,8 @@
                       >
                         IMAGES
                       </a>
-                    </li>
-                    <li class="nav-item" @click="handleVideo">
+                    </div>
+                    <div class="nav-item" @click="handleVideo">
                       <a
                         class="nav-link font-weight-bold"
                         @click="
@@ -46,13 +46,13 @@
                       >
                         VIDEOS
                       </a>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </nav>
             <div v-if="event.showImages" class="text-center pt-3">
-              <b-row>
+              <b-row class="column-width">
                 <b-col lg="4" md="6" sm="6" v-for="i in 6" :key="i">
                   <img :src="event[`imgSrc${i}`]" class="w-100 py-2" />
                 </b-col>
@@ -61,7 +61,7 @@
             <div
               v-if="event.showVideos"
               v-html="event.videoUrl"
-              class="text-center pt-3 w-full"
+              class="text-center pt-3 w-full embed-responsive embed-responsive-16by9"
             ></div>
           </div>
         </div>
@@ -82,8 +82,7 @@ export default {
           key: 1,
           time: "28-30 June 2023",
           title: "PTZ's 3rd Anniversary",
-          description: `Welcome to PTZ's 3rd Anniversary with the presence of 02 artists
-              coming all the way from Austin, U.S.`,
+          description: `Nhat and Gigi are zouk teachers from Austin, Texas with over six years of teaching experience. Throughout their teaching journey, Nhat has completed a teacher training workshop with Bruno Galhardo focusing on the pedagogy of zouk, and Gigi has completed Renata Peçanha's Traditional Brazilian Zouk Teacher Training Program. In 2018, Nhat and Gigi also became part of their teachers’, William Teixeira and Paloma Alves, professional zouk company, WT Company, and are currently studying under them. They also train with Rafael, Izabel, Marck and Melyssa to continue their professional development.`,
           imgSrc1: require("@/assets/img/past-events/2022/Nhat Gigi/1.jpg"),
           imgSrc2: require("@/assets/img/past-events/2022/Nhat Gigi/2.jpg"),
           imgSrc3: require("@/assets/img/past-events/2022/Nhat Gigi/3.jpg"),
@@ -106,9 +105,10 @@ export default {
           key: 2,
           time: "August 2022",
           title: "Alisson Sandi",
-          description: `Alisson Sandi - 3x World Champion - came to Hanoi in the first
-              week of August. We had in total 25 hours of workshops and parties
-              with him and zoukers from abroad`,
+          description: `Alisson has been an official head judge and an important member for the Brazilian Zouk Dance Council since its first competition event in 2014. And he is one of the founders of the International Zouk Flash Mob/International Zouk Day which has been running yearly since 2012. Alisson loves to push himself and currently holds the following titles:
+- 3x Pro World Zouk Champion
+- 3x Pro Australian Zouk/Latin Champion
+- Winner/Finalist of various BZDC All Stars/Champions Jack and Jill Comps and Invitationals.`,
           imgSrc1: require("@/assets/img/past-events/2022/Alisson Sandi/1.jpg"),
           imgSrc2: require("@/assets/img/past-events/2022/Alisson Sandi/2.jpg"),
           imgSrc3: require("@/assets/img/past-events/2022/Alisson Sandi/3.jpg"),
@@ -131,8 +131,9 @@ export default {
           key: 3,
           time: "June 2022",
           title: "Dominik & Monika",
-          description: `Our special event in June in Hanoi, Vietnam to host the one of the
-              most beautiful and kindest couples from Poland: Dominik & Monika`,
+          description: `Our elegant Monika who started dancing from 7 years old, has great foundation in Jazz, Contemporary , latin and ballroom dances. She got into Zouk in 2013. 
+Dominik, a full of enery Viking, started his dance career as a hip hop dancer and used to be the male dancer at one of the Polish theatres. In 2021, they passed the certification exam in the MAC project and Monika passed the exam with the best result in the entire history of the project. 
+Apart from teaching around the world, this lovely couple is also the first Polish couple teaching Brazilian Zouk in Portuguese in Brazil in 2022, how impressive!!!!!`,
           imgSrc1: require("@/assets/img/past-events/2022/Dominik Monika/1.jpg"),
           imgSrc2: require("@/assets/img/past-events/2022/Dominik Monika/2.jpg"),
           imgSrc3: require("@/assets/img/past-events/2022/Dominik Monika/3.jpg"),

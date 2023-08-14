@@ -15,40 +15,42 @@
             >
               {{ event.time }}
             </div>
-            <div class="d-flex gap-5 pt-4">
-              <div>
-                <img :src="event.imgSrc" style="width: 500px; height: 300px" />
-              </div>
-              <div>
-                <p class="fs-4 fw-bold text-left" style="text-align: left">
-                  {{ event.title }}
-                </p>
-                <br />
-                <div>
-                  <p style="text-align: justify">{{ event.description }}</p>
-                  <div class="d-flex gap-2">
-                    <button
-                      type="button"
-                      class="btn text-white"
-                      style="background-color: #b867cc"
-                    >
-                      Get Your Ticket Now
-                    </button>
-                    <router-link
-                      :to="`/upcoming-event-${event.key}`"
-                      style="text-decoration: none"
-                    >
+            <div class="d-flex gap-3 pt-4 column-width">
+              <b-row class="column-width">
+                <b-col lg="8" md="6" sm="6">
+                  <img :src="event.imgSrc" class="img-fluid" />
+                </b-col>
+                <b-col lg="4" md="6" sm="6">
+                  <p class="fs-4 fw-bold text-left" style="text-align: left">
+                    {{ event.title }}
+                  </p>
+                  <br />
+                  <div>
+                    <p style="text-align: justify">{{ event.description }}</p>
+                    <div class="d-flex gap-2">
                       <button
                         type="button"
-                        class="btn btn-white border border-dark"
-                        style="border-color: black"
+                        class="btn text-white"
+                        style="background-color: #b867cc"
                       >
-                        See More
+                        Get Your Ticket Now
                       </button>
-                    </router-link>
+                      <router-link
+                        :to="`/upcoming-event-${event.key}`"
+                        style="text-decoration: none"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-white border border-dark"
+                          style="border-color: black"
+                        >
+                          See More
+                        </button>
+                      </router-link>
+                    </div>
                   </div>
-                </div>
-              </div>
+                </b-col>
+              </b-row>
             </div>
             <div class="pt-5">
               <div
@@ -114,11 +116,11 @@ export default {
       upcomingEventsInfo: [
         {
           key: 2,
-          title: "FLY WITH LAMBADA SENSATION",
+          title: "ROMANCE & JOY WITH BRAZOUK & LAMBADA",
           imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-03.jpg"),
-          description: `Following the success of the event in April, this coming August, PTZ will continue to bring to the Zouk Community in Vietnam wonderful experiences with Lambada dance. All Lambada's foundation techniques, advanced dance moves, wifi gameplay will be revealed at our event - “Fly with Lambada Sensation” with the participation of 2 top artists, Gilson and Mailys.`,
-          time: "2 - 5 August, 2023",
-          end: new Date("August 2, 2023"),
+          description: `This coming October, Zoukers don't need to study abroad anymore because 2 talented Brazilian dancers will be going to Vietnam, Rafael Pitarello & Juliana Lima, bringing experience and passion for dancing over a decade, who will directly guide amazing Workshops right at our beloved PTZ!`,
+          time: "18 - 22 October, 2023",
+          end: new Date("October 18, 2023"),
           countdownTimer: null,
         },
       ],
@@ -158,3 +160,10 @@ export default {
   },
 };
 </script>
+<style>
+@media (max-width: 425px) {
+  .banner-tittle {
+    width: 200%;
+  }
+}
+</style>

@@ -38,7 +38,7 @@ export default {
         },
         {
           key: 3,
-          ref: "ttps://www.youtube.com/channel/UCjCX1AIUnHyCTJM2ClEEyFA",
+          ref: "https://www.youtube.com/channel/UCjCX1AIUnHyCTJM2ClEEyFA",
           icon: "fa-brands fa-youtube text-white",
         },
         {

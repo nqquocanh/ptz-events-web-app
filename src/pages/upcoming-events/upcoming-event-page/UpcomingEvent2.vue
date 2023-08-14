@@ -10,21 +10,26 @@
       <div>
         <div class="quick-intro-section">
           <div>
-            <div class="section-title">FLY WITH LAMBADA SENSATION</div>
+            <div class="section-title">
+              ROMANCE & JOY WITH BRAZOUK & LAMBADA
+            </div>
             <div class="quick-intro-content">
               <div class="section-text my-4">
-                Following the success of the April event, this August, PTZ
-                continues to bring the Zouk community in Vietnam the latest
-                updates of Lambada. All the foundation techniques, the advanced
-                combos and the wifi game of Lambada will be shared at our event
-                - "Fly with Lambada Sensation" with the presence of the 2 top
-                Artists - Gilson and Mailys. Gilson is regarded as the "Lambada
-                Guru”. Attending the event, you will understand why Lambada is
-                so widely popular in the world.
+                When it comes to Brazil which is the largest country in South
+                America is referring to the land of festivals and fiery dances,
+                large-scale and magnificent performances. When it comes to
+                Brazilian Zouk, we cannot ignore the Brazilian origin in which
+                many gifted dancers of Zouk converge. That's the reason why
+                every year Zoukers from all over the world flock to the "dance
+                training center" in Brazil to learn, and seize the opportunity
+                to level up very quickly.
               </div>
               <div class="section-text my-4">
-                Don't miss the opportunity to "Level Up" and connect with the
-                international Zoukers this August!
+                This coming October, Zoukers don't need to study abroad anymore
+                because 2 talented Brazilian dancers will be going to Vietnam,
+                Rafael Pitarello & Juliana Lima, bringing experience and passion
+                for dancing over a decade, who will directly guide amazing
+                Workshops right at our beloved PTZ!
               </div>
             </div>
           </div>
@@ -35,7 +40,7 @@
         <div class="section-title">WHAT WILL WE OFFER</div>
         <div class="activities-content text-center">
           <b-row class="column-width">
-            <b-col lg="4" md="6" sm="6">
+            <b-col lg="4" md="6" sm="6" class="mb-3">
               <i
                 class="bi bi-cash-coin px-5 pt-3"
                 variant="light"
@@ -48,14 +53,14 @@
                 class="bi bi-people px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">4 High-Quality Workshops</div>
+              <div class="pt-3">6 High-Quality Workshops</div>
             </b-col>
             <b-col lg="4" md="4" sm="6" class="mb-3">
               <i
                 class="bi bi-music-note-beamed px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">6 Hours Social Parties</div>
+              <div class="pt-3">5 Hours Social Parties</div>
             </b-col>
           </b-row>
         </div>
@@ -68,14 +73,13 @@
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">02</div>
-                <div class="schedule-plan-time-month">AUGUST</div>
+                <div class="schedule-plan-time-date">18</div>
+                <div class="schedule-plan-time-month">OCTOBER</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 8:00PM: Workshop 1 +
-                  Practice Practica
+                  <i class="fa-regular fa-clock"></i> 8:00PM -9:00PM: Workshop 1
                 </div>
                 <div>
                   <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
@@ -88,14 +92,18 @@
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">03</div>
-                <div class="schedule-plan-time-month">AUGUST</div>
+                <div class="schedule-plan-time-date">20</div>
+                <div class="schedule-plan-time-month">OCTOBER</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 8:00PM: Workshop 2 + Mini
-                  Social Party (90 minutes)
+                  <i class="fa-regular fa-clock"></i> 8:00PM - 9:30PM: Workshop
+                  2
+                </div>
+                <div>
+                  <i class="fa-regular fa-clock"></i> 9:30PM - 11:00PM:
+                  Socializing
                 </div>
                 <div>
                   <i class="fa-sharp fa-solid fa-location-dot"></i> 3rd Floor,
@@ -108,18 +116,26 @@
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">04</div>
-                <div class="schedule-plan-time-month">AUGUST</div>
+                <div class="schedule-plan-time-date">21</div>
+                <div class="schedule-plan-time-month">OCTOBER</div>
               </div>
               <div class="schedule-plan-line-date" />
-              <div class="schedule-plan-activities">
+              <div class="schedule-plan-activities pb-3">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 8:00PM: Workshop 3 + Mini
-                  Social Party (90 minutes)
+                  <i class="fa-regular fa-clock"></i> 6:00PM - 7:00PM: Free
+                  Workshop
                 </div>
                 <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 3rd Floor,
-                  No. 65 Quan Su, Hoan Kiem, Hanoi
+                  <i class="fa-regular fa-clock"></i> 7:00PM - 8:30PM: Workshop
+                  3
+                </div>
+                <div>
+                  <i class="fa-regular fa-clock"></i> 8:30PM - 00:00AM:
+                  Sensation Night
+                </div>
+                <div>
+                  <i class="fa-sharp fa-solid fa-location-dot"></i> 5A Floor,
+                  152 Pho Duc Chinh, Ba Dinh, Hanoi
                 </div>
               </div>
             </div>
@@ -128,26 +144,18 @@
           <div class="schedule-content">
             <div class="schedule-plan pb-4">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">05</div>
-                <div class="schedule-plan-time-month">AUGUST</div>
+                <div class="schedule-plan-time-date">22</div>
+                <div class="schedule-plan-time-month">OCTOBER</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 6:00PM - 7:00PM: Free
-                  Workshop
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 7:00PM - 9:00PM: Workshop
+                  <i class="fa-regular fa-clock"></i> 3:00PM - 5:00PM: Workshop
                   4
                 </div>
                 <div>
-                  <i class="fa-regular fa-clock"></i> 9:00PM - 12:00 PM:
-                  Sensation Night
-                </div>
-                <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 5A Floor,
-                  152 Pho Duc Chinh, Ba Dinh, Hanoi
+                  <i class="fa-sharp fa-solid fa-location-dot"></i>
+                  3rd Floor, No. 65 Quan Su, Hoan Kiem, Hanoi
                 </div>
               </div>
             </div>
@@ -311,31 +319,25 @@
                 />
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">
-                    <strong>GILSON & MAILYS</strong>
+                    <strong>JULIANA & RAFAEL</strong>
                   </h5>
                   <b-card-text class="section-text my-4">
-                    Gilson who is regarded as the "Lambada Guru” has spent a lot
-                    of time and dedication to sharing his passion with Lambada
-                    around the world through different roles such as dancer,
-                    dance instructor, or jury of many Zouk events and congresses
-                    in Europe such as Barcelona, London, Prague, Berlin... to
-                    Brazil or Asian countries such as Korea, Japan and the event
-                    of PTZ in Hanoi in 2019. His teaching career started in 2004
-                    and that passion has continued to this day. Besides, Gilson
-                    is also the founder and organizer of the event series called
-                    Brazilian Dance Festival which takes place in the
-                    Netherlands annually, attracting thousands of Zoukers.
+                    Friends and part of the same dance team since 2008, Juliana
+                    Lima and Rafael Pitarello became official dance partners in
+                    2011 and started to develop different choreographs and
+                    projects since then, including being part of important
+                    events and festivals, and also teaching regular classes in
+                    different dance schools in São Paulo.
                   </b-card-text>
                   <b-card-text class="section-text my-4">
-                    Mailys is creator and organizer of the only Brazilian
-                    congress that combines the use of Zouk as a tool for
-                    self-knowledge and other human development tools, Beyond
-                    Dance. At "Fly with Lambada Sensation" in August, Gilson and
-                    Mailys will surely have plenty of useful knowledge to share
-                    with all Zoukers, especially about Lambada which is the
-                    popular & favorite dance in the Zouk community today. If you
-                    do not know them, they are super fun, interesting, and
-                    always ready to share.
+                    In 2016, they moved to Brisbane – Australia, where they have
+                    been promoting and strengthening the Brazilian dance
+                    culture, with an emphasis on Samba de Gafieira, Brazilian
+                    Zouk, Bolero and Forró, at different events and as part of
+                    the Rio Rhythmics Latin Dance Academy team. In 2019, they
+                    had the opportunity to teach and perform in different events
+                    in Germany and the Netherlands teaching workshops and
+                    performing Samba de Gafieira and Brazilian Zouk.
                   </b-card-text>
                 </div>
               </div>
@@ -349,21 +351,29 @@
         <div>
           <div class="text-center">
             <div class="d-flex">
-              <div class="passes-sub-title border p-5 price">
-                <div class="fs-4 text-black">Full Pass</div>
-                <div class="fs-3 text-white">1,600,000 VND</div>
-              </div>
-              <div class="passes-sub-title border p-4 pt-5 price">
-                <div class="fs-4 text-black">Early Bird</div>
-                <div class="fs-3 text-white">1,400,000 VND</div>
-                <div class="text-white">
-                  for the first 15 people to register
-                </div>
-              </div>
-              <div class="passes-sub-title border p-5 price">
-                <div class="fs-4 text-black">PTZ students</div>
-                <div class="fs-3 text-white">1,300,000 VND</div>
-              </div>
+              <b-row class="column-width">
+                <b-col lg="6" md="6" sm="6">
+                  <div class="passes-sub-title border p-5 price">
+                    <div class="fs-4 text-black">Full Pass</div>
+                    <div class="fs-3 text-white">900,000 VND</div>
+                  </div></b-col
+                >
+                <!-- <b-col lg="4" md="6" sm="6">
+                  <div class="passes-sub-title border p-4 pt-5 price">
+                    <div class="fs-4 text-black">Early Bird</div>
+                    <div class="fs-3 text-white">1,400,000 VND</div>
+                    <div class="text-white">
+                      for the first 15 people to register
+                    </div>
+                  </div>
+                </b-col> -->
+                <b-col lg="6" md="6" sm="6">
+                  <div class="passes-sub-title border p-5 price">
+                    <div class="fs-4 text-black">PTZ students</div>
+                    <div class="fs-3 text-white">800,000 VND</div>
+                  </div>
+                </b-col>
+              </b-row>
             </div>
 
             <div>

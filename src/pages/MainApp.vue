@@ -1,39 +1,49 @@
 <template>
   <div>
-    <div class="text-white text-align-center position-relative">
+    <div class="text-white text-align-center">
       <div
-        class="position-absolute"
-        style="top: 50%; left: 45%; transform: translate(-50%, -50%)"
+        class="position-absolute title-banner"
+        style="top: 50%; left: 30%; transform: translate(-50%, -50%)"
       >
-        <div style="width: 120%" class="banner-title">
-          <div class="fs-1 fw-bold p-2" style="font-family: Arial">
+        <div style="width: 180%">
+          <div class="fw-bold p-2" style="font-family: Arial">
             PTZ - DANCE YOUR WAY
           </div>
-          <div class="fs-1 fw-bold p-2" style="font-family: Arial">
-            BRAZILIAN ZOUK EVENTS & FESTIVALS
+          <div class="sub-banner-title">
+            <div class="fw-bold pt-2" style="font-family: Arial">
+              PIONEERING BRAZILIAN ZOUK STUDIO
+            </div>
+            <div class="fw-bold" style="font-family: Arial">IN VIETNAM</div>
           </div>
-          <div class="fs-4 p-2">Don't miss our latest dance event</div>
-          <br />
-          <div class="fs-5" style="color: red">
-            Aug 2-5 2023, Hanoi, Vietnam
-          </div>
-          <br />
-          <div class="fs-4 p-2 pb-4">
-            <button
-              type="button"
-              class="fs-4 p-2 btn btn-outline-success text-white"
-              style="border-color: white"
+
+          <div class="fs-4 p-2">
+            Don't miss our upcoming dance
+            <a class="bg-white py-1 px-2" href="#" style="color: #b867cc"
+              >event</a
             >
-              Register Now!
-            </button>
           </div>
+          <br />
+          <div class="fs-5">18-22 October 2023</div>
+          <br />
         </div>
       </div>
       <img class="main-banner" />
-      <div></div>
     </div>
     <div class="body-container">
-      <!-- <UpcomingEvents /> -->
+      <UpcomingEvents />
+      <!-- <div class="mb-8 mt-24">
+        <img
+          src="../assets/img/upcoming-events/coming-soon.jpg"
+          style="width: 100%"
+          class="relative mt-5"
+        />
+        <div
+          class="absolute text-white fs-2 coming-soon"
+          style="margin-top: -5rem; margin-bottom: 3rem"
+        >
+          18-22 October 2023
+        </div>
+      </div> -->
       <hr />
       <div id="about-ptz-section">
         <div class="section-title">ABOUT PTZ</div>
@@ -92,16 +102,9 @@
 </template>
 <script>
 import MainPageCarouselVue from "@/components/carousel/MainPageCarousel.vue";
-// import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
+import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
 export default {
-  components: { MainPageCarouselVue },
+  components: { MainPageCarouselVue, UpcomingEvents },
   name: "MainApp",
 };
 </script>
-<style>
-@media (max-width: 425px) {
-  .banner-tittle {
-    width: 200%;
-  }
-}
-</style>
