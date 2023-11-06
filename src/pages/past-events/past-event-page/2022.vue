@@ -80,7 +80,7 @@ export default {
       pastEventsInfo: [
         {
           key: 1,
-          time: "28-30 June 2023",
+          time: "04 - 06 November 2022",
           title: "PTZ's 3rd Anniversary",
           description: `Nhat and Gigi are zouk teachers from Austin, Texas with over six years of teaching experience. Throughout their teaching journey, Nhat has completed a teacher training workshop with Bruno Galhardo focusing on the pedagogy of zouk, and Gigi has completed Renata Peçanha's Traditional Brazilian Zouk Teacher Training Program. In 2018, Nhat and Gigi also became part of their teachers’, William Teixeira and Paloma Alves, professional zouk company, WT Company, and are currently studying under them. They also train with Rafael, Izabel, Marck and Melyssa to continue their professional development.`,
           imgSrc1: require("@/assets/img/past-events/2022/Nhat Gigi/1.jpg"),
@@ -103,7 +103,7 @@ export default {
         },
         {
           key: 2,
-          time: "August 2022",
+          time: "03 - 07 August 2022",
           title: "Alisson Sandi",
           description: `Alisson has been an official head judge and an important member for the Brazilian Zouk Dance Council since its first competition event in 2014. And he is one of the founders of the International Zouk Flash Mob/International Zouk Day which has been running yearly since 2012. Alisson loves to push himself and currently holds the following titles:
 - 3x Pro World Zouk Champion
@@ -129,7 +129,7 @@ export default {
         },
         {
           key: 3,
-          time: "June 2022",
+          time: "01 - 10 June 2022",
           title: "Dominik & Monika",
           description: `Our elegant Monika who started dancing from 7 years old, has great foundation in Jazz, Contemporary , latin and ballroom dances. She got into Zouk in 2013. 
 Dominik, a full of enery Viking, started his dance career as a hip hop dancer and used to be the male dancer at one of the Polish theatres. In 2021, they passed the certification exam in the MAC project and Monika passed the exam with the best result in the entire history of the project. 
