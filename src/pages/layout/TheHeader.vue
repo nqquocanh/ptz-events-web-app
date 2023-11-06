@@ -53,14 +53,14 @@
             Upcoming Events
           </div>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <router-link to="/upcoming-event-2" style="text-decoration: none">
+            <!-- <router-link to="/upcoming-event-2" style="text-decoration: none">
               <li>
                 <a class="dropdown-item" href="#"
                   >Romance & Joy with BraZouk & Lambada</a
                 >
               </li>
-            </router-link>
-            <!-- <div class="text-center">Coming soon</div> -->
+            </router-link> -->
+            <div class="text-center">Coming soon</div>
           </ul>
         </div>
         <div class="dropdown text-primary" role="button">

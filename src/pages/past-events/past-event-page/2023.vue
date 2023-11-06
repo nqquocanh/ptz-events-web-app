@@ -80,7 +80,22 @@ export default {
       pastEventsInfo: [
         {
           key: 1,
-          time: "2-5 August 2023",
+          time: "18 - 22 August 2023",
+          title: "Romance & Joy with BraZouk & Lambada",
+          description: `Friends and part of the same dance team since 2008, Juliana Lima and Rafael Pitarello became official dance partners in 2011 and started to develop different choreographs and projects since then, including being part of important events and festivals, and also teaching regular classes in different dance schools in São Paulo.
+In 2016, they moved to Brisbane – Australia, where they have been promoting and strengthening the Brazilian dance culture, with an emphasis on Samba de Gafieira, Brazilian Zouk, Bolero and Forró, at different events and as part of the Rio Rhythmics Latin Dance Academy team. In 2019, they had the opportunity to teach and perform in different events in Germany and the Netherlands teaching workshops and performing Samba de Gafieira and Brazilian Zouk`,
+          imgSrc1: require("@/assets/img/past-events/2023/Rafael Juliana/1.jpg"),
+          imgSrc2: require("@/assets/img/past-events/2023/Rafael Juliana/2.jpg"),
+          imgSrc3: require("@/assets/img/past-events/2023/Rafael Juliana/3.jpg"),
+          imgSrc4: require("@/assets/img/past-events/2023/Rafael Juliana/4.jpg"),
+          imgSrc5: require("@/assets/img/past-events/2023/Rafael Juliana/5.jpg"),
+          imgSrc6: require("@/assets/img/past-events/2023/Rafael Juliana/6.jpg"),
+          showImages: true,
+          showVideos: false,
+        },
+        {
+          key: 2,
+          time: "02 - 05 August 2023",
           title: "Fly with Lambada",
           description: `All the foundation techniques, the advanced
                 combos and the wifi game of Lambada will be shared at our event
@@ -96,8 +111,8 @@ export default {
           showVideos: false,
         },
         {
-          key: 2,
-          time: "28-30 June 2023",
+          key: 3,
+          time: "28 - 30 June 2023",
           title: "It's Afro Time",
           description: `There's nothing more CHILLING than a summer weekend to "let go of
               all deadlines", relax your whole body & spirit to immerse yourself
@@ -114,8 +129,8 @@ export default {
           showVideos: false,
         },
         {
-          key: 3,
-          time: "14-17 April 2023",
+          key: 4,
+          time: "14 - 17 April 2023",
           title: "Zouk It Up with The Masters",
           description: `For the first time, we have 03 Brazilian masters in an event
               hosted by PTZ. For the first time, we will be spending all the time dancing,
