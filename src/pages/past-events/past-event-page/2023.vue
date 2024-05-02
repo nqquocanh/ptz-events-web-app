@@ -80,7 +80,21 @@ export default {
       pastEventsInfo: [
         {
           key: 1,
-          time: "18 - 22 August 2023",
+          time: "01 - 08 December 2023",
+          title: "Lambada into BraZouk",
+          description: `With over 15 years of teaching and directing The Ramalhos dance school, Rodrigo is a true expert in his craft. Zouk has been a lifelong passion, and Rodrigo has graced stages worldwide, sharing his expertise in some of the most prestigious events. Now, he annually hosts one of the biggest Zouk events in the heart of Rio de Janeiro! Get ready for an unforgettable Zouk experience with Rodrigo's infectious energy and unparalleled dance mastery. Meet Jaqueline Rangel, our Pilates Master and movement maestro! With a background as one of Cirque Du Soleil’s movement coaches, Jaqueline brings a wealth of expertise to the dance floor. As a certified Pilates instructor, she has shared her knowledge around the globe, making her a special educator of mind-body movement. Get ready to elevate your dance skills with Jaqueline's unique blend of precision, strength, and grace.`,
+          imgSrc1: require("@/assets/img/past-events/2023/Lambada into BraZouk/1.jpg"),
+          imgSrc2: require("@/assets/img/past-events/2023/Lambada into BraZouk/2.jpg"),
+          imgSrc3: require("@/assets/img/past-events/2023/Lambada into BraZouk/3.jpg"),
+          imgSrc4: require("@/assets/img/past-events/2023/Lambada into BraZouk/4.jpg"),
+          imgSrc5: require("@/assets/img/past-events/2023/Lambada into BraZouk/5.jpg"),
+          imgSrc6: require("@/assets/img/past-events/2023/Lambada into BraZouk/6.jpg"),
+          showImages: true,
+          showVideos: false,
+        },
+        {
+          key: 2,
+          time: "18 - 22 October 2023",
           title: "Romance & Joy with BraZouk & Lambada",
           description: `Friends and part of the same dance team since 2008, Juliana Lima and Rafael Pitarello became official dance partners in 2011 and started to develop different choreographs and projects since then, including being part of important events and festivals, and also teaching regular classes in different dance schools in São Paulo.
 In 2016, they moved to Brisbane – Australia, where they have been promoting and strengthening the Brazilian dance culture, with an emphasis on Samba de Gafieira, Brazilian Zouk, Bolero and Forró, at different events and as part of the Rio Rhythmics Latin Dance Academy team. In 2019, they had the opportunity to teach and perform in different events in Germany and the Netherlands teaching workshops and performing Samba de Gafieira and Brazilian Zouk`,
@@ -94,7 +108,7 @@ In 2016, they moved to Brisbane – Australia, where they have been promoting an
           showVideos: false,
         },
         {
-          key: 2,
+          key: 3,
           time: "02 - 05 August 2023",
           title: "Fly with Lambada",
           description: `All the foundation techniques, the advanced
@@ -111,7 +125,7 @@ In 2016, they moved to Brisbane – Australia, where they have been promoting an
           showVideos: false,
         },
         {
-          key: 3,
+          key: 4,
           time: "28 - 30 June 2023",
           title: "It's Afro Time",
           description: `There's nothing more CHILLING than a summer weekend to "let go of
@@ -129,7 +143,7 @@ In 2016, they moved to Brisbane – Australia, where they have been promoting an
           showVideos: false,
         },
         {
-          key: 4,
+          key: 5,
           time: "14 - 17 April 2023",
           title: "Zouk It Up with The Masters",
           description: `For the first time, we have 03 Brazilian masters in an event
