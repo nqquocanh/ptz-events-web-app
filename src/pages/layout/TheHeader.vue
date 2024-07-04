@@ -12,7 +12,7 @@
             >Home</b-dropdown-item
           >
           <b-dropdown-divider />
-          <b-dropdown-group id="dropdown-group-1" header="Upcoming Events">
+          <!-- <b-dropdown-group id="dropdown-group-1" header="Upcoming Events">
             <router-link to="/upcoming-event-2" style="text-decoration: none">
               <li>
                 <a class="dropdown-item" href="#"
@@ -20,8 +20,8 @@
                 >
               </li>
             </router-link>
-          </b-dropdown-group>
-          <b-dropdown-divider />
+          </b-dropdown-group> -->
+          <!-- <b-dropdown-divider /> -->
           <b-dropdown-group id="dropdown-group-1" header="Past Events">
             <router-link to="/past-events/2024" style="text-decoration: none">
               <li><a class="dropdown-item text-center" href="#">2024</a></li>
@@ -33,6 +33,16 @@
               <li><a class="dropdown-item text-center" href="#">2022</a></li>
             </router-link>
           </b-dropdown-group>
+          <b-dropdown-divider />
+          <b-dropdown-group id="dropdown-group-1" header="DJs">
+            <router-link to="/djs/DJ-TK" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">DJ TK</a></li>
+            </router-link>
+            <router-link to="/djs/DJ-AnhQ" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">DJ AnhQ</a></li>
+            </router-link>
+          </b-dropdown-group>
+          <!-- <b-dropdown-divider /> -->
         </b-dropdown>
       </div>
     </div>
