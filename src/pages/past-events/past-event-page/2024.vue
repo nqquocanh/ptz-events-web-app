@@ -22,10 +22,10 @@
                   <div>
                     <div class="fs-4 py-2 font-weight-bold">GALLERY</div>
                   </div>
-                  <div class="d-flex">
+                  <div class="d-flex gap-4">
                     <div class="nav-item">
                       <a
-                        class="nav-link font-weight-bold pr-2"
+                        class="nav-link font-weight-bold"
                         @click="
                           event.showImages = true;
                           event.showVideos = false;
