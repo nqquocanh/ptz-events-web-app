@@ -1,36 +1,56 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue from "vue";
+import VueRouter from "vue-router";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   routes: [
     {
-      path: '/',
-      name: 'MainApp',
-      component: () => import('./pages/MainApp.vue')
+      path: "/",
+      name: "MainApp",
+      component: () => import("./pages/MainApp.vue"),
     },
 
     //Upcoming Events
-        {
-      path: '/upcoming-event-2',
-      name: 'UpcomingEvent2',
-      component: () => import('./pages/upcoming-events/upcoming-event-page/UpcomingEvent2.vue')
+    {
+      path: "/upcoming-event-2",
+      name: "UpcomingEvent2",
+      component: () =>
+        import(
+          "./pages/upcoming-events/upcoming-event-page/UpcomingEvent2.vue"
+        ),
     },
 
     //Past Events
     {
-      path: '/past-events/2023',
-      name: '2023',
-      component: () => import('./pages/past-events/past-event-page/2023.vue'),
+      path: "/past-events/2024",
+      name: "2024",
+      component: () => import("./pages/past-events/past-event-page/2024.vue"),
     },
-        {
-      path: '/past-events/2022',
-      name: '2022',
-      component: () => import('./pages/past-events/past-event-page/2022.vue'),
+    {
+      path: "/past-events/2023",
+      name: "2023",
+      component: () => import("./pages/past-events/past-event-page/2023.vue"),
     },
-  ]
-})
+    {
+      path: "/past-events/2022",
+      name: "2022",
+      component: () => import("./pages/past-events/past-event-page/2022.vue"),
+    },
 
-export default router
+    //DJs
+    {
+      path: "/djs/DJ-TK",
+      name: "DJ TK",
+      component: () => import("./pages/djs/DJ-TK.vue"),
+    },
+    {
+      path: "/djs/DJ-AnhQ",
+      name: "DJ AnhQ",
+      component: () => import("./pages/djs/DJ-AnhQ.vue"),
+    },
+  ],
+});
+
+export default router;

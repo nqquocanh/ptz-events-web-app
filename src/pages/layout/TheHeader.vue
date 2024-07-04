@@ -23,6 +23,9 @@
           </b-dropdown-group>
           <b-dropdown-divider />
           <b-dropdown-group id="dropdown-group-1" header="Past Events">
+            <router-link to="/past-events/2024" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">2024</a></li>
+            </router-link>
             <router-link to="/past-events/2023" style="text-decoration: none">
               <li><a class="dropdown-item text-center" href="#">2023</a></li>
             </router-link>
@@ -74,11 +77,33 @@
             Past Events
           </div>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <router-link to="/past-events/2024" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">2024</a></li>
+            </router-link>
             <router-link to="/past-events/2023" style="text-decoration: none">
               <li><a class="dropdown-item text-center" href="#">2023</a></li>
             </router-link>
             <router-link to="/past-events/2022" style="text-decoration: none">
               <li><a class="dropdown-item text-center" href="#">2022</a></li>
+            </router-link>
+          </ul>
+        </div>
+        <div class="dropdown text-primary" role="button">
+          <div
+            class="dropdown-toggle cursor"
+            id="dropdownMenuButton3"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="color: #b867cc"
+          >
+            DJs
+          </div>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+            <router-link to="/djs/DJ-TK" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">DJ TK</a></li>
+            </router-link>
+            <router-link to="/djs/DJ-AnhQ" style="text-decoration: none">
+              <li><a class="dropdown-item text-center" href="#">DJ AnhQ</a></li>
             </router-link>
           </ul>
         </div>
