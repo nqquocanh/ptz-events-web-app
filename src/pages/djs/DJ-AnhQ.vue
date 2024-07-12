@@ -39,7 +39,6 @@ export default {
   name: "DjAnhq",
   data: function () {
     return {
-      test: "test",
       zoukSet: [
         {
           key: 1,
