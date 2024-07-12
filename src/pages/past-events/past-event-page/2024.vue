@@ -88,7 +88,7 @@ export default {
           imgSrc3: "",
           imgSrc4: "",
           imgSrc5: "",
-          imgSrc6: "",
+          imgSrc6: require("@/assets/img/past-events/2024/Brazouky/6.jpg"),
           // imgSrc1: require("@/assets/img/past-events/2024/Brazouky/1.jpg"),
           // imgSrc2: require("@/assets/img/past-events/2024/Brazouky/2.jpg"),
           // imgSrc3: require("@/assets/img/past-events/2024/Brazouky/3.jpg"),
