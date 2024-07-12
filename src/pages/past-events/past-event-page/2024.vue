@@ -77,6 +77,7 @@ export default {
     return {
       showImages: true,
       showVideos: false,
+      test: "test",
       pastEventsInfo: [
         {
           key: 1,
