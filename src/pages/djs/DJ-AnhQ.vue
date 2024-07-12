@@ -3,8 +3,26 @@
     <div class="line"></div>
     <div class="body-container pt-5">
       <div class="section-title pt-4">DJ AnhQ</div>
+      <b-row>
+        <b-col lg="4" md="6" sm="6" class="pt-3">
+          <img src="@/assets/img/djs/anh-q/dj-anhq.jpg" class="d-block w-100" />
+        </b-col>
+        <b-col lg="8" md="6" sm="6" class="text-left text-justify pt-2">
+          Meet DJ AnhQ, an up-and-coming DJ in the region! <br />DJ AnhQ has
+          already made a name for himself with experience playing at various
+          regional events: HZD Marathon in October 2022, Zouk It Up in April
+          2023, Zoukmelah in July 2023, Brazouky Vietnam in June 2024. Besides
+          being a regular DJ in the weekly parties - Sensation Night DJ AnhQ
+          also attended the where he will undoubtedly continue to impress with
+          his talent and passion for music. Keep an eye out for this rising star
+          in the Zouk community! You can check his sets here
+          <a href="https://soundcloud.com/dj-anh-q" target="”_blank”">
+            https://soundcloud.com/dj-anh-q
+          </a>
+        </b-col>
+      </b-row>
       <div>
-        <div class="my-5 section-sub-title">Hot Sets</div>
+        <div class="my-5 section-sub-title">Selected Sets</div>
         <div
           class="pb-5"
           v-for="set in zoukSet"
