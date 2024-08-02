@@ -7,12 +7,10 @@
       />
     </div>
     <body class="body-container">
-      <div>
+      <!-- <div>
         <div class="quick-intro-section">
           <div>
-            <div class="section-title">
-              ROMANCE & JOY WITH BRAZOUK & LAMBADA
-            </div>
+            <div class="section-title">BRAZILIAN ZOUK - LUAN & ADRIANA</div>
             <div class="quick-intro-content">
               <div class="section-text my-4">
                 When it comes to Brazil which is the largest country in South
@@ -34,7 +32,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="line"></div>
       <div id="dresscode-section">
         <div class="section-title">WHAT WILL WE OFFER</div>
@@ -60,21 +58,21 @@
                 class="bi bi-music-note-beamed px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">5 Hours Social Parties</div>
+              <div class="pt-3">6 Hours Social Parties</div>
             </b-col>
           </b-row>
         </div>
       </div>
       <hr />
-      <div id="schedule-section">
+      <!-- <div id="schedule-section">
         <hr />
         <div class="section-title pl-5">EVENT SCHEDULE</div>
         <div class="schedule-container">
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">18</div>
-                <div class="schedule-plan-time-month">OCTOBER</div>
+                <div class="schedule-plan-time-date">24</div>
+                <div class="schedule-plan-time-month">AUGUST</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
@@ -92,8 +90,8 @@
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">20</div>
-                <div class="schedule-plan-time-month">OCTOBER</div>
+                <div class="schedule-plan-time-date">25</div>
+                <div class="schedule-plan-time-month">AUGUST</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
@@ -112,57 +110,9 @@
               </div>
             </div>
           </div>
-          <hr class="schedule-plan-line" />
-          <div class="schedule-content">
-            <div class="schedule-plan">
-              <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">21</div>
-                <div class="schedule-plan-time-month">OCTOBER</div>
-              </div>
-              <div class="schedule-plan-line-date" />
-              <div class="schedule-plan-activities pb-3">
-                <div>
-                  <i class="fa-regular fa-clock"></i> 6:00PM - 7:00PM: Free
-                  Workshop
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 7:00PM - 8:30PM: Workshop
-                  3
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 8:30PM - 00:00AM:
-                  Sensation Night
-                </div>
-                <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 5A Floor,
-                  152 Pho Duc Chinh, Ba Dinh, Hanoi
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr class="schedule-plan-line" />
-          <div class="schedule-content">
-            <div class="schedule-plan pb-4">
-              <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">22</div>
-                <div class="schedule-plan-time-month">OCTOBER</div>
-              </div>
-              <div class="schedule-plan-line-date" />
-              <div class="schedule-plan-activities">
-                <div>
-                  <i class="fa-regular fa-clock"></i> 3:00PM - 5:00PM: Workshop
-                  4
-                </div>
-                <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i>
-                  3rd Floor, No. 65 Quan Su, Hoan Kiem, Hanoi
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <hr />
-      </div>
+      </div> -->
       <hr />
       <!-- <div id="agenda-section">
         <div class="section-title">AGENDA</div>
@@ -313,31 +263,24 @@
             <b-col lg="12" md="12" sm="12" class="mb-3">
               <div class="card h-100">
                 <img
-                  src="@/assets/img/upcoming-events/upcoming-event-01/upcoming-event-02.png"
+                  src="@/assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg"
                   class="card-img-top m-auto"
                   alt="Gilson & Mailys"
                 />
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">
-                    <strong>JULIANA & RAFAEL</strong>
+                    <strong>LUAN & ADRIANA</strong>
                   </h5>
                   <b-card-text class="section-text my-4">
-                    Friends and part of the same dance team since 2008, Juliana
-                    Lima and Rafael Pitarello became official dance partners in
-                    2011 and started to develop different choreographs and
-                    projects since then, including being part of important
-                    events and festivals, and also teaching regular classes in
-                    different dance schools in São Paulo.
-                  </b-card-text>
-                  <b-card-text class="section-text my-4">
-                    In 2016, they moved to Brisbane – Australia, where they have
-                    been promoting and strengthening the Brazilian dance
-                    culture, with an emphasis on Samba de Gafieira, Brazilian
-                    Zouk, Bolero and Forró, at different events and as part of
-                    the Rio Rhythmics Latin Dance Academy team. In 2019, they
-                    had the opportunity to teach and perform in different events
-                    in Germany and the Netherlands teaching workshops and
-                    performing Samba de Gafieira and Brazilian Zouk.
+                    Luan & Adriana bring 15 years of ballroom dancing experience
+                    to their teaching. They are highly respected Zouk
+                    instructors at both national and international congresses.
+                    They are two-time World Lambada champions, Brazilian 🇧🇷
+                    Latin Dance champions, and Regional Ballroom Dancing
+                    champions. Additionally, they serve as coaches, speakers,
+                    and emotional intelligence trainers at the Lyouman
+                    Institute, and are the creative minds behind several notable
+                    initiatives integrating dance and emotional intelligence.
                   </b-card-text>
                 </div>
               </div>
@@ -355,7 +298,7 @@
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
                     <div class="fs-4 text-black">Full Pass</div>
-                    <div class="fs-3 text-white">900,000 VND</div>
+                    <div class="fs-3 text-white">1,200,000 VND</div>
                   </div></b-col
                 >
                 <!-- <b-col lg="4" md="6" sm="6">
@@ -369,8 +312,8 @@
                 </b-col> -->
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
-                    <div class="fs-4 text-black">PTZ students</div>
-                    <div class="fs-3 text-white">800,000 VND</div>
+                    <div class="fs-4 text-black">Active PTZ members</div>
+                    <div class="fs-3 text-white">1,100,000 VND</div>
                   </div>
                 </b-col>
               </b-row>

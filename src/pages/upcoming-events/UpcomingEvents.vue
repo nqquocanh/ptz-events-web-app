@@ -116,11 +116,11 @@ export default {
       upcomingEventsInfo: [
         {
           key: 2,
-          title: "ROMANCE & JOY WITH BRAZOUK & LAMBADA",
-          imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-03.jpg"),
-          description: `This coming October, Zoukers don't need to study abroad anymore because 2 talented Brazilian dancers will be going to Vietnam, Rafael Pitarello & Juliana Lima, bringing experience and passion for dancing over a decade, who will directly guide amazing Workshops right at our beloved PTZ!`,
-          time: "18 - 22 October, 2023",
-          end: new Date("October 18, 2023"),
+          title: "BRAZILIAN ZOUK - LUAN & ADRIANA",
+          imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg"),
+          description: `Luan & Adriana bring 15 years of ballroom dancing experience to their teaching. They are highly respected Zouk instructors at both national and international congresses. They are two-time World Lambada champions, Brazilian 🇧🇷 Latin Dance champions, and Regional Ballroom Dancing champions. Additionally, they serve as coaches, speakers, and emotional intelligence trainers at the Lyouman Institute, and are the creative minds behind several notable initiatives integrating dance and emotional intelligence.`,
+          time: "21 - 26 August, 2024",
+          end: new Date("August 21, 2024"),
           countdownTimer: null,
         },
       ],
