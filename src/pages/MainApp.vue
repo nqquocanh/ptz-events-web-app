@@ -18,7 +18,10 @@
 
           <div class="fs-4 p-2">
             Don't miss our upcoming dance
-            <a class="bg-white py-1 px-2" href="#" style="color: #b867cc"
+            <a
+              class="bg-white py-1 px-2"
+              href="/upcoming-event"
+              style="color: #b867cc"
               >event</a
             >
           </div>

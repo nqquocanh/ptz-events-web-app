@@ -13,7 +13,7 @@
           >
           <b-dropdown-divider />
           <b-dropdown-group id="dropdown-group-1" header="Upcoming Events">
-            <router-link to="/upcoming-event-2" style="text-decoration: none">
+            <router-link to="/upcoming-event" style="text-decoration: none">
               <li>
                 <a class="dropdown-item" href="#">Lambada Fever Zero to Hero</a>
               </li>
@@ -64,7 +64,7 @@
             Upcoming Events
           </div>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <router-link to="/upcoming-event-2" style="text-decoration: none">
+            <router-link to="/upcoming-event" style="text-decoration: none">
               <li>
                 <a class="dropdown-item" href="#">Lambada Fever Zero to Hero</a>
               </li>

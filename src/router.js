@@ -14,12 +14,10 @@ const router = new VueRouter({
 
     //Upcoming Events
     {
-      path: "/upcoming-event-2",
-      name: "UpcomingEvent2",
+      path: "/upcoming-event",
+      name: "UpcomingEvent",
       component: () =>
-        import(
-          "./pages/upcoming-events/upcoming-event-page/UpcomingEvent2.vue"
-        ),
+        import("./pages/upcoming-events/upcoming-event-page/UpcomingEvent.vue"),
     },
 
     //Past Events
