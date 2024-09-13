@@ -116,11 +116,11 @@ export default {
       upcomingEventsInfo: [
         {
           key: 2,
-          title: "BRAZILIAN ZOUK - LUAN & ADRIANA",
+          title: "LAMBADA FEVER ZERO TO HERO",
           imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg"),
-          description: `Luan & Adriana bring 15 years of ballroom dancing experience to their teaching. They are highly respected Zouk instructors at both national and international congresses. They are two-time World Lambada champions, Brazilian 🇧🇷 Latin Dance champions, and Regional Ballroom Dancing champions. Additionally, they serve as coaches, speakers, and emotional intelligence trainers at the Lyouman Institute, and are the creative minds behind several notable initiatives integrating dance and emotional intelligence.`,
-          time: "21 - 26 August, 2024",
-          end: new Date("August 21, 2024"),
+          description: `PTZ would like to present the special Workshop "Lambada Fever - Zero to Hero" led by the talented couple from Brazil: Ariel & Letícia! This is your chance to dive into the world of Lambada – a captivating, vibrant, and energetic dance style that will set your soul on fire.`,
+          time: "18 Sep - 1 Oct, 2024",
+          end: new Date("September 18, 2024"),
           countdownTimer: null,
         },
       ],

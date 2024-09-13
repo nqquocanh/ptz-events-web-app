@@ -7,32 +7,26 @@
       />
     </div>
     <body class="body-container">
-      <!-- <div>
+      <div>
         <div class="quick-intro-section">
           <div>
-            <div class="section-title">BRAZILIAN ZOUK - LUAN & ADRIANA</div>
+            <div class="section-title">LAMBADA FEVER ZERO TO HERO</div>
             <div class="quick-intro-content">
               <div class="section-text my-4">
-                When it comes to Brazil which is the largest country in South
-                America is referring to the land of festivals and fiery dances,
-                large-scale and magnificent performances. When it comes to
-                Brazilian Zouk, we cannot ignore the Brazilian origin in which
-                many gifted dancers of Zouk converge. That's the reason why
-                every year Zoukers from all over the world flock to the "dance
-                training center" in Brazil to learn, and seize the opportunity
-                to level up very quickly.
+                Learn from Brazil’s Top Artists: Ariel & Letícia are
+                internationally renowned performers who have taught at major
+                dance events worldwide. Learning from them is an incredible
+                opportunity to elevate your skills and style.
               </div>
               <div class="section-text my-4">
-                This coming October, Zoukers don't need to study abroad anymore
-                because 2 talented Brazilian dancers will be going to Vietnam,
-                Rafael Pitarello & Juliana Lima, bringing experience and passion
-                for dancing over a decade, who will directly guide amazing
-                Workshops right at our beloved PTZ!
+                Connect with the Dance Community: Meet new friends and share the
+                joy with PTZ’s passionate dance community. It’s not just a
+                workshop—it’s a celebration of dance and connection
               </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <div class="line"></div>
       <div id="dresscode-section">
         <div class="section-title">WHAT WILL WE OFFER</div>
@@ -58,31 +52,40 @@
                 class="bi bi-music-note-beamed px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">6 Hours Social Parties</div>
+              <div class="pt-3">10 Hours Social Parties</div>
             </b-col>
           </b-row>
         </div>
       </div>
       <hr />
-      <!-- <div id="schedule-section">
+      <div id="schedule-section">
         <hr />
         <div class="section-title pl-5">EVENT SCHEDULE</div>
         <div class="schedule-container">
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">24</div>
-                <div class="schedule-plan-time-month">AUGUST</div>
+                <div class="schedule-plan-time-date">21</div>
+                <div class="schedule-plan-time-month">SEPTEMBER</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 8:00PM -9:00PM: Workshop 1
+                  <i class="fa-regular fa-clock"></i> 5:30PM -6:30PM: Free
+                  Workshop - Lambada Introduction
                 </div>
                 <div>
+                  <i class="fa-regular fa-clock"></i> 6:45PM -8:15PM: Workshop 1
+                  - Lambada Basics and Timing
+                </div>
+                <div>
+                  <i class="fa-regular fa-clock"></i> 8:45PM -11:45PM: Sensation
+                  Night
+                </div>
+                <!-- <div>
                   <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
                   Tong Duy Tan, Hoan Kiem, Hanoi
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -90,30 +93,86 @@
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">25</div>
-                <div class="schedule-plan-time-month">AUGUST</div>
+                <div class="schedule-plan-time-date">22</div>
+                <div class="schedule-plan-time-month">SEPTEMBER</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 8:00PM - 9:30PM: Workshop
-                  2
+                  <i class="fa-regular fa-clock"></i> 4:00PM -5:30PM: Workshop 2
+                  - Soltinho & Variations
                 </div>
                 <div>
-                  <i class="fa-regular fa-clock"></i> 9:30PM - 11:00PM:
-                  Socializing
+                  <i class="fa-regular fa-clock"></i> 5:45PM -7:15PM: Workshop 3
+                  - Double Turns
                 </div>
                 <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 3rd Floor,
-                  No. 65 Quan Su, Hoan Kiem, Hanoi
+                  <i class="fa-regular fa-clock"></i> 7:45PM -9:45PM: Sensation
+                  Night
                 </div>
+                <!-- <div>
+                  <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
+                  Tong Duy Tan, Hoan Kiem, Hanoi
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <hr class="schedule-plan-line" />
+          <div class="schedule-content">
+            <div class="schedule-plan">
+              <div class="schedule-plan-time">
+                <div class="schedule-plan-time-date">28</div>
+                <div class="schedule-plan-time-month">SEPTEMBER</div>
+              </div>
+              <div class="schedule-plan-line-date" />
+              <div class="schedule-plan-activities">
+                <div>
+                  <i class="fa-regular fa-clock"></i> 5:30PM -7:00PM: Workshop 4
+                  - Circular Head and Boneca
+                </div>
+                <div>
+                  <i class="fa-regular fa-clock"></i> 7:30PM -11:00PM: Sensation
+                  Night
+                </div>
+                <!-- <div>
+                  <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
+                  Tong Duy Tan, Hoan Kiem, Hanoi
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <hr class="schedule-plan-line" />
+          <div class="schedule-content">
+            <div class="schedule-plan">
+              <div class="schedule-plan-time">
+                <div class="schedule-plan-time-date">29</div>
+                <div class="schedule-plan-time-month">SEPTEMBER</div>
+              </div>
+              <div class="schedule-plan-line-date" />
+              <div class="schedule-plan-activities">
+                <div>
+                  <i class="fa-regular fa-clock"></i> 4:00PM -5:30PM: Workshop 5
+                  - Wifi Boneca, Mergulho, Frango Assado and Chicote
+                </div>
+                <div>
+                  <i class="fa-regular fa-clock"></i> 5:45PM -7:15PM: Workshop 6
+                  - Continues Turns and Cambre
+                </div>
+                <div>
+                  <i class="fa-regular fa-clock"></i> 7:45PM -9:45PM: Sensation
+                  Night
+                </div>
+                <!-- <div>
+                  <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
+                  Tong Duy Tan, Hoan Kiem, Hanoi
+                </div> -->
               </div>
             </div>
           </div>
         </div>
         <hr />
-      </div> -->
-      <hr />
+      </div>
+      <!-- <hr /> -->
       <!-- <div id="agenda-section">
         <div class="section-title">AGENDA</div>
         <b-row>
@@ -269,18 +328,13 @@
                 />
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">
-                    <strong>LUAN & ADRIANA</strong>
+                    <strong>ARIEL & LETICIA</strong>
                   </h5>
                   <b-card-text class="section-text my-4">
-                    Luan & Adriana bring 15 years of ballroom dancing experience
-                    to their teaching. They are highly respected Zouk
-                    instructors at both national and international congresses.
-                    They are two-time World Lambada champions, Brazilian 🇧🇷
-                    Latin Dance champions, and Regional Ballroom Dancing
-                    champions. Additionally, they serve as coaches, speakers,
-                    and emotional intelligence trainers at the Lyouman
-                    Institute, and are the creative minds behind several notable
-                    initiatives integrating dance and emotional intelligence.
+                    Ariel & Letícia are internationally renowned performers who
+                    have taught at major dance events worldwide. Learning from
+                    them is an incredible opportunity to elevate your skills and
+                    style.
                   </b-card-text>
                 </div>
               </div>
@@ -298,7 +352,7 @@
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
                     <div class="fs-4 text-black">Full Pass</div>
-                    <div class="fs-3 text-white">1,200,000 VND</div>
+                    <div class="fs-3 text-white">2,000,000 VND</div>
                   </div></b-col
                 >
                 <!-- <b-col lg="4" md="6" sm="6">
@@ -313,7 +367,7 @@
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
                     <div class="fs-4 text-black">Active PTZ members</div>
-                    <div class="fs-3 text-white">1,100,000 VND</div>
+                    <div class="fs-3 text-white">1,500,000 VND</div>
                   </div>
                 </b-col>
               </b-row>
@@ -388,7 +442,7 @@
           </div>
         </div>
       </div>
-      <div class="line"></div>
+      <!-- <div class="line"></div> -->
       <div id="code-of-conduct-section">
         <div class="section-title">CODE OF CONDUCT</div>
         <div class="about-ptz-container">
