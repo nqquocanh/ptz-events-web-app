@@ -122,6 +122,24 @@ export default {
           showImages: true,
           showVideos: false,
         },
+        {
+          key: 4,
+          time: "18 Sep - 1 Oct, 2024",
+          title: "Lambada Fever Zero To Hero",
+          description: `Ariel & Letícia are
+                internationally renowned performers who have taught at major
+                dance events worldwide. Learning from them is an incredible
+                opportunity to elevate lambada skills and style.`,
+          videoUrl: `<iframe width="560" height="315" src="https://www.youtube.com/embed/t3fSYHz_TiE?si=IWVsOSfCNvbDlBjy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+          imgSrc1: require("@/assets/img/past-events/2024/Ariel Leticia/1.jpg"),
+          imgSrc2: "",
+          imgSrc3: "",
+          imgSrc4: "",
+          imgSrc5: "",
+          imgSrc6: "",
+          showImages: true,
+          showVideos: false,
+        },
       ],
     };
   },
