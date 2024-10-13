@@ -16,7 +16,7 @@
             <div class="fw-bold" style="font-family: Arial">IN VIETNAM</div>
           </div>
 
-          <div class="fs-4 p-2">
+          <!-- <div class="fs-4 p-2">
             Don't miss our upcoming dance
             <a
               class="bg-white py-1 px-2"
@@ -26,7 +26,7 @@
             >
           </div>
           <br />
-          <div class="fs-5">18 Sep - 1 Oct 2024</div>
+          <div class="fs-5">18 Sep - 1 Oct 2024</div> -->
           <br />
         </div>
       </div>
