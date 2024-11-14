@@ -120,7 +120,7 @@ export default {
           imgSrc5: require("@/assets/img/past-events/2024/Luan Adriana/Luan-Adriana-5.jpg"),
           imgSrc6: "",
           showImages: true,
-          showVideos: true,
+          showVideos: false,
         },
         {
           key: 4,
@@ -138,7 +138,7 @@ export default {
           imgSrc5: require("@/assets/img/past-events/2024/Ariel Leticia/5.jpg"),
           imgSrc6: require("@/assets/img/past-events/2024/Ariel Leticia/6.jpg"),
           showImages: true,
-          showVideos: true,
+          showVideos: false,
         },
         {
           key: 5,
@@ -153,7 +153,7 @@ export default {
           imgSrc5: "",
           imgSrc6: "",
           showImages: true,
-          showVideos: true,
+          showVideos: false,
         },
       ],
     };
