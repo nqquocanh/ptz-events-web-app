@@ -155,6 +155,22 @@ export default {
           showImages: true,
           showVideos: false,
         },
+        {
+          key: 6,
+          time: "2024",
+          title: "Summary of 2024",
+          description: `A vibrant and brilliant 2024 with many memorable events and workshops! From exciting classes, "burning the floor" parties to workshops with international artists, all have created a full year full of emotions.
+ PTZ wishes you a peaceful, happy and joyful Christmas with family and friends. Thank you for being a part of this journey, and we will see you again in 2025 with even more explosive experiences! Watch the 2024 recap video now and look back at the special moments that have created the wonderful "PTZ family"!`,
+          videoUrl: `<iframe width="560" height="315" src="https://www.youtube.com/embed/VVzxV_M6mo8?si=NR4qmP2r3N18mhYu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+          imgSrc1: "",
+          imgSrc2: "",
+          imgSrc3: "",
+          imgSrc4: "",
+          imgSrc5: "",
+          imgSrc6: "",
+          showImages: false,
+          showVideos: true,
+        },
       ],
     };
   },
