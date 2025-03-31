@@ -115,12 +115,12 @@ export default {
     return {
       upcomingEventsInfo: [
         {
-          key: 2,
-          title: "LAMBADA FEVER ZERO TO HERO",
+          key: 1,
+          title: "LÉO GOMES - ",
           imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg"),
-          description: `PTZ would like to present the special Workshop "Lambada Fever - Zero to Hero" led by the talented couple from Brazil: Ariel & Letícia! This is your chance to dive into the world of Lambada – a captivating, vibrant, and energetic dance style that will set your soul on fire.`,
-          time: "18 Sep - 1 Oct, 2024",
-          end: new Date("September 18, 2024"),
+          description: `Get ready for a wonderful experience with Léo Gomes, a world-renowned figure in Brazilian Zouk and Lambada! His artistry, innovation, and passion have shaped the dance scene both nationally and internationally. As a two-time World Lambada Champion, Léo brings plenty of knowledge and energy to every class.`,
+          time: "9 Apr - 14 Apr, 2025",
+          end: new Date("April 9, 2025"),
           countdownTimer: null,
         },
       ],
