@@ -22,6 +22,11 @@ const router = new VueRouter({
 
     //Past Events
     {
+      path: "/past-events/2025",
+      name: "2025",
+      component: () => import("./pages/past-events/past-event-page/2025.vue"),
+    },
+    {
       path: "/past-events/2024",
       name: "2024",
       component: () => import("./pages/past-events/past-event-page/2024.vue"),
