@@ -10,13 +10,18 @@
       <div>
         <div class="quick-intro-section">
           <div>
-            <div class="section-title">LAMBADA FEVER ZERO TO HERO</div>
+            <div class="section-title">
+              LÉO GOMES – BRAZILIAN ZOUK REGULAR CLASSES & LAMBADA INTENSIVES AT
+              PTZ!
+            </div>
             <div class="quick-intro-content">
               <div class="section-text my-4">
-                Learn from Brazil’s Top Artists: Ariel & Letícia are
-                internationally renowned performers who have taught at major
-                dance events worldwide. Learning from them is an incredible
-                opportunity to elevate your skills and style.
+                Get ready for a wonderful experience with Léo Gomes, a
+                world-renowned figure in Brazilian Zouk and Lambada! His
+                artistry, innovation, and passion have shaped the dance scene
+                both nationally and internationally. As a two-time World Lambada
+                Champion, Léo brings plenty of knowledge and energy to every
+                class.
               </div>
               <div class="section-text my-4">
                 Connect with the Dance Community: Meet new friends and share the
@@ -45,14 +50,14 @@
                 class="bi bi-people px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">6 High-Quality Workshops</div>
+              <div class="pt-3">3 High-Quality Workshops</div>
             </b-col>
             <b-col lg="4" md="4" sm="6" class="mb-3">
               <i
                 class="bi bi-music-note-beamed px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">10 Hours Social Parties</div>
+              <div class="pt-3">3 Hours Social Parties</div>
             </b-col>
           </b-row>
         </div>
@@ -65,22 +70,14 @@
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">21</div>
-                <div class="schedule-plan-time-month">SEPTEMBER</div>
+                <div class="schedule-plan-time-date">09</div>
+                <div class="schedule-plan-time-month">APRIL</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 5:30PM -6:30PM: Free
-                  Workshop - Lambada Introduction
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 6:45PM -8:15PM: Workshop 1
-                  - Lambada Basics and Timing
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 8:45PM -11:45PM: Sensation
-                  Night
+                  <i class="fa-regular fa-clock"></i> 08:00PM - 09:00PM:
+                  Foundation Class
                 </div>
                 <!-- <div>
                   <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
@@ -93,73 +90,25 @@
           <div class="schedule-content">
             <div class="schedule-plan">
               <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">22</div>
-                <div class="schedule-plan-time-month">SEPTEMBER</div>
+                <div class="schedule-plan-time-date">12</div>
+                <div class="schedule-plan-time-month">APRIL</div>
               </div>
               <div class="schedule-plan-line-date" />
               <div class="schedule-plan-activities">
                 <div>
-                  <i class="fa-regular fa-clock"></i> 4:00PM -5:30PM: Workshop 2
-                  - Soltinho & Variations
+                  <i class="fa-regular fa-clock"></i> 05:00PM - 06:00PM: Free
+                  Intro Workshop
                 </div>
                 <div>
-                  <i class="fa-regular fa-clock"></i> 5:45PM -7:15PM: Workshop 3
-                  - Double Turns
+                  <i class="fa-regular fa-clock"></i> 06:00PM - 07:00PM:
+                  Improvers Class
                 </div>
                 <div>
-                  <i class="fa-regular fa-clock"></i> 7:45PM -9:45PM: Sensation
-                  Night
-                </div>
-                <!-- <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
-                  Tong Duy Tan, Hoan Kiem, Hanoi
-                </div> -->
-              </div>
-            </div>
-          </div>
-          <hr class="schedule-plan-line" />
-          <div class="schedule-content">
-            <div class="schedule-plan">
-              <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">28</div>
-                <div class="schedule-plan-time-month">SEPTEMBER</div>
-              </div>
-              <div class="schedule-plan-line-date" />
-              <div class="schedule-plan-activities">
-                <div>
-                  <i class="fa-regular fa-clock"></i> 5:30PM -7:00PM: Workshop 4
-                  - Circular Head and Boneca
+                  <i class="fa-regular fa-clock"></i> 07:00PM - 08:00PM:
+                  Foundation Class
                 </div>
                 <div>
-                  <i class="fa-regular fa-clock"></i> 7:30PM -11:00PM: Sensation
-                  Night
-                </div>
-                <!-- <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
-                  Tong Duy Tan, Hoan Kiem, Hanoi
-                </div> -->
-              </div>
-            </div>
-          </div>
-          <hr class="schedule-plan-line" />
-          <div class="schedule-content">
-            <div class="schedule-plan">
-              <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">29</div>
-                <div class="schedule-plan-time-month">SEPTEMBER</div>
-              </div>
-              <div class="schedule-plan-line-date" />
-              <div class="schedule-plan-activities">
-                <div>
-                  <i class="fa-regular fa-clock"></i> 4:00PM -5:30PM: Workshop 5
-                  - Wifi Boneca, Mergulho, Frango Assado and Chicote
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 5:45PM -7:15PM: Workshop 6
-                  - Continues Turns and Cambre
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 7:45PM -9:45PM: Sensation
+                  <i class="fa-regular fa-clock"></i> 08:45PM - Late: Sensation
                   Night
                 </div>
                 <!-- <div>
@@ -328,13 +277,15 @@
                 />
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">
-                    <strong>ARIEL & LETICIA</strong>
+                    <strong>LÉO GOMES</strong>
                   </h5>
                   <b-card-text class="section-text my-4">
-                    Ariel & Letícia are internationally renowned performers who
-                    have taught at major dance events worldwide. Learning from
-                    them is an incredible opportunity to elevate your skills and
-                    style.
+                    Get ready for a wonderful experience with Léo Gomes, a
+                    world-renowned figure in Brazilian Zouk and Lambada! His
+                    artistry, innovation, and passion have shaped the dance
+                    scene both nationally and internationally. As a two-time
+                    World Lambada Champion, Léo brings plenty of knowledge and
+                    energy to every class.
                   </b-card-text>
                 </div>
               </div>
@@ -351,8 +302,8 @@
               <b-row class="column-width">
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
-                    <div class="fs-4 text-black">Full Pass</div>
-                    <div class="fs-3 text-white">2,000,000 VND</div>
+                    <div class="fs-4 text-black">Non-PTZ students</div>
+                    <div class="fs-3 text-white">150,000 VND</div>
                   </div></b-col
                 >
                 <!-- <b-col lg="4" md="6" sm="6">
@@ -367,7 +318,7 @@
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
                     <div class="fs-4 text-black">Active PTZ members</div>
-                    <div class="fs-3 text-white">1,500,000 VND</div>
+                    <div class="fs-3 text-white">FREE</div>
                   </div>
                 </b-col>
               </b-row>
