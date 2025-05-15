@@ -94,6 +94,26 @@ In 2024, Nhat won first place at Poland's biggest Lambada Jack & Jill competitio
           showImages: true,
           showVideos: false,
         },
+        {
+          key: 2,
+          time: "7 Apr - 14 Apr 2025",
+          title:
+            "Léo Gomes - Brazilian Zouk Regular Class and Lambada Intensive",
+          description: `We had a wonderful experience with Léo Gomes, a
+                world-renowned figure in Brazilian Zouk and Lambada! His
+                artistry, innovation, and passion have shaped the dance scene
+                both nationally and internationally. As a two-time World Lambada
+                Champion, Léo brings plenty of knowledge and energy to every
+                class.`,
+          imgSrc1: require("@/assets/img/past-events/2025/Leo Gomes/Leo Gomes1.jpg"),
+          imgSrc2: "",
+          imgSrc3: "",
+          imgSrc4: "",
+          imgSrc5: "",
+          imgSrc6: "",
+          showImages: true,
+          showVideos: true,
+        },
       ],
     };
   },

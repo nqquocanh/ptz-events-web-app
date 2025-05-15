@@ -13,14 +13,14 @@
           >
           <b-dropdown-divider />
           <b-dropdown-group id="dropdown-group-1" header="Upcoming Events">
-            <router-link to="/upcoming-event" style="text-decoration: none">
+            <!-- <router-link to="/upcoming-event" style="text-decoration: none">
               <li>
                 <a class="dropdown-item" href="#"
                   >Léo Gomes – Brazilian Zouk Regular Classes & Lambada
                   Intensives</a
                 >
               </li>
-            </router-link>
+            </router-link> -->
           </b-dropdown-group>
           <b-dropdown-divider />
           <b-dropdown-group id="dropdown-group-1" header="Past Events">
@@ -70,15 +70,15 @@
             Upcoming Events
           </div>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <router-link to="/upcoming-event" style="text-decoration: none">
+            <!-- <router-link to="/upcoming-event" style="text-decoration: none">
               <li>
                 <a class="dropdown-item" href="#"
                   >Léo Gomes – Brazilian Zouk Regular Classes & Lambada
                   Intensives</a
                 >
               </li>
-            </router-link>
-            <!-- <div class="text-center">Coming soon</div> -->
+            </router-link> -->
+            <div class="text-center">Coming soon</div>
           </ul>
         </div>
         <div class="dropdown text-primary" role="button">

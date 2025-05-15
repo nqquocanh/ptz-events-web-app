@@ -16,7 +16,7 @@
             <div class="fw-bold" style="font-family: Arial">IN VIETNAM</div>
           </div>
 
-          <div class="fs-4 p-2">
+          <!-- <div class="fs-4 p-2">
             Don't miss our upcoming dance
             <a
               class="bg-white py-1 px-2"
@@ -24,17 +24,17 @@
               style="color: #b867cc"
               >event</a
             >
-          </div>
+          </div> -->
           <br />
-          <div class="fs-5">7 Apr - 14 Apr 2025</div>
+          <!-- <div class="fs-5">7 Apr - 14 Apr 2025</div> -->
           <br />
         </div>
       </div>
       <img class="main-banner" />
     </div>
     <div class="body-container">
-      <UpcomingEvents />
-      <!-- <div class="mb-8 mt-24">
+      <!-- <UpcomingEvents /> -->
+      <div class="mb-8 mt-24">
         <img
           src="../assets/img/upcoming-events/coming-soon.jpg"
           style="width: 100%"
@@ -44,9 +44,9 @@
           class="absolute text-white fs-2 coming-soon"
           style="margin-top: -5rem; margin-bottom: 3rem"
         >
-          7 April - 14 April 2025
+          Don't miss our next dance event!
         </div>
-      </div> -->
+      </div>
       <hr />
       <div id="about-ptz-section">
         <div class="section-title">ABOUT PTZ</div>
@@ -105,11 +105,11 @@
 </template>
 <script>
 import MainPageCarouselVue from "@/components/carousel/MainPageCarousel.vue";
-import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
+// import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
 export default {
   components: {
     MainPageCarouselVue,
-    UpcomingEvents,
+    // UpcomingEvents,
   },
   name: "MainApp",
 };
