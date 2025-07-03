@@ -110,7 +110,7 @@ Currently All-star Jack&Jill`,
           imgSrc5: require("@/assets/img/past-events/2025/Saulo Dias/5.jpg"),
           imgSrc6: require("@/assets/img/past-events/2025/Saulo Dias/6.jpg"),
           showImages: true,
-          showVideos: true,
+          showVideos: false,
         },
       ],
     };
