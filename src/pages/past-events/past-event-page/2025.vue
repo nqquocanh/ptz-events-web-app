@@ -102,6 +102,7 @@ In 2024, Nhat won first place at Poland's biggest Lambada Jack & Jill competitio
           description: `Saulo is an international dance teacher and professional dancer with over 15 years of experience teaching Brazilian Zouk in more than 15 countries.
 He is known for his unique teaching methodology, which blends movement biomechanics with clear, safe, and effective techniques.
 Currently All-star Jack&Jill`,
+          videoUrl: `<iframe width="560" height="315" src="https://www.youtube.com/embed/USj3Yveo7Zg?si=srAIiwZ7ZtaZoNOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
           imgSrc1: require("@/assets/img/past-events/2025/Saulo Dias/1.jpg"),
           imgSrc2: require("@/assets/img/past-events/2025/Saulo Dias/2.jpg"),
           imgSrc3: require("@/assets/img/past-events/2025/Saulo Dias/3.jpg"),
