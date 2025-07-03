@@ -96,21 +96,18 @@ In 2024, Nhat won first place at Poland's biggest Lambada Jack & Jill competitio
         },
         {
           key: 2,
-          time: "7 Apr - 14 Apr 2025",
+          time: "18 - 21 June 2025",
           title:
-            "Léo Gomes - Brazilian Zouk Regular Class and Lambada Intensive",
-          description: `We had a wonderful experience with Léo Gomes, a
-                world-renowned figure in Brazilian Zouk and Lambada! His
-                artistry, innovation, and passion have shaped the dance scene
-                both nationally and internationally. As a two-time World Lambada
-                Champion, Léo brings plenty of knowledge and energy to every
-                class.`,
-          imgSrc1: require("@/assets/img/past-events/2025/Leo Gomes/Leo Gomes1.jpg"),
-          imgSrc2: "",
-          imgSrc3: "",
-          imgSrc4: "",
-          imgSrc5: "",
-          imgSrc6: "",
+            "Brazilian Zouk Workshops & Parties with Saulo Dias - First time in Hanoi!",
+          description: `Saulo is an international dance teacher and professional dancer with over 15 years of experience teaching Brazilian Zouk in more than 15 countries.
+He is known for his unique teaching methodology, which blends movement biomechanics with clear, safe, and effective techniques.
+Currently All-star Jack&Jill`,
+          imgSrc1: require("@/assets/img/past-events/2025/Saulo Dias/1.jpg"),
+          imgSrc2: require("@/assets/img/past-events/2025/Saulo Dias/2.jpg"),
+          imgSrc3: require("@/assets/img/past-events/2025/Saulo Dias/3.jpg"),
+          imgSrc4: require("@/assets/img/past-events/2025/Saulo Dias/4.jpg"),
+          imgSrc5: require("@/assets/img/past-events/2025/Saulo Dias/5.jpg"),
+          imgSrc6: require("@/assets/img/past-events/2025/Saulo Dias/6.jpg"),
           showImages: true,
           showVideos: true,
         },
