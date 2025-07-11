@@ -33,8 +33,8 @@
       <img class="main-banner" />
     </div>
     <div class="body-container">
-      <!-- <UpcomingEvents /> -->
-      <div class="mb-8 mt-24">
+      <UpcomingEvents />
+      <!-- <div class="mb-8 mt-24">
         <img
           src="../assets/img/upcoming-events/coming-soon.jpg"
           style="width: 100%"
@@ -46,7 +46,7 @@
         >
           Don't miss our next dance event!
         </div>
-      </div>
+      </div> -->
       <hr />
       <div id="about-ptz-section">
         <div class="section-title">ABOUT PTZ</div>
@@ -105,11 +105,11 @@
 </template>
 <script>
 import MainPageCarouselVue from "@/components/carousel/MainPageCarousel.vue";
-// import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
+import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
 export default {
   components: {
     MainPageCarouselVue,
-    // UpcomingEvents,
+    UpcomingEvents,
   },
   name: "MainApp",
 };

@@ -27,7 +27,7 @@
                   <br />
                   <div>
                     <p style="text-align: justify">{{ event.description }}</p>
-                    <div class="d-flex gap-2">
+                    <!-- <div class="d-flex gap-2">
                       <button
                         type="button"
                         class="btn text-white"
@@ -47,7 +47,7 @@
                           See More
                         </button>
                       </router-link>
-                    </div>
+                    </div> -->
                   </div>
                 </b-col>
               </b-row>
@@ -116,12 +116,11 @@ export default {
       upcomingEventsInfo: [
         {
           key: 1,
-          title:
-            "LÉO GOMES – BRAZILIAN ZOUK REGULAR CLASSES & LAMBADA INTENSIVES AT PTZ!",
+          title: "LAUTARO & ARIANA - BRAZILIAN ZOUK AND LAMBADA",
           imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg"),
-          description: `Get ready for a wonderful experience with Léo Gomes, a world-renowned figure in Brazilian Zouk and Lambada! His artistry, innovation, and passion have shaped the dance scene both nationally and internationally. As a two-time World Lambada Champion, Léo brings plenty of knowledge and energy to every class.`,
-          time: "9 Apr - 14 Apr, 2025",
-          end: new Date("April 9, 2025"),
+          description: `Get ready for a wonderful experience with Lautaro and Ariana, a world-renowned figure in Brazilian Zouk and Lambada! Their artistry, innovation, and passion have shaped the dance scene both nationally and internationally. As a famous Lambada couples, they bring plenty of knowledge and energy to every class.`,
+          time: "5 Aug - 19 Aug, 2025",
+          end: new Date("August 5, 2025"),
           countdownTimer: null,
         },
       ],
