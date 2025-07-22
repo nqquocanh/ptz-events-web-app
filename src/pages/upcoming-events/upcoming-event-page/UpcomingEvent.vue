@@ -11,17 +11,14 @@
         <div class="quick-intro-section">
           <div>
             <div class="section-title">
-              LÉO GOMES – BRAZILIAN ZOUK REGULAR CLASSES & LAMBADA INTENSIVES AT
-              PTZ!
+              Brazilian Zouk Workshops with Lautaro & Ariana
             </div>
             <div class="quick-intro-content">
               <div class="section-text my-4">
-                Get ready for a wonderful experience with Léo Gomes, a
-                world-renowned figure in Brazilian Zouk and Lambada! His
-                artistry, innovation, and passion have shaped the dance scene
-                both nationally and internationally. As a two-time World Lambada
-                Champion, Léo brings plenty of knowledge and energy to every
-                class.
+                Get ready for a special series of 6 Brazilian Zouk workshops
+                with the amazing international artists Lautaro & Ariana –
+                bringing you in-depth knowledge, refined techniques, and endless
+                inspiration for all Zouk lovers!
               </div>
               <div class="section-text my-4">
                 Connect with the Dance Community: Meet new friends and share the
@@ -43,21 +40,21 @@
                 variant="light"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">1 Free Workshop</div>
+              <div class="pt-3">1 Special Workshop</div>
             </b-col>
             <b-col lg="4" md="4" sm="6" class="mb-3">
               <i
                 class="bi bi-people px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">3 High-Quality Workshops</div>
+              <div class="pt-3">6 High-Quality Workshops</div>
             </b-col>
             <b-col lg="4" md="4" sm="6" class="mb-3">
               <i
                 class="bi bi-music-note-beamed px-5 pt-3"
                 style="font-size: 10rem; border: solid 1px; border-radius: 50%"
               ></i>
-              <div class="pt-3">3 Hours Social Parties</div>
+              <div class="pt-3">7 Hours Social Parties</div>
             </b-col>
           </b-row>
         </div>
@@ -66,58 +63,73 @@
       <div id="schedule-section">
         <hr />
         <div class="section-title pl-5">EVENT SCHEDULE</div>
+        <div class="section-text my-4">
+          <div>Workshop 1: Wednesday, August 6 | 8:00 PM – 9:00 PM</div>
+          <div>Workshop 2: Saturday, August 9 | 5:00 PM – 6:00 PM</div>
+          <div>Workshop 3: Saturday, August 9 | 6:15 PM – 7:15 PM</div>
+          <div>
+            Special: Saturday, August 9 | 7:30 PM – 8:30 PM: to be announced
+          </div>
+          <div>Sensation Night: August 9 | 8:30 PM – 11:59 PM</div>
+          <div>Workshop 4: Wednesday, August 13 | 8:00 PM – 9:00 PM</div>
+          <div>Workshop 5: Saturday, August 16 | 6:00 PM – 7:00 PM</div>
+          <div>Workshop 6: Saturday, August 16 | 7:15 PM – 8:15 PM</div>
+          <div>Sensation Night: August 16 | 8:30 PM – 11:59 PM</div>
+        </div>
         <div class="schedule-container">
-          <div class="schedule-content">
-            <div class="schedule-plan">
-              <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">09</div>
-                <div class="schedule-plan-time-month">APRIL</div>
-              </div>
-              <div class="schedule-plan-line-date" />
-              <div class="schedule-plan-activities">
-                <div>
-                  <i class="fa-regular fa-clock"></i> 08:00PM - 09:00PM:
-                  Foundation Class
+          <!-- <div>
+            <div class="schedule-content">
+              <div class="schedule-plan">
+                <div class="schedule-plan-time">
+                  <div class="schedule-plan-time-date">09</div>
+                  <div class="schedule-plan-time-month">APRIL</div>
                 </div>
-                <!-- <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
-                  Tong Duy Tan, Hoan Kiem, Hanoi
-                </div> -->
-              </div>
-            </div>
-          </div>
-          <hr class="schedule-plan-line" />
-          <div class="schedule-content">
-            <div class="schedule-plan">
-              <div class="schedule-plan-time">
-                <div class="schedule-plan-time-date">12</div>
-                <div class="schedule-plan-time-month">APRIL</div>
-              </div>
-              <div class="schedule-plan-line-date" />
-              <div class="schedule-plan-activities">
-                <div>
-                  <i class="fa-regular fa-clock"></i> 05:00PM - 06:00PM: Free
-                  Intro Workshop
+                <div class="schedule-plan-line-date"></div>
+                <div class="schedule-plan-activities">
+                  <div>
+                    <i class="fa-regular fa-clock"></i> 08:00PM - 09:00PM:
+                    Foundation Class
+                  </div>
+                  <div>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor,
+                    9 Tong Duy Tan, Hoan Kiem, Hanoi
+                  </div>
                 </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 06:00PM - 07:00PM:
-                  Improvers Class
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 07:00PM - 08:00PM:
-                  Foundation Class
-                </div>
-                <div>
-                  <i class="fa-regular fa-clock"></i> 08:45PM - Late: Sensation
-                  Night
-                </div>
-                <!-- <div>
-                  <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor, 9
-                  Tong Duy Tan, Hoan Kiem, Hanoi
-                </div> -->
               </div>
             </div>
-          </div>
+            <hr class="schedule-plan-line" />
+            <div class="schedule-content">
+              <div class="schedule-plan">
+                <div class="schedule-plan-time">
+                  <div class="schedule-plan-time-date">12</div>
+                  <div class="schedule-plan-time-month">APRIL</div>
+                </div>
+                <div class="schedule-plan-line-date"></div>
+                <div class="schedule-plan-activities">
+                  <div>
+                    <i class="fa-regular fa-clock"></i> 05:00PM - 06:00PM: Free
+                    Intro Workshop
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-clock"></i> 06:00PM - 07:00PM:
+                    Improvers Class
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-clock"></i> 07:00PM - 08:00PM:
+                    Foundation Class
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-clock"></i> 08:45PM - Late:
+                    Sensation Night
+                  </div>
+                  <div>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i> 4th floor,
+                    9 Tong Duy Tan, Hoan Kiem, Hanoi
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
         </div>
         <hr />
       </div>
@@ -277,15 +289,13 @@
                 />
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">
-                    <strong>LÉO GOMES</strong>
+                    <strong>LAUTARO & ARIANA</strong>
                   </h5>
                   <b-card-text class="section-text my-4">
-                    Get ready for a wonderful experience with Léo Gomes, a
-                    world-renowned figure in Brazilian Zouk and Lambada! His
-                    artistry, innovation, and passion have shaped the dance
-                    scene both nationally and internationally. As a two-time
-                    World Lambada Champion, Léo brings plenty of knowledge and
-                    energy to every class.
+                    Get ready for a special series of 6 Brazilian Zouk workshops
+                    with the amazing international artists Lautaro & Ariana –
+                    bringing you in-depth knowledge, refined techniques, and
+                    endless inspiration for all Zouk lovers!
                   </b-card-text>
                 </div>
               </div>
@@ -303,7 +313,7 @@
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
                     <div class="fs-4 text-black">Non-PTZ students</div>
-                    <div class="fs-3 text-white">150,000 VND</div>
+                    <div class="fs-3 text-white">800,000 VND</div>
                   </div></b-col
                 >
                 <!-- <b-col lg="4" md="6" sm="6">
@@ -318,7 +328,7 @@
                 <b-col lg="6" md="6" sm="6">
                   <div class="passes-sub-title border p-5 price">
                     <div class="fs-4 text-black">Active PTZ members</div>
-                    <div class="fs-3 text-white">FREE</div>
+                    <div class="fs-3 text-white">600,000 VND</div>
                   </div>
                 </b-col>
               </b-row>
