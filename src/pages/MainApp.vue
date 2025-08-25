@@ -33,8 +33,8 @@
       <img class="main-banner" />
     </div>
     <div class="body-container">
-      <UpcomingEvents />
-      <!-- <div class="mb-8 mt-24">
+      <!-- <UpcomingEvents /> -->
+      <div class="mb-8 mt-24">
         <img
           src="../assets/img/upcoming-events/coming-soon.jpg"
           style="width: 100%"
@@ -46,7 +46,7 @@
         >
           Don't miss our next dance event!
         </div>
-      </div> -->
+      </div>
       <hr />
       <div id="about-ptz-section">
         <div class="section-title">ABOUT PTZ</div>
@@ -100,17 +100,60 @@
           </div>
         </div>
       </div>
+      <hr />
+      <div id="code-of-conduct-section">
+        <div class="section-title">CODE OF CONDUCT</div>
+        <div class="code-of-conduct-container">
+          <div style="text-align: justify">
+            <div class="section-text my-4">
+              At PTZ, we are committed to providing a safe, friendly and
+              welcoming environment for everyone. To help make that vision a
+              reality, we’ve created the Code of Conduct - a simple and clear
+              guide that everyone can read and follow during our classes and
+              events. It’s our way of making sure every participant feels
+              respected, supported, and inspired to be their best.
+            </div>
+          </div>
+        </div>
+        <div class="text-center pt-3 w-100">
+          <b-row class="column-width">
+            <b-col
+              lg="4"
+              md="6"
+              sm="6"
+              v-for="(imgSrc, index) in codeOfConduct"
+              :key="index"
+            >
+              <img :src="imgSrc" class="w-100 py-2" />
+            </b-col>
+          </b-row>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 <script>
 import MainPageCarouselVue from "@/components/carousel/MainPageCarousel.vue";
-import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
+// import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
 export default {
   components: {
     MainPageCarouselVue,
-    UpcomingEvents,
+    // UpcomingEvents,
   },
   name: "MainApp",
+  data: function () {
+    return {
+      codeOfConduct: [
+        require("@/assets/img/code-of-conduct/code-of-conduct-1.jpg"),
+        require("@/assets/img/code-of-conduct/code-of-conduct-2.jpg"),
+        require("@/assets/img/code-of-conduct/code-of-conduct-3.jpg"),
+      ],
+    };
+  },
+  methods: {
+    getImgSrc(code, index) {
+      return code[`imgSrc${index + 1}`];
+    },
+  },
 };
 </script>
