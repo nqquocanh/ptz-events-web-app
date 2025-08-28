@@ -5,13 +5,13 @@
         class="position-absolute title-banner"
         style="top: 50%; left: 30%; transform: translate(-50%, -50%)"
       >
-        <div style="width: 180%">
+        <div style="width: 168%">
           <div class="fw-bold p-2" style="font-family: Arial">
             PTZ - DANCE YOUR WAY
           </div>
           <div class="sub-banner-title">
             <div class="fw-bold pt-2" style="font-family: Arial">
-              PIONEERING BRAZILIAN ZOUK STUDIO
+              PROMOTING BRAZILIAN ZOUK & LAMBADA
             </div>
             <div class="fw-bold" style="font-family: Arial">IN VIETNAM</div>
           </div>
@@ -63,15 +63,12 @@
             </div>
             <div class="section-text my-4">
               PTZ's iconic event - Zouk It Up - has been up and running since
-              2022. We have hosted Dominik and Monika, Alisson Sandi, and Nhat
-              Ho and Gigi Ho. In 2023, we will be welcoming Alisson Sandi,
-              Brenda and Gui in April and more artists in July and November.
-              Before that, our founders, Hoai Phuong and Huyen Trang, have been
-              hosting various Brazilian Zouk artists in Hanoi, such as Alisson
-              Sandi - 4 times, Arthur and Layssa, Brenda and Anderson, and
-              Gilson Damasco. We are committed to organizing the best events in
-              town with internationally recognized artists to promote Brazilian
-              Zouk in Hanoi, Vietnam.
+              2022. We have hosted many international artists, such as Dominik
+              and Monika, Alisson Sandi, Brenda and Gui, Nhat and Gigi, Rafael
+              and Juliana, Gilson and Mailys, Ariel and Leticia, Saulo Dias,
+              Luan and Adriana, Lautaro and Ariana. We are committed to
+              organizing the best events in town with internationally recognized
+              artists to promote Brazilian Zouk and Lambada in Hanoi, Vietnam.
             </div>
             <MainPageCarouselVue />
             <div class="section-text my-4">

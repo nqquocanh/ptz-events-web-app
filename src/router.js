@@ -42,6 +42,13 @@ const router = new VueRouter({
       component: () => import("./pages/past-events/past-event-page/2022.vue"),
     },
 
+    //Weekly Classes
+    {
+      path: "/weekly-classes",
+      name: "schedule",
+      component: () => import("./pages/weekly-classes/Schedule.vue"),
+    },
+
     //DJs
     {
       path: "/djs/DJ-TK",

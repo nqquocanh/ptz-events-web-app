@@ -37,6 +37,14 @@
             </router-link>
           </b-dropdown-group>
           <b-dropdown-divider />
+          <b-dropdown-group id="dropdown-group-1" header="Weekly Classes">
+            <router-link to="/weekly-classes" style="text-decoration: none">
+              <li>
+                <a class="dropdown-item text-center" href="#">Schedule</a>
+              </li>
+            </router-link>
+          </b-dropdown-group>
+          <b-dropdown-divider />
           <b-dropdown-group id="dropdown-group-1" header="DJs">
             <router-link to="/djs/DJ-TK" style="text-decoration: none">
               <li><a class="dropdown-item text-center" href="#">DJ TK</a></li>
@@ -101,6 +109,24 @@
             </router-link>
             <router-link to="/past-events/2022" style="text-decoration: none">
               <li><a class="dropdown-item text-center" href="#">2022</a></li>
+            </router-link>
+          </ul>
+        </div>
+        <div class="dropdown text-primary" role="button">
+          <div
+            class="dropdown-toggle cursor"
+            id="dropdownMenuButton3"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="color: #b867cc"
+          >
+            Weekly Classes
+          </div>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+            <router-link to="/weekly-classes" style="text-decoration: none">
+              <li>
+                <a class="dropdown-item text-center" href="#">Schedule</a>
+              </li>
             </router-link>
           </ul>
         </div>
