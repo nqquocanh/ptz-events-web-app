@@ -3032,7 +3032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap-icons@npm:^1.10.5":
+"bootstrap-icons@npm:^1.13.1":
   version: 1.13.1
   resolution: "bootstrap-icons@npm:1.13.1"
   checksum: 10c0/2c1adeb1796502e67b476ce049c86bc3a7ff7984c61777e056820389a8db5ec6535c12a33f76f3ed52674bca4c01472065a7fbcde6cc384ebb86c2eae51390bd
@@ -3062,7 +3062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:^5.3.3":
+"bootstrap@npm:^5.3.8":
   version: 5.3.8
   resolution: "bootstrap@npm:5.3.8"
   peerDependencies:
@@ -5891,14 +5891,15 @@ __metadata:
     "@fortawesome/free-solid-svg-icons": "npm:^6.2.1"
     "@fortawesome/vue-fontawesome": "npm:^3.1.1"
     babel-preset-es2015: "npm:^6.24.1"
-    bootstrap: "npm:^5.3.3"
-    bootstrap-icons: "npm:^1.10.5"
+    bootstrap: "npm:^5.3.8"
+    bootstrap-icons: "npm:^1.13.1"
     bootstrap-vue: "npm:2.23.1"
     core-js: "npm:^3.8.3"
     eslint: "npm:^7.32.0"
     eslint-plugin-vue: "npm:^8.0.3"
     minimatch: "npm:^10.0.3"
     node-sass: "npm:^8.0.0"
+    sass: "npm:^1.92.1"
     sass-embedded: "npm:^1.92.1"
     sass-loader: "npm:^13.2.0"
     tailwindcss: "npm:^3.3.2"
@@ -6569,7 +6570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.92.1":
+"sass@npm:1.92.1, sass@npm:^1.92.1":
   version: 1.92.1
   resolution: "sass@npm:1.92.1"
   dependencies:

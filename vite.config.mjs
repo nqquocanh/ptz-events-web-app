@@ -4,12 +4,13 @@ import path from "path";
 
 export default defineConfig({
   plugins: [createVuePlugin()],
+  resolve: {
+    alias: { "@": path.resolve(__dirname, "./src") },
+  },
   optimizeDeps: {
     include: ["bootstrap-vue", "lodash.startcase"],
   },
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
+  build: {
+    commonjsOptions: { transformMixedEsModules: true },
   },
 });
