@@ -44,7 +44,7 @@
           class="absolute text-white fs-2 coming-soon"
           style="margin-top: -5rem; margin-bottom: 3rem"
         >
-          Don't miss our next dance event!
+          Don't miss our next dance event! Yeah!
         </div>
       </div>
       <hr />

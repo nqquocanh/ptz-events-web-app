@@ -11,16 +11,12 @@ const router = new VueRouter({
       name: "MainApp",
       component: () => import("./pages/MainApp.vue"),
     },
-
-    //Upcoming Events
     {
       path: "/upcoming-event",
       name: "UpcomingEvent",
       component: () =>
         import("./pages/upcoming-events/upcoming-event-page/UpcomingEvent.vue"),
     },
-
-    //Past Events
     {
       path: "/past-events/2025",
       name: "2025",
@@ -41,15 +37,11 @@ const router = new VueRouter({
       name: "2022",
       component: () => import("./pages/past-events/past-event-page/2022.vue"),
     },
-
-    //Weekly Classes
     {
       path: "/weekly-classes",
       name: "schedule",
       component: () => import("./pages/weekly-classes/Schedule.vue"),
     },
-
-    //DJs
     {
       path: "/djs/DJ-TK",
       name: "DJ TK",
