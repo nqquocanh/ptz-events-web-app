@@ -5,7 +5,7 @@ import path from "path";
 export default defineConfig({
   plugins: [createVuePlugin()],
   optimizeDeps: {
-    include: ["lodash.startcase"],
+    include: ["bootstrap-vue", "lodash.startcase"],
   },
   resolve: {
     alias: {
