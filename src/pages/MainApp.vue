@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Banner -->
     <div class="text-white text-align-center">
       <div
         class="position-absolute title-banner"
@@ -15,39 +16,32 @@
             </div>
             <div class="fw-bold" style="font-family: Arial">IN VIETNAM</div>
           </div>
-
-          <!-- <div class="fs-4 p-2">
-            Don't miss our upcoming dance
-            <a
-              class="bg-white py-1 px-2"
-              href="/upcoming-event"
-              style="color: #b867cc"
-              >event</a
-            >
-          </div> -->
           <br />
-          <!-- <div class="fs-5">7 Apr - 14 Apr 2025</div> -->
           <br />
         </div>
       </div>
+      <!-- Nếu muốn ảnh nền chính -->
       <img class="main-banner" />
     </div>
+
+    <!-- Body -->
     <div class="body-container">
-      <!-- <UpcomingEvents /> -->
-      <div class="mb-8 mt-24">
-        <img
-          src="../assets/img/upcoming-events/coming-soon.jpg"
-          style="width: 100%"
-          class="relative mt-5"
-        />
+      <UpcomingEvents />
+
+      <!-- Coming soon -->
+      <!-- <div class="mb-8 mt-24">
+        <img :src="comingSoonImg" style="width: 100%" class="relative mt-5" />
         <div
           class="absolute text-white fs-2 coming-soon"
           style="margin-top: -5rem; margin-bottom: 3rem"
         >
           Don't miss our next dance event! Yeah!
         </div>
-      </div>
+      </div> -->
+
       <hr />
+
+      <!-- About PTZ -->
       <div id="about-ptz-section">
         <div class="section-title">ABOUT PTZ</div>
         <div class="about-ptz-container">
@@ -97,7 +91,10 @@
           </div>
         </div>
       </div>
+
       <hr />
+
+      <!-- Code of conduct -->
       <div id="code-of-conduct-section">
         <div class="section-title">CODE OF CONDUCT</div>
         <div class="code-of-conduct-container">
@@ -129,28 +126,38 @@
     </div>
   </div>
 </template>
+
 <script>
 import MainPageCarouselVue from "@/components/carousel/MainPageCarousel.vue";
-// import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
+import UpcomingEvents from "./upcoming-events/UpcomingEvents.vue";
+
 export default {
+  name: "MainApp",
   components: {
     MainPageCarouselVue,
-    // UpcomingEvents,
+    UpcomingEvents,
   },
-  name: "MainApp",
-  data: function () {
+  data() {
     return {
+      comingSoonImg: new URL(
+        "@/assets/img/upcoming-events/coming-soon.jpg",
+        import.meta.url
+      ).href,
       codeOfConduct: [
-        require("@/assets/img/code-of-conduct/code-of-conduct-1.jpg"),
-        require("@/assets/img/code-of-conduct/code-of-conduct-2.jpg"),
-        require("@/assets/img/code-of-conduct/code-of-conduct-3.jpg"),
+        new URL(
+          "@/assets/img/code-of-conduct/code-of-conduct-1.jpg",
+          import.meta.url
+        ).href,
+        new URL(
+          "@/assets/img/code-of-conduct/code-of-conduct-2.jpg",
+          import.meta.url
+        ).href,
+        new URL(
+          "@/assets/img/code-of-conduct/code-of-conduct-3.jpg",
+          import.meta.url
+        ).href,
       ],
     };
-  },
-  methods: {
-    getImgSrc(code, index) {
-      return code[`imgSrc${index + 1}`];
-    },
   },
 };
 </script>

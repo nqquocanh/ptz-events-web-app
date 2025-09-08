@@ -15,85 +15,56 @@
             >
               {{ event.time }}
             </div>
+
             <div class="d-flex gap-3 pt-4 column-width">
               <b-row class="column-width">
                 <b-col lg="8" md="6" sm="6">
                   <img :src="event.imgSrc" class="img-fluid" />
                 </b-col>
                 <b-col lg="4" md="6" sm="6">
-                  <p class="fs-4 fw-bold text-left" style="text-align: left">
-                    {{ event.title }}
-                  </p>
-                  <br />
+                  <p class="fs-4 fw-bold text-left">{{ event.title }}</p>
                   <div>
                     <p style="text-align: justify">{{ event.description }}</p>
-                    <!-- <div class="d-flex gap-2">
-                      <button
-                        type="button"
-                        class="btn text-white"
-                        style="background-color: #b867cc"
-                      >
-                        Get Your Ticket Now
-                      </button>
-                      <router-link
-                        :to="`/upcoming-event-${event.key}`"
-                        style="text-decoration: none"
-                      >
-                        <button
-                          type="button"
-                          class="btn btn-white border border-dark"
-                          style="border-color: black"
-                        >
-                          See More
-                        </button>
-                      </router-link>
-                    </div> -->
                   </div>
                 </b-col>
               </b-row>
             </div>
+
+            <!-- Countdown -->
             <div class="pt-5">
               <div
                 v-if="event.countdownTimer"
                 class="py-2 m-auto rounded-0 text-white d-flex justify-space-between row fs-5"
                 style="background-color: #b867cc"
               >
-                <div style="gap: 20vh" class="col">
+                <div class="col">
                   <div>
                     <span>{{ event.countdownTimer.days }}</span>
                   </div>
-                  <div>
-                    <span>Days</span>
-                  </div>
+                  <div><span>Days</span></div>
                 </div>
-                <div style="gap: 20vh" class="col">
+                <div class="col">
                   <div>
                     <span>{{ event.countdownTimer.hours }}</span>
                   </div>
-                  <div>
-                    <span>Hours</span>
-                  </div>
+                  <div><span>Hours</span></div>
                 </div>
-                <div style="gap: 20vh" class="col">
+                <div class="col">
                   <div>
                     <span>{{ event.countdownTimer.minutes }}</span>
                   </div>
-                  <div>
-                    <span>Minutes</span>
-                  </div>
+                  <div><span>Minutes</span></div>
                 </div>
-                <div style="gap: 20vh" class="col">
+                <div class="col">
                   <div>
                     <span>{{ event.countdownTimer.seconds }}</span>
                   </div>
-                  <div>
-                    <span>Seconds</span>
-                  </div>
+                  <div><span>Seconds</span></div>
                 </div>
               </div>
               <div
                 v-else
-                class="py-2 m-auto rounded-0 text-white d-flex justify-space-between row fs-5"
+                class="py-2 m-auto rounded-0 text-white d-flex justify-content-center fs-5"
                 style="background-color: #b867cc"
               >
                 <p class="pt-3">Countdown expired</p>
@@ -107,21 +78,29 @@
 </template>
 
 <script>
-import transferMoney from "../../components/modal/TransferMoney.vue";
+import TransferMoney from "@/components/modal/TransferMoney.vue";
+
 export default {
   name: "UpcomingEvents",
-  components: transferMoney,
+  components: {
+    TransferMoney,
+  },
   data() {
     return {
       upcomingEventsInfo: [
         {
           key: 1,
-          title: "LAUTARO & ARIANA - BRAZILIAN ZOUK AND LAMBADA",
-          imgSrc: require("../../assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg"),
-          description: `Get ready for a wonderful experience with Lautaro and Ariana, a world-renowned figure in Brazilian Zouk and Lambada! Their artistry, innovation, and passion have shaped the dance scene both nationally and internationally. As a famous Lambada couples, they bring plenty of knowledge and energy to every class.`,
-          time: "5 Aug - 19 Aug, 2025",
-          end: new Date("August 5, 2025"),
+          title: "LAMBADA MASTERY - VIETNAM EDITION",
+          imgSrc: new URL(
+            "@/assets/img/upcoming-events/upcoming-event-01/upcoming-event-01.jpg",
+            import.meta.url
+          ).href,
+          description: `𝗔 𝗵𝗶𝘀𝘁𝗼𝗿𝗶𝗰 𝗺𝗼𝗺𝗲𝗻𝘁 𝗳𝗼𝗿 𝗟𝗮𝗺𝗯𝗮𝗱𝗮 𝗹𝗼𝘃𝗲𝗿𝘀! For the very first time in Asia, 𝙇𝙖𝙢𝙗𝙖𝙙𝙖 𝙈𝙖𝙨𝙩𝙚𝙧𝙮 𝙘𝙤𝙢𝙚𝙨 𝙩𝙤 𝙑𝙞𝙚𝙩𝙣𝙖𝙢! Immerse yourself in a 7-day retreat filled with intensive workshops, social parties, and unforgettable cultural vibes.
+This is your chance to master the structure of Lambada – from basics to advanced variations – under the guidance of the world’s top instructors.`,
+          time: "21 Apr - 27 Apr, 2026",
+          end: new Date("April 21, 2026 23:59:59"),
           countdownTimer: null,
+          intervalId: null,
         },
       ],
     };
@@ -129,40 +108,43 @@ export default {
   mounted() {
     this.startCountdownTimers();
   },
+  beforeDestroy() {
+    // clear interval khi component bị destroy
+    this.upcomingEventsInfo.forEach((event) => {
+      if (event.intervalId) clearInterval(event.intervalId);
+    });
+  },
   methods: {
     startCountdownTimers() {
       this.upcomingEventsInfo.forEach((event) => {
-        event.countdownTimer = setInterval(() => {
-          let now = new Date().getTime();
-          let distance = event.end.getTime() - now;
+        event.intervalId = setInterval(() => {
+          const now = new Date().getTime();
+          const distance = event.end.getTime() - now;
 
-          let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          let hours = Math.floor(
-            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-          );
-          let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          if (distance <= 0) {
+            clearInterval(event.intervalId);
+            event.countdownTimer = null;
+            return;
+          }
 
           event.countdownTimer = {
-            days: days,
-            hours: hours,
-            minutes: minutes,
-            seconds: seconds,
+            days: Math.floor(distance / (1000 * 60 * 60 * 24)),
+            hours: Math.floor(
+              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            ),
+            minutes: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+            seconds: Math.floor((distance % (1000 * 60)) / 1000),
           };
-
-          if (distance < 0) {
-            clearInterval(event.countdownTimer);
-            event.countdownTimer = null;
-          }
         }, 1000);
       });
     },
   },
 };
 </script>
+
 <style>
 @media (max-width: 425px) {
-  .banner-tittle {
+  .banner-title {
     width: 200%;
   }
 }
